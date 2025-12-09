@@ -66,12 +66,12 @@ import Careers from './Pages/Careers';
 class Components extends React.Component {
     render() {
         return (
-            <BrowserRouter basename="/AzimFacilities/">
+            <BrowserRouter >
                 <ScrollToTop />
                 <div className="page-wraper">
                         <Routes>
                             {/* <Route   exact path='/' element={<Home1/>} /> */}
-                            <Route   exact path='' element={<Home7/>} />
+                            <Route   exact path='/' element={<Home7/>} />
                             <Route path='/home-2' element={<Home2/>} />
                             <Route path='/home-3' element={<Home3/>} />
                             <Route path='/home-4' element={<Home4/>} />
