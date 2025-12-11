@@ -12,8 +12,8 @@ const images = [
     require('./../../images/about-slider/5.jpg')
 ]
 
-var bgimg1 = require('./../../images/background/bg-4.png');
-var bgimg2 = require('./../../images/background/cross-line2.png');
+var bgimg1 = require('./../../images/background/bg-4.webp');
+var bgimg2 = require('./../../images/background/cross-line2.webp');
 
 class About1 extends React.Component {
 

@@ -5,7 +5,7 @@ import Footer from './../Common/Footer';
 import Banner from './../Elements/Banner';
 import Header2 from '../Common/Header2';
 
-var bnrimg = require('./../../images/azim/23.png');
+var bnrimg = require('./../../images/azim/23.webp');
 
 class Error extends React.Component {
     render() {
@@ -15,12 +15,12 @@ class Error extends React.Component {
                 <div className="page-content">
                     <Banner title="Vadakara To Kasargod Restaurant" pagename="Restaurant" description="A culinary experience that embodies true authenticity." bgimage={bnrimg}/>
                     {/* SECTION CONTENTG START */}
-                    <div className="section-full mobile-page-padding p-tb150 bg-bottom-left bg-no-repeat" style={{ backgroundImage: 'url(images/background/bg-4.png)' }}>
+                    <div className="section-full mobile-page-padding p-tb150 bg-bottom-left bg-no-repeat" style={{ backgroundImage: 'url(images/background/bg-4.webp)' }}>
                         <div className="container">
                             <div className="section-content">
                                 <div className="page-notfound row">
                                     <div className="col-md-7">
-                                        <img src={require('./../../images/azim/50.png')} alt="" />
+                                        <img src={require('./../../images/azim/50.webp')} alt="" />
                                     </div>
                                     <div className="col-md-5">
                                         <strong>Welcome To Our Restaurant</strong>

@@ -1,8 +1,8 @@
 import React from 'react';
 
 var bgimg1 = require('./../../images/background/bg-form.jpg');
-var bgimg2 = require('./../../images/background/cross-line2.png');
-var bgimg3 = require('./../../images/background/bg-map.png');
+var bgimg2 = require('./../../images/background/cross-line2.webp');
+var bgimg3 = require('./../../images/background/bg-map.webp');
 
 class ContactUs1 extends React.Component {
     render() {

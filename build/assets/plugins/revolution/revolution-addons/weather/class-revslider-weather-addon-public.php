@@ -197,8 +197,8 @@ class Revslider_Weather_Addon_Public {
 				'revslider_data_weather_region' => $revslider_weather->query->results->channel->location->region,
 				'revslider_data_weather_updated' => $revslider_weather->query->results->channel->item->pubDate,
 				'revslider_data_weather_link' => $revslider_weather->query->results->channel->item->link,
-				'revslider_data_weather_thumbnail' => $revslider_weather->query->results->channel->item->forecast[0]->code . 'ds.png',
-				'revslider_data_weather_image' => $revslider_weather->query->results->channel->item->forecast[0]->code . 'd.png',
+				'revslider_data_weather_thumbnail' => $revslider_weather->query->results->channel->item->forecast[0]->code . 'ds.webp',
+				'revslider_data_weather_image' => $revslider_weather->query->results->channel->item->forecast[0]->code . 'd.webp',
 				'revslider_data_weather_units_temp' => $revslider_weather->query->results->channel->units->temperature,
 				'revslider_data_weather_units_distance' => $revslider_weather->query->results->channel->units->distance,
 				'revslider_data_weather_units_pressure' => $revslider_weather->query->results->channel->units->pressure,
@@ -366,11 +366,11 @@ class Revslider_Weather_Addon_Public {
 								switch($what) {
 									case 'image':
 										$temp = $results ? $revslider_weather->query->results->channel->item->forecast[$when]->code : $def_value;
-										$what = 'https://s.yimg.com/zz/combo?a/i/us/nws/weather/gr/'. $temp . 'd.png';
+										$what = 'https://s.yimg.com/zz/combo?a/i/us/nws/weather/gr/'. $temp . 'd.webp';
 										break;
 									case 'thumbnail':
 										$temp = $results ? $revslider_weather->query->results->channel->item->forecast[$when]->code : $def_value;
-										$what = 'https://s.yimg.com/zz/combo?a/i/us/nws/weather/gr/'. $temp . 'ds.png';
+										$what = 'https://s.yimg.com/zz/combo?a/i/us/nws/weather/gr/'. $temp . 'ds.webp';
 										break;
 									case 'icon':
 										$temp = $results ? $revslider_weather->query->results->channel->item->forecast[$when]->code : $def_icon;

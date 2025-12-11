@@ -1,8 +1,8 @@
 import React from 'react';
 
-var bgimg1 = require('./../../images/azim/23.png');
-var bgimg2 = require('./../../images/azim/1.png');
-var bgimg3 = require('./../../images/background/cross-line2.png');
+var bgimg1 = require('./../../images/azim/23.webp');
+var bgimg2 = require('./../../images/azim/1.webp');
+var bgimg3 = require('./../../images/background/cross-line2.webp');
 
 class WhatWeDo6 extends React.Component {
     render() {
@@ -32,7 +32,7 @@ class WhatWeDo6 extends React.Component {
                             <div className="row number-block-one-outer justify-content-center">
                                 <div className="col-lg-4 col-md-6 col-sm-6 m-b30">
                                     <div className="number-block-one animate-in-to-top">
-                                        <img src={require('./../../images/azim/73.png')} alt="" />
+                                        <img src={require('./../../images/azim/73.webp')} alt="" />
                                         <div className="figcaption bg-white text-center p-a20">
                                             <h4 className="m-a0">Dynamic Growth</h4>
                                             <p>Azim Group’s journey reflects dynamic growth, resilience, and adaptability across industries.</p>
@@ -44,7 +44,7 @@ class WhatWeDo6 extends React.Component {
                                 </div>
                                 <div className="col-lg-4 col-md-6 col-sm-6 m-b30">
                                     <div className="number-block-one animate-in-to-top">
-                                        <img src={require('./../../images/azim/74.png')} alt="" />
+                                        <img src={require('./../../images/azim/74.webp')} alt="" />
                                         <div className="figcaption bg-white text-center p-a20">
                                             <h4 className="m-a0">Adaptable Approach</h4>
                                             <p>Azim Group’s success stems from its adaptability, agility, and foresight—positioning it as a dynamic, future-ready force.</p>
@@ -56,7 +56,7 @@ class WhatWeDo6 extends React.Component {
                                 </div>
                                 <div className="col-lg-4 col-md-6 col-sm-6 m-b30">
                                     <div className="number-block-one animate-in-to-top">
-                                        <img src={require('./../../images/azim/75.png')} alt="" />
+                                        <img src={require('./../../images/azim/75.webp')} alt="" />
                                         <div className="figcaption bg-white text-center p-a20">
                                             <h4 className="m-a0">Innovative Solutions</h4>
                                             <p>Renowned for its pioneering spirit, Azim Group drives innovation, sets industry standards, and shapes the future of excellence.</p>

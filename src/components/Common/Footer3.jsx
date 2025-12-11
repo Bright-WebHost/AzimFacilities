@@ -18,7 +18,7 @@ class Footer3 extends React.Component {
                                         {/*<h4 class="widget-title">About Company</h4>*/}
                                         <div className="logo-footer clearfix p-b15">
                                             <NavLink to={"./"}>
-                                                <img src={require('./../../images/logo-1.png')} alt="Inteshape" />
+                                                <img src={require('./../../images/logo-1.webp')} alt="Inteshape" />
                                             </NavLink>
                                         </div>
                                         <p>7X Theme is a minimal html template for interior and architecture purpose. Today we can tell you, thanks to your passion, hard work creativity.</p>

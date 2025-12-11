@@ -2,13 +2,13 @@ import React from 'react';
 import Navigation from '../Common/Navigation';
 import { NavLink } from 'react-router-dom';
 
-var bnr = require('./../../images/background/bg-map.png');
+var bnr = require('./../../images/background/bg-map.webp');
 
 class Header extends React.Component {
 
     constructor(props) {
         super(props);
-        this.state = { logo: require('./../../images/67.png') };
+        this.state = { logo: require('./../../images/67.webp') };
     }
 
     state = { isSearchActive: false, isQuoteActive: false };

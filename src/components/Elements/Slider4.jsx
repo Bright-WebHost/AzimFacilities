@@ -43,11 +43,11 @@ class Slider4 extends React.Component {
                                 {/* SLIDE 1 */}
                                 <li data-index="rs-73" data-transition="fade" data-slotamount="default" data-hideafterloop={0} data-hideslideonmobile="off" data-easein="default" data-easeout="default" data-masterspeed={300} data-thumb={require('./../../images/main-slider/slider1/slide1.jpg')} data-rotate={0} data-saveperformance="off" data-title data-param1={1} data-param2 data-param3 data-param4 data-param5 data-param6 data-param7 data-param8 data-param9 data-param10 data-description>
                                     {/* MAIN IMAGE */}
-                                    {/* <img src={require('./../../images/azim/66.png')} alt="" data-bgcolor="#f8f8f8" style={{}} data-bgposition="center center" data-bgfit="cover" data-bgrepeat="no-repeat" data-bgparallax="off" className="rev-slidebg" data-no-retina /> */}
+                                    {/* <img src={require('./../../images/azim/66.webp')} alt="" data-bgcolor="#f8f8f8" style={{}} data-bgposition="center center" data-bgfit="cover" data-bgrepeat="no-repeat" data-bgparallax="off" className="rev-slidebg" data-no-retina /> */}
                                   {/* new */}
                                   <div
   style={{
-    backgroundImage: `url(${require('./../../images/azim/66.png')})`,
+    backgroundImage: `url(${require('./../../images/azim/66.webp')})`,
     backgroundSize: 'cover',
     backgroundPosition: 'center',
     backgroundRepeat: 'no-repeat',
@@ -65,7 +65,7 @@ class Slider4 extends React.Component {
                                     </div> */}
                                     {/* LAYERS 2 number block*/}
                                     <div className="tp-caption rev-btn  tp-resizeme slider-block " id="slide-73-layer-2" data-x="['left','left','left','left']" data-hoffset="['140','60','30','50']" data-y="['middle','middle','middle','top']" data-voffset="['-220','-220','-220','50']" data-fontweight="['600','600','600','600']" data-fontsize="['100','120','80','40']" data-lineheight="['120','120','80','80']"  data-whitespace="nowrap" data-type="button" data-responsive_offset="on" data-frames="[{&quot;from&quot;:&quot;y:[-100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;&quot;,&quot;mask&quot;:&quot;x:0px;y:0px;s:inherit;e:inherit;&quot;,&quot;speed&quot;:1500,&quot;to&quot;:&quot;o:1;&quot;,&quot;delay&quot;:1000,&quot;ease&quot;:&quot;Power3.easeInOut&quot;},
-                          {&quot;delay&quot;:&quot;wait&quot;,&quot;speed&quot;:500,&quot;to&quot;:&quot;y:[-100%];&quot;,&quot;mask&quot;:&quot;x:inherit;y:inherit;s:inherit;e:inherit;&quot;,&quot;ease&quot;:&quot;Power1.easeIn&quot;}]" data-textalign="['center','left','left','center']" data-paddingtop="[0,20,20,0]" data-paddingright="[10,10,10,10]" data-paddingbottom="[0,0,0,0]" data-paddingleft="[10,10,10,10]"  style={{ zIndex: 10, fontFamily: '"Poppins", sans-serif' }}><img src={require('./../../images/azim/71.png')}  alt="" /></div>
+                          {&quot;delay&quot;:&quot;wait&quot;,&quot;speed&quot;:500,&quot;to&quot;:&quot;y:[-100%];&quot;,&quot;mask&quot;:&quot;x:inherit;y:inherit;s:inherit;e:inherit;&quot;,&quot;ease&quot;:&quot;Power1.easeIn&quot;}]" data-textalign="['center','left','left','center']" data-paddingtop="[0,20,20,0]" data-paddingright="[10,10,10,10]" data-paddingbottom="[0,0,0,0]" data-paddingleft="[10,10,10,10]"  style={{ zIndex: 10, fontFamily: '"Poppins", sans-serif' }}><img src={require('./../../images/azim/71.webp')}  alt="" /></div>
                                     {/* LAYER 3  Thin text title*/}
                                     {/* <div className="tp-caption   tp-resizeme slider-tag-line" id="slide-73-layer-3" data-x="['left','left','left','center']" data-hoffset="['0','60','30','0']" data-y="['middle','middle','middle','top']" data-voffset="['80','-80','-80','390']" data-fontsize="['24','64','60','24']" data-lineheight="['26','74','70','30']" data-width="['500','650','620','380']" data-height="none" data-whitespace="normal" data-type="text" data-responsive_offset="on" data-frames="[{&quot;delay&quot;:300,&quot;speed&quot;:750,&quot;sfxcolor&quot;:&quot;#fff&quot;,&quot;sfx_effect&quot;:&quot;blockfromleft&quot;,&quot;frame&quot;:&quot;0&quot;,&quot;from&quot;:&quot;z:0;&quot;,&quot;to&quot;:&quot;o:1;&quot;,&quot;ease&quot;:&quot;Power3.easeInOut&quot;},
                           {&quot;delay&quot;:&quot;wait&quot;,&quot;speed&quot;:500,&quot;sfxcolor&quot;:&quot;#ffffff&quot;,&quot;sfx_effect&quot;:&quot;blocktoleft&quot;,&quot;frame&quot;:&quot;999&quot;,&quot;to&quot;:&quot;z:0;&quot;,&quot;ease&quot;:&quot;Power4.easeOut&quot;}]" data-textalign="['center','left','left','center']" data-paddingtop="[10,10,10,10]" data-paddingright="[20,20,20,0]" data-paddingbottom="[10,10,10,10]" data-paddingleft="[0,0,0,0]" data-marginleft="[-30 ,0,0,0]"  style={{ zIndex: 10, fontWeight: 200, letterSpacing: 1, color: '#fff', fontFamily: '"Poppins", sans-serif', textTransform: 'uppercase'}}>Empowering Growth, Uniting Excellence to Shape Tomorrow's Success</div> */}
@@ -97,10 +97,10 @@ class Slider4 extends React.Component {
                                 {/* SLIDE 2 */}
                                 <li data-index="rs-74" data-transition="fade" data-slotamount="default" data-hideafterloop={0} data-hideslideonmobile="off" data-easein="default" data-easeout="default" data-masterspeed={300} data-thumb={require('./../../images/main-slider/slider1/slide2.jpg')} data-rotate={0} data-saveperformance="off" data-title data-param1={1} data-param2 data-param3 data-param4 data-param5 data-param6 data-param7 data-param8 data-param9 data-param10 data-description>
                                     {/* MAIN IMAGE */}
-                                    {/* <img src={require('./../../images/azim/2.png')} alt="" data-bgcolor="#f8f8f8" style={{}} data-bgposition="center center" data-bgfit="cover" data-bgrepeat="no-repeat" data-bgparallax="off" className="rev-slidebg" data-no-retina /> */}
+                                    {/* <img src={require('./../../images/azim/2.webp')} alt="" data-bgcolor="#f8f8f8" style={{}} data-bgposition="center center" data-bgfit="cover" data-bgrepeat="no-repeat" data-bgparallax="off" className="rev-slidebg" data-no-retina /> */}
 <div style={{ position: "relative", width: "100%", height: "100%" }}>
     <img
-        src={require('./../../images/azim/2.png')}
+        src={require('./../../images/azim/2.webp')}
         alt=""
         data-bgcolor="#f8f8f8"
         data-bgposition="center center"
@@ -158,10 +158,10 @@ class Slider4 extends React.Component {
                                 {/* SLIDE 3 */}
                                 <li data-index="rs-75" data-transition="fade" data-slotamount="default" data-hideafterloop={0} data-hideslideonmobile="off" data-easein="default" data-easeout="default" data-masterspeed={300} data-thumb={require('./../../images/main-slider/slider1/slide3.jpg')} data-rotate={0} data-saveperformance="off" data-title data-param1={1} data-param2 data-param3 data-param4 data-param5 data-param6 data-param7 data-param8 data-param9 data-param10 data-description>
                                     {/* MAIN IMAGE */}
-                                    {/* <img src={require('./../../images/azim/3.png')} alt="" data-bgcolor="#f8f8f8" style={{}} data-bgposition="center center" data-bgfit="cover" data-bgrepeat="no-repeat" data-bgparallax="off" className="rev-slidebg" data-no-retina /> */}
+                                    {/* <img src={require('./../../images/azim/3.webp')} alt="" data-bgcolor="#f8f8f8" style={{}} data-bgposition="center center" data-bgfit="cover" data-bgrepeat="no-repeat" data-bgparallax="off" className="rev-slidebg" data-no-retina /> */}
 <div style={{ position: "relative", width: "100%", height: "100%" }}>
     <img
-        src={require('./../../images/azim/3.png')}
+        src={require('./../../images/azim/3.webp')}
         alt=""
         data-bgcolor="#f8f8f8"
         data-bgposition="center center"

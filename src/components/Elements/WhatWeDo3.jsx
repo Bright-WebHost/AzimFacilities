@@ -5,17 +5,17 @@ const services = [
     {
         count: '01',
         title: 'Pick and Drop Services',
-        image: require('./../../images/azim/33.png'),
+        image: require('./../../images/azim/33.webp'),
     },
     {
         count: '02',
         title: 'Punctuality and Safety',
-        image: require('./../../images/azim/34.png'),
+        image: require('./../../images/azim/34.webp'),
     },
     {
         count: '03',
         title: 'Hospitable Chauffeurs',
-        image: require('./../../images/azim/35.png'),
+        image: require('./../../images/azim/35.webp'),
     },
     // {
     //     count: '04',
@@ -44,8 +44,8 @@ const services = [
     // }
 ]
 
-var bgimg1 = require('./../../images/background/cross-line2.png');
-var bgimg2 = require('./../../images/background/cross-line2.png');
+var bgimg1 = require('./../../images/background/cross-line2.webp');
+var bgimg2 = require('./../../images/background/cross-line2.webp');
 
 class WhatWeDo3 extends React.Component {
     render() {

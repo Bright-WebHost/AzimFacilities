@@ -2,7 +2,7 @@ import React from 'react';
 import { NavLink } from 'react-router-dom';
 import ReactPlayer from 'react-player';
 
-var bgimg1 = require('./../../images/azim/5.png');
+var bgimg1 = require('./../../images/azim/5.webp');
 
 class About3 extends React.Component {
     render() {

@@ -32,7 +32,7 @@ const customStyles = {
 };
 
 
-var bnrimg = require('./../../images/azim/23.png');
+var bnrimg = require('./../../images/azim/23.webp');
 
 const AnyReactComponent = ({ text }) => <div>{text}</div>;
 
@@ -64,7 +64,7 @@ class ContactUs extends React.Component {
                                                 {/* TITLE START */}
                                                 <div className="section-head">
                                                     <div className="sx-separator-outer separator-left">
-                                                        <div className="sx-separator bg-white bg-moving bg-repeat-x" style={{ backgroundImage: 'url(images/background/cross-line2.png)' }}>
+                                                        <div className="sx-separator bg-white bg-moving bg-repeat-x" style={{ backgroundImage: 'url(images/background/cross-line2.webp)' }}>
                                                             <h3 className="sep-line-one">Form</h3>
                                                         </div>
                                                     </div>
@@ -190,12 +190,12 @@ class ContactUs extends React.Component {
                                         </form>
                                     </div>
                                     <div className="col-lg-4 col-md-12 col-sm-12">
-                                        <div className="contact-info block-shadow bg-white bg-center p-a40" style={{ backgroundImage: 'url(images/background/bg-map.png)' }}>
+                                        <div className="contact-info block-shadow bg-white bg-center p-a40" style={{ backgroundImage: 'url(images/background/bg-map.webp)' }}>
                                             <div>
                                                 {/* TITLE START */}
                                                 <div className="section-head">
                                                     <div className="sx-separator-outer separator-left">
-                                                        <div className="sx-separator bg-white bg-moving bg-repeat-x" style={{ backgroundImage: 'url(images/background/cross-line2.png)' }}>
+                                                        <div className="sx-separator bg-white bg-moving bg-repeat-x" style={{ backgroundImage: 'url(images/background/cross-line2.webp)' }}>
                                                             <h3 className="sep-line-one">Info</h3>
                                                         </div>
                                                     </div>

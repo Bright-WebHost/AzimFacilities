@@ -14,10 +14,10 @@ import Header2 from '../Common/Header2';
 import Slider4 from '../Elements/Slider4';
 // import Header2 from './../Common/Header2';
 
-var bnrimg = require('./../../images/azim/13.png');
-var bgimg1 = require('./../../images/azim/14.png');
-var bgimg2 = require('./../../images/azim/21.png');
-var bgimg3 = require('./../../images/azim/22.png');
+var bnrimg = require('./../../images/azim/13.webp');
+var bgimg1 = require('./../../images/azim/14.webp');
+var bgimg2 = require('./../../images/azim/21.webp');
+var bgimg3 = require('./../../images/azim/22.webp');
 
 class Home4 extends React.Component {
     componentDidMount() {

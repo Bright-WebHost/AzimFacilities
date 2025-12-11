@@ -70,7 +70,7 @@ const projects = [
 ]
 
 var bnrimg = require('./../../images/banner/3.jpg');
-var bgimg1 = require('./../../images/background/cross-line.png');
+var bgimg1 = require('./../../images/background/cross-line.webp');
 
 class ProjectGrid3 extends React.Component {
     componentDidMount() {

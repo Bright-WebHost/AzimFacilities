@@ -16,10 +16,10 @@ const Services3 = lazy(() => import('../Elements/Services3'));
 const Statistics1 = lazy(() => import('../Elements/Statistics1'));
 
 // Images: require/import once (outside component) so references are stable
-const bnrimg = require('./../../images/azim/13.png');
-const bgimg1 = require('./../../images/azim/14.png');
-const bgimg2 = require('./../../images/azim/21.png');
-const bgimg3 = require('./../../images/azim/ector.png');
+const bnrimg = require('./../../images/azim/13.webp');
+const bgimg1 = require('./../../images/azim/14.webp');
+const bgimg2 = require('./../../images/azim/21.webp');
+const bgimg3 = require('./../../images/azim/ector.webp');
 
 /**
  * LazyBackground - wraps a block and sets background-image only when visible.

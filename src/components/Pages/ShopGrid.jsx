@@ -10,7 +10,7 @@ import Header2 from '../Common/Header2';
 
 const locations = [
     {
-        image: require('./../../images/azim/37.png'),
+        image: require('./../../images/azim/37.webp'),
         title: "We bring the world's finest flavors to your table. Experience the art of taste with us",
         description: "Najila Food Trading stands as a trusted leader in the food trading industry, renowned for delivering premium-quality products. We source, import, and distribute an extensive selection of food items catering to the food service, wholesale, and retail markets. Through strong partnerships with international suppliers, we guarantee a steady supply of world-class products — from dry, frozen, and fresh goods to live seafood, Japanese specialties, premium meats, and everyday essentials. Najila Food Trading is your gateway to exceptional taste and culinary excellence.",
     },
@@ -31,7 +31,7 @@ const locations = [
     // }
 ]
 
-var bnrimg = require('./../../images/azim/23.png');
+var bnrimg = require('./../../images/azim/23.webp');
 
 // var bnrimg = require('./../../images/banner/4.jpg');
 

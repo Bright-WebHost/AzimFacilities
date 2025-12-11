@@ -19,7 +19,7 @@ class Footer extends React.Component {
                                         {/*<h4 class="widget-title">About Company</h4>*/}
                                         <div className="logo-footer clearfix p-b15">
                                             <NavLink to={"./"}>
-                                                <img src={require('./../../images/67.png')} alt="Inteshape"style={{height:'90px'}} />
+                                                <img src={require('./../../images/67.webp')} alt="Inteshape"style={{height:'90px'}} />
                                             </NavLink>
                                         </div>
                                         <p>Azim Group Qatar blends tradition and innovation, excelling in trading, hospitality, and beyond.</p>

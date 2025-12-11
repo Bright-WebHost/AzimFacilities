@@ -5,8 +5,8 @@ import Footer from './../Common/Footer';
 import Banner from './../Elements/Banner';
 import Header2 from '../Common/Header2';
 
-var bnrimg = require('./../../images/azim/23.png');
-var bgimg1 = require('./../../images/background/cross-line2.png');
+var bnrimg = require('./../../images/azim/23.webp');
+var bgimg1 = require('./../../images/background/cross-line2.webp');
 
 class BlogSingle extends React.Component {
     componentDidMount() {
@@ -43,7 +43,7 @@ class BlogSingle extends React.Component {
                                 <div className="blog-post blog-detail text-black">
                                     <div className="sx-post-media">
                                         <div className="portfolio-item">
-                                            <img className="img-responsive" src={require('./../../images/azim/46.png')} alt=""/>
+                                            <img className="img-responsive" src={require('./../../images/azim/46.webp')} alt=""/>
                                         </div>
                                     </div>
                                     <div className="sx-post-meta  m-t20">
@@ -223,7 +223,7 @@ class BlogSingle extends React.Component {
                                                             {/* <NavLink to={"#"}>20 Sep 2022</NavLink> */}
                                                         </div>
                                                         <div className="comment-author vcard">
-                                                            <img className="avatar photo" src={require('./../../images/azim/47.png')} alt=""/>
+                                                            <img className="avatar photo" src={require('./../../images/azim/47.webp')} alt=""/>
                                                             <cite className="fn"> Exterior Building Cleaning </cite>
                                                             <span className="says">says:</span>
                                                         </div>
@@ -240,7 +240,7 @@ class BlogSingle extends React.Component {
                                                                     {/* <NavLink to={"#"}>22 Sep 2022</NavLink> */}
                                                                 </div>
                                                                 <div className="comment-author vcard">
-                                                                    <img className="avatar photo" src={require('./../../images/azim/48.png')} alt=""/>
+                                                                    <img className="avatar photo" src={require('./../../images/azim/48.webp')} alt=""/>
                                                                     <cite className="fn">Deep Interior Cleaning</cite>
                                                                     <span className="says">says:</span>
                                                                 </div>
@@ -256,7 +256,7 @@ class BlogSingle extends React.Component {
                                                                             {/* <NavLink to={"#"}>24 Oct 2019</NavLink> */}
                                                                         </div>
                                                                         <div className="comment-author vcard">
-                                                                            <img className="avatar photo" src={require('./../../images/azim/49.png')} alt="" />
+                                                                            <img className="avatar photo" src={require('./../../images/azim/49.webp')} alt="" />
                                                                             <cite className="fn">Hygiene & Cleaning Services for Hotels and Residences</cite>
                                                                             <span className="says">says:</span>
                                                                         </div>

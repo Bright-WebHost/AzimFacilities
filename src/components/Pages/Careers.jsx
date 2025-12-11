@@ -325,7 +325,7 @@ export default function Careers() {
       color: #4b5563;
     }
   `;
-var bnrimg = require('./../../images/azim/23.png');
+var bnrimg = require('./../../images/azim/23.webp');
   const handleSelectRole = (role, department) => {
     setSelectedRole(role);
     setSelectedDepartment(department);

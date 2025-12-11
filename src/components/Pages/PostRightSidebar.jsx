@@ -6,7 +6,7 @@ import Banner from './../Elements/Banner';
 import BlogSidebar from './../Elements/BlogSidebar';
 
 var bnrimg = require('./../../images/banner/4.jpg');
-var bgimg1 = require('./../../images/background/cross-line2.png');
+var bgimg1 = require('./../../images/background/cross-line2.webp');
 
 class PostRightSidebar extends React.Component {
     componentDidMount() {

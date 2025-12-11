@@ -7,7 +7,7 @@ import Header2 from '../Common/Header2';
 import Banner from '../Elements/Banner';
 import WhatWeDo3 from '../Elements/WhatWeDo3';
 import Footer from '../Common/Footer';
-var bnrimg = require('./../../images/azim/23.png');
+var bnrimg = require('./../../images/azim/23.webp');
 
 class Home5 extends React.Component {
     render() {

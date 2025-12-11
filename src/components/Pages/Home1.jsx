@@ -16,7 +16,7 @@ import Header2 from '../Common/Header2';
 import Slider4 from '../Elements/Slider4';
 
 
-var bgimg1 = require('./../../images/background/cross-line2.png');
+var bgimg1 = require('./../../images/background/cross-line2.webp');
 
 
 class Home1 extends React.Component {
@@ -120,14 +120,14 @@ class Home1 extends React.Component {
                                             <div className="col-md-6">
                                                 <div className="sx-box m-b30">
                                                     <div className="sx-media">
-                                                        <img src={require('./../../images/azim/11.png')} alt=""/>
+                                                        <img src={require('./../../images/azim/11.webp')} alt=""/>
                                                     </div>
                                                 </div>
                                             </div>
                                             <div className="col-md-6">
                                                 <div className="sx-box m-b30">
                                                     <div className="sx-media">
-                                                        <img src={require('./../../images/azim/101.png')} alt="" />
+                                                        <img src={require('./../../images/azim/101.webp')} alt="" />
                                                     </div>
                                                 </div>
                                             </div>

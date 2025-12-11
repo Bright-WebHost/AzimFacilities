@@ -31,7 +31,7 @@ const testimonials = [
 ]
 
 var bgimg1 = require('./../../images/background/bg6.jpg');
-var bgimg2 = require('./../../images/background/cross-line2.png');
+var bgimg2 = require('./../../images/background/cross-line2.webp');
 
 class Testimonials2 extends React.Component {
     render() {

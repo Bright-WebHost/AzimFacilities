@@ -3,7 +3,7 @@ import { NavLink } from 'react-router-dom';
 
 const locations = [
     {
-        image: require('./../../images/azim/32.png'),
+        image: require('./../../images/azim/32.webp'),
         title: 'Welcome to One Way Limousine WLL',
         location: 'At One Way Limousine WLL, we bring together sophistication, comfort, and convenience to deliver a travel experience like no other. As a leading provider of chauffeured transportation, our diverse fleet caters to every need—whether you prefer practical, budget-friendly options or the ultimate in luxury travel.',
         description: 'Every journey with us is guided by our core values of excellence, safety, and punctuality. From business meetings to special occasions, we ensure you arrive on time, in style, and with complete peace of mind. Our professional chauffeurs are dedicated to making your ride seamless, comfortable, and truly memorable. Discover the difference with One Way Limousine WLL—where travel is not just about getting from one place to another, but about enjoying every moment along the way.',
@@ -52,7 +52,7 @@ const locations = [
     // }
 ]
 
-var bgimg1 = require('./../../images/background/cross-line.png');
+var bgimg1 = require('./../../images/background/cross-line.webp');
 
 class About4 extends React.Component {
     render() {

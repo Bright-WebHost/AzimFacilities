@@ -9,25 +9,25 @@ const services = [
         count: '01',
         title: 'Highly Skilled Workforces',
         flaticon: 'flaticon-sketch',
-        image: require('./../../images/azim/7.png'),
+        image: require('./../../images/azim/7.webp'),
     },
     {
         count: '02',
         title: 'ISO 9001:2015 Certified Company',
         flaticon: 'flaticon-stairs',
-        image: require('./../../images/azim/9.png'),
+        image: require('./../../images/azim/9.webp'),
     },
     {
         count: '03',
         title: 'Scalability with Uncompromised Quality',
         flaticon: 'flaticon-window',
-        image: require('./../../images/azim/8.png'),
+        image: require('./../../images/azim/8.webp'),
     },
     {
         count: '04',
         title: 'Compliant to Sedex Smeta 4- pillar guidelines',
         flaticon: 'flaticon-skyline',
-        image: require('./../../images/azim/10.png'),
+        image: require('./../../images/azim/10.webp'),
     },
     // {
     //     count: '05',
@@ -43,7 +43,7 @@ const services = [
     // }
 ]
 
-var bgimg1 = require('./../../images/background/cross-line2.png');
+var bgimg1 = require('./../../images/background/cross-line2.webp');
 
 class Services2 extends React.Component {
     render() {

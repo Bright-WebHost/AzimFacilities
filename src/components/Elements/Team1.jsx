@@ -24,7 +24,7 @@ const teamMembers = [
     }
 ]
 
-var bgimg1 = require('./../../images/background/cross-line2.png');
+var bgimg1 = require('./../../images/background/cross-line2.webp');
 
 class Team1 extends React.Component {
     render() {

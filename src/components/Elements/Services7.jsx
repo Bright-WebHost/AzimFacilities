@@ -5,48 +5,48 @@ const services = [
     {
         count: '01',
         title: 'AZIM Facilities Management & services',
-        logo: require('./../../images/azim/143.png'),
-        image: require('./../../images/azim/16.png'),
+        logo: require('./../../images/azim/143.webp'),
+        image: require('./../../images/azim/16.webp'),
         description: 'Crafting Elevated Experiences: Where Excellence Meets Service. Your space, our commitment.',
         link: '/facilities-management'
     },
     {
         count: '02',
         title: 'One Way Limousine WLL',
-        logo: require('./../../images/azim/144.png'),
-        image: require('./../../images/azim/15.png'),
+        logo: require('./../../images/azim/144.webp'),
+        image: require('./../../images/azim/15.webp'),
         description: 'Elevate every journey with our premium limousine rentals — your destination, our elegance.',
         link: '/limousine'
     },
     {
         count: '03',
         title: 'VenYou Events',
-        logo: require('./../../images/azim/145.png'),
-        image: require('./../../images/azim/17.png'),
+        logo: require('./../../images/azim/145.webp'),
+        image: require('./../../images/azim/17.webp'),
         description: 'Experience seamless events crafted with our expert touch — your celebration, perfected by our expertise.',
         link: '/events'
     },
     {
         count: '04',
         title: 'Najila Food Trading',
-        logo: require('./../../images/azim/146.png'),
-        image: require('./../../images/azim/18.png'),
+        logo: require('./../../images/azim/146.webp'),
+        image: require('./../../images/azim/18.webp'),
         description: "We bring the world's finest flavors to your table. Experience the art of taste with us.",
         link: '/food-trading'
     },
     {
         count: '05',
         title: 'Golden Vision Cleaning and Hospitality Services',
-        logo: require('./../../images/azim/147.png'),
-        image: require('./../../images/azim/19.png'),
+        logo: require('./../../images/azim/147.webp'),
+        image: require('./../../images/azim/19.webp'),
         description: 'Where cleanliness meets a warm welcome — your comfort is our commitment.',
         link: '/cleaning-and-hospitality'
     },
     {
         count: '06',
         title: 'Vadakara To Kasargod Restaurant',
-        logo: require('./../../images/azim/148.png'),
-        image: require('./../../images/azim/20.png'),
+        logo: require('./../../images/azim/148.webp'),
+        image: require('./../../images/azim/20.webp'),
         description: 'A culinary experience that embodies true authenticity.',
         link: '/restaurent'
     }

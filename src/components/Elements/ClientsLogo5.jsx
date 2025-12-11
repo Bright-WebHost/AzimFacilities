@@ -38,7 +38,7 @@ class ClientsLogo5 extends React.Component {
                                 <div className="owl-carousel home-client-carousel-2">
                                     <div className="item">
                                         <a href="javascript:;" className="client-logo-pic">
-                                            <img src="images/client-logo/1.png" alt />
+                                            <img src="images/client-logo/1.webp" alt />
                                             <div>
                                                 <span>View More</span>
                                             </div>
@@ -46,7 +46,7 @@ class ClientsLogo5 extends React.Component {
                                     </div>
                                     <div className="item">
                                         <a href="javascript:;" className="client-logo-pic">
-                                            <img src="images/client-logo/2.png" alt />
+                                            <img src="images/client-logo/2.webp" alt />
                                             <div>
                                                 <span>View More</span>
                                             </div>
@@ -54,7 +54,7 @@ class ClientsLogo5 extends React.Component {
                                     </div>
                                     <div className="item">
                                         <a href="javascript:;" className="client-logo-pic">
-                                            <img src="images/client-logo/3.png" alt />
+                                            <img src="images/client-logo/3.webp" alt />
                                             <div>
                                                 <span>View More</span>
                                             </div>
@@ -62,7 +62,7 @@ class ClientsLogo5 extends React.Component {
                                     </div>
                                     <div className="item">
                                         <a href="javascript:;" className="client-logo-pic">
-                                            <img src="images/client-logo/4.png" alt />
+                                            <img src="images/client-logo/4.webp" alt />
                                             <div>
                                                 <span>View More</span>
                                             </div>
@@ -70,7 +70,7 @@ class ClientsLogo5 extends React.Component {
                                     </div>
                                     <div className="item">
                                         <a href="javascript:;" className="client-logo-pic">
-                                            <img src="images/client-logo/5.png" alt />
+                                            <img src="images/client-logo/5.webp" alt />
                                             <div>
                                                 <span>View More</span>
                                             </div>
@@ -78,7 +78,7 @@ class ClientsLogo5 extends React.Component {
                                     </div>
                                     <div className="item">
                                         <a href="javascript:;" className="client-logo-pic">
-                                            <img src="images/client-logo/6.png" alt />
+                                            <img src="images/client-logo/6.webp" alt />
                                             <div>
                                                 <span>View More</span>
                                             </div>

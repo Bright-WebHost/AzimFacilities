@@ -10,9 +10,9 @@ import Header2 from '../Common/Header2';
 import JobCategories from '../Elements/JobCategories';
 import JobCategory from '../Elements/JobCategory';
 
-var bnrimg = require('./../../images/azim/23.png');
-var bgimg1 = require('./../../images/azim/72.png');
-var bgimg2 = require('./../../images/background/cross-line.png');
+var bnrimg = require('./../../images/azim/23.webp');
+var bgimg1 = require('./../../images/azim/72.webp');
+var bgimg2 = require('./../../images/background/cross-line.webp');
 class ProjectDetail1 extends React.Component {
     
     componentDidMount() {
@@ -100,12 +100,12 @@ class ProjectDetail1 extends React.Component {
                     {/* SECTION CONTENT END  */}
                     <Plans1 />
                     {/* SECTION CONTENTG START */}
-                                        <div className="section-full mobile-page-padding p-tb80 bg-bottom-left bg-no-repeat" style={{ backgroundImage: 'url(images/background/bg-4.png)' }}>
+                                        <div className="section-full mobile-page-padding p-tb80 bg-bottom-left bg-no-repeat" style={{ backgroundImage: 'url(images/background/bg-4.webp)' }}>
                                             <div className="container">
                                                 <div className="section-content">
                                                     <div className="page-notfound row">
                                                         <div className="col-md-7">
-                                                            <img src={require('./../../images/azim/31.png')} alt="" />
+                                                            <img src={require('./../../images/azim/31.webp')} alt="" />
                                                         </div>
                                                         <div className="col-md-5">
                                                             {/* <strong>Page Not Found</strong> */}
