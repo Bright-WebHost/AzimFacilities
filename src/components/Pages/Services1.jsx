@@ -17,7 +17,7 @@ class Service1 extends React.Component {
             <>
                 <Header2 />
                 <div className="page-content">
-                    <Banner title="We are a Group of companies" pagename="Services" description="Empowering Growth, Uniting Excellence to Shape Tomorrow's Success AZIM Group is a constellation of enterprises at the heart of Qatar's dynamic business landscape. With seven unique companies under our banner, we orchestrate services to deliver unmatched value across diverse industries" bgimage={bnrimg}/>
+                    <Banner title="We are a Group of companies" pagename="Services" description="Empowering Growth, Uniting Excellence to Shape Tomorrow's Success " bgimage={bnrimg}/>
                     {/* <WhatWeDo6 /> */}
                     {/* <Services6 /> */}
                     <Services7 />

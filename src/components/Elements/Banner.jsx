@@ -26,6 +26,13 @@ class Banner extends React.Component {
                             {/* BREADCRUMB ROW END */}
                         </div>
                     </div>
+                    <style>{`
+                    @media(max-width:768px){
+                    .sx-bnr-inr {
+                    height: 350px !important;
+                    }
+                    }
+                    `}</style>
                 </div>
             </>
         );
