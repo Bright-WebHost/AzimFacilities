@@ -66,8 +66,8 @@
 						$this.find("span.revslider_data_weather_region").text(weather_info["location"]["region"]);
 						$this.find("span.revslider_data_weather_updated").text(weather_info["item"]["pubDate"]);
 						$this.find("span.revslider_data_weather_link").text(weather_info["link"]);
-						$this.find("span.revslider_data_weather_thumbnail").text('https://s.yimg.com/zz/combo?a/i/us/nws/weather/gr/' + weather_info["item"]["condition"]["code"] + 'ds.png');
-						$this.find("span.revslider_data_weather_image").text('https://s.yimg.com/zz/combo?a/i/us/nws/weather/gr/' + weather_info["item"]["condition"]["code"] + 'd.png');
+						$this.find("span.revslider_data_weather_thumbnail").text('https://s.yimg.com/zz/combo?a/i/us/nws/weather/gr/' + weather_info["item"]["condition"]["code"] + 'ds.webp');
+						$this.find("span.revslider_data_weather_image").text('https://s.yimg.com/zz/combo?a/i/us/nws/weather/gr/' + weather_info["item"]["condition"]["code"] + 'd.webp');
 						$this.find("span.revslider_data_weather_units_temp").text(weather_info["units"]["temperature"]);
 						$this.find("span.revslider_data_weather_units_distance").text(weather_info["units"]["distance"]);
 						$this.find("span.revslider_data_weather_units_pressure").text(weather_info["units"]["pressure"]);
@@ -86,8 +86,8 @@
 							$this.find("span.revslider_data_weather_low_forecast_"+i).text(weather_info["item"]["forecast"][i]["low"]);
 							$this.find("span.revslider_data_weather_alt_high_forecast_"+i).text(get_alt_temp(weather_info["units"]["temperature"],weather_info["item"]["forecast"][i]["high"]));
 							$this.find("span.revslider_data_weather_alt_low_forecast_"+i).text(get_alt_temp(weather_info["units"]["temperature"],weather_info["item"]["forecast"][i]["low"]));
-							$this.find("span.revslider_data_weather_thumbnail_forecast_"+i).text('https://s.yimg.com/zz/combo?a/i/us/nws/weather/gr/' + weather_info["item"]["forecast"][i]["code"] + 'ds.png');
-							$this.find("span.revslider_data_weather_image_forecast_"+i).text('https://s.yimg.com/zz/combo?a/i/us/nws/weather/gr/' + weather_info["item"]["forecast"][i]["code"] + 'd.png');
+							$this.find("span.revslider_data_weather_thumbnail_forecast_"+i).text('https://s.yimg.com/zz/combo?a/i/us/nws/weather/gr/' + weather_info["item"]["forecast"][i]["code"] + 'ds.webp');
+							$this.find("span.revslider_data_weather_image_forecast_"+i).text('https://s.yimg.com/zz/combo?a/i/us/nws/weather/gr/' + weather_info["item"]["forecast"][i]["code"] + 'd.webp');
 							$this.find("span.revslider_data_weather_icon_forecast_"+i).html('<i class=\"revslider-weather-icon revslider-weather-icon-' + weather_info["item"]["forecast"][i]["code"] + '\"></i>');
 							$this.find("span.revslider_data_weather_text_forecast_"+i).text(weather_info["item"]["forecast"][i]["text"]);
 						}

@@ -12507,14 +12507,14 @@ transition: all 0.5s linear;
 }
 
 .scale-bg-top:before {
-	background-image: url(../images/background/scale-top.png);
+	background-image: url(../images/background/scale-top.webp);
 	background-position: top;
 	background-repeat: repeat-x;
 	top: 0px;
 }
 
 .scale-bg-bottom:after {
-	background-image: url(../images/background/scale-bottom.png);
+	background-image: url(../images/background/scale-bottom.webp);
 	background-position: bottom;
 	background-repeat: repeat-x;
 	bottom: 0px;
