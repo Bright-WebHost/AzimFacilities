@@ -47,7 +47,7 @@ const projects = [
     }
 ]
 
-var bgimg1 = require('./../../images/background/cross-line2.webp');
+var bgimg1 = require('./../../images/background/cross-line2.png');
 
 class Projects7 extends React.Component {
     render() {

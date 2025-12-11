@@ -65,8 +65,8 @@ const achievements2 = [
     }
 ]
 
-var bgimg1 = require('./../../images/background/bg-map.webp');
-var bgimg2 = require('./../../images/background/cross-line2.webp');
+var bgimg1 = require('./../../images/background/bg-map.png');
+var bgimg2 = require('./../../images/background/cross-line2.png');
 var bnrimg = require('./../../images/azim/23.webp');
 
 class RealEstate extends React.Component {

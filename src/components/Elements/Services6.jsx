@@ -34,8 +34,8 @@ const services = [
     },
 ]
 
-var bgimg1 = require('./../../images/background/bg-5.webp');
-var bgimg2 = require('./../../images/background/cross-line2.webp');
+var bgimg1 = require('./../../images/background/bg-5.png');
+var bgimg2 = require('./../../images/background/cross-line2.png');
 
 class Services6 extends React.Component {
     render() {

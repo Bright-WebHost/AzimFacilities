@@ -52,7 +52,7 @@ const locations = [
     // }
 ]
 
-var bgimg1 = require('./../../images/background/cross-line.webp');
+var bgimg1 = require('./../../images/background/cross-line.png');
 
 class About4 extends React.Component {
     render() {

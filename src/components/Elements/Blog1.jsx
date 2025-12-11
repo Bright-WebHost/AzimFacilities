@@ -28,7 +28,7 @@ const blogs = [
     }
 ]
 
-var bgimg1 = require('./../../images/background/cross-line2.webp');
+var bgimg1 = require('./../../images/background/cross-line2.png');
 
 class Blog1 extends React.Component {
     render() {

@@ -12,7 +12,7 @@ import JobCategory from '../Elements/JobCategory';
 
 var bnrimg = require('./../../images/azim/23.webp');
 var bgimg1 = require('./../../images/azim/72.webp');
-var bgimg2 = require('./../../images/background/cross-line.webp');
+var bgimg2 = require('./../../images/background/cross-line.png');
 class ProjectDetail1 extends React.Component {
     
     componentDidMount() {

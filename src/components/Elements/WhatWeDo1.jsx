@@ -3,7 +3,7 @@ import { NavLink } from 'react-router-dom';
 
 var bgimg1 = require('./../../images/azim/64.webp');
 var bgimg2 = require('./../../images/azim/6.webp');
-var bgimg3 = require('./../../images/background/cross-line2.webp');
+var bgimg3 = require('./../../images/background/cross-line2.png');
 
 class WhatWeDo1 extends React.Component {
     render() {

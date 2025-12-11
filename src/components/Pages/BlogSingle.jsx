@@ -6,7 +6,7 @@ import Banner from './../Elements/Banner';
 import Header2 from '../Common/Header2';
 
 var bnrimg = require('./../../images/azim/23.webp');
-var bgimg1 = require('./../../images/background/cross-line2.webp');
+var bgimg1 = require('./../../images/background/cross-line2.png');
 
 class BlogSingle extends React.Component {
     componentDidMount() {

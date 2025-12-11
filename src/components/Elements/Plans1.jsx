@@ -1,8 +1,8 @@
 import React from 'react';
 import { NavLink } from 'react-router-dom';
 
-var bgimg1 = require('./../../images/background/bg-4.webp');
-var bgimg2 = require('./../../images/background/cross-line2.webp');
+var bgimg1 = require('./../../images/background/bg-4.png');
+var bgimg2 = require('./../../images/background/cross-line2.png');
 var img1 = require('./../../images/azim/28.webp');
 var img2 = require('./../../images/azim/29.webp');
 var img3 = require('./../../images/azim/30.webp');

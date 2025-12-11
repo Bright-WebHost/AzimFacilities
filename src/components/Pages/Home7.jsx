@@ -16,7 +16,7 @@ import Header2 from '../Common/Header2';
 import Slider4 from '../Elements/Slider4';
 
 
-var bgimg1 = require('./../../images/background/cross-line2.webp');
+var bgimg1 = require('./../../images/background/cross-line2.png');
 
 
 class Home7 extends React.Component {

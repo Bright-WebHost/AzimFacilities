@@ -88,7 +88,7 @@ const projects = [
 ]
 
 var bnrimg = require('./../../images/banner/4.jpg');
-var bgimg1 = require('./../../images/background/cross-line.webp');
+var bgimg1 = require('./../../images/background/cross-line.png');
 
 class ProjectGridNoGap4 extends React.Component {
     componentDidMount() {

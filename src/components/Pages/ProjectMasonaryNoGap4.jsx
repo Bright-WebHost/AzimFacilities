@@ -113,7 +113,7 @@ const projects = [
 ]
 
 var bnrimg = require('./../../images/banner/10.jpg');
-var bgimg1 = require('./../../images/background/cross-line.webp');
+var bgimg1 = require('./../../images/background/cross-line.png');
 
 class ProjectMasonaryNoGap4 extends React.Component {
     componentDidMount() {

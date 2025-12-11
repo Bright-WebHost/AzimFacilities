@@ -4,12 +4,12 @@ class WhatWeDo5 extends React.Component {
     render() {
         return (
             <>
-                <div className="section-full  mobile-page-padding bg-white  p-t80 p-b30 bg-repeat overflow-hide" style={{ backgroundImage: 'url(images/background/bg-5.webp)' }}>
+                <div className="section-full  mobile-page-padding bg-white  p-t80 p-b30 bg-repeat overflow-hide" style={{ backgroundImage: 'url(images/background/bg-5.png)' }}>
                         <div className="container right-half-bg-image-outer">
                             {/* TITLE START */}
                             <div className="section-head">
                                 <div className="sx-separator-outer separator-left">
-                                    <div className="sx-separator bg-white bg-moving bg-repeat-x" style={{ backgroundImage: 'url(images/background/cross-line2.webp)' }}>
+                                    <div className="sx-separator bg-white bg-moving bg-repeat-x" style={{ backgroundImage: 'url(images/background/cross-line2.png)' }}>
                                         <h3 className="sep-line-one">What We do</h3>
                                     </div>
                                 </div>

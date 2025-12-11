@@ -2,7 +2,7 @@ import React from 'react';
 import { NavLink } from 'react-router-dom';
 
 var bgimg1 = require('./../../images/azim/4.webp');
-var logo = require('./../../images/logo.webp');
+var logo = require('./../../images/logo.png');
 
 class About2 extends React.Component {
     render() {

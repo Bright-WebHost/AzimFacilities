@@ -9,7 +9,7 @@ const services = [
         count: '01',
         title: 'AZIM Facilities Management & Services',
         flaticon: 'flaticon-sketch',
-        image: require('./../../images/azim/16.webp'),
+        image: require('./../../images/azim/16.png'),
         link: '/facilities-management' // ✅ unique link
     },
     {
@@ -49,7 +49,7 @@ const services = [
     }
 ];
 
-var bgimg1 = require('./../../images/background/cross-line2.webp');
+var bgimg1 = require('./../../images/background/cross-line2.png');
 
 class Services3 extends React.Component {
     render() {

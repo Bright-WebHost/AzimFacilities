@@ -22,7 +22,7 @@ const services = [
     // }
 ]
 
-var bgimg1 = require('./../../images/background/cross-line2.webp');
+var bgimg1 = require('./../../images/background/cross-line2.png');
 
 class SimilarProjects extends React.Component {
     render() {

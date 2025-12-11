@@ -59,7 +59,7 @@ class TeamDetail extends React.Component {
                                                 {/* TITLE START */}
                                                 <div className="section-head">
                                                     <div className="sx-separator-outer separator-left">
-                                                        <div className="sx-separator bg-white bg-moving bg-repeat-x" style={{ backgroundImage: 'url(images/background/cross-line2.webp)' }}>
+                                                        <div className="sx-separator bg-white bg-moving bg-repeat-x" style={{ backgroundImage: 'url(images/background/cross-line2.png)' }}>
                                                             <h3 className="sep-line-one">Our Experience</h3>
                                                         </div>
                                                     </div>

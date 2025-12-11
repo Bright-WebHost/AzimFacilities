@@ -6,7 +6,7 @@ const services = [
         count: '01',
         title: 'AZIM Facilities Management & services',
         logo: require('./../../images/azim/143.webp'),
-        image: require('./../../images/azim/16.webp'),
+        image: require('./../../images/azim/16.png'),
         description: 'Crafting Elevated Experiences: Where Excellence Meets Service. Your space, our commitment.',
         link: '/facilities-management'
     },

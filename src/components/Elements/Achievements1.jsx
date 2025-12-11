@@ -62,8 +62,8 @@ const achievements2 = [
     }
 ]
 
-var bgimg1 = require('./../../images/background/bg-map.webp');
-var bgimg2 = require('./../../images/background/cross-line2.webp');
+var bgimg1 = require('./../../images/background/bg-map.png');
+var bgimg2 = require('./../../images/background/cross-line2.png');
 
 class Achievements1 extends React.Component {
     render() {

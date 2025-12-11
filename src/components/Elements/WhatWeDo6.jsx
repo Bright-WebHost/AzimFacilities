@@ -2,7 +2,7 @@ import React from 'react';
 
 var bgimg1 = require('./../../images/azim/23.webp');
 var bgimg2 = require('./../../images/azim/1.webp');
-var bgimg3 = require('./../../images/background/cross-line2.webp');
+var bgimg3 = require('./../../images/background/cross-line2.png');
 
 class WhatWeDo6 extends React.Component {
     render() {
