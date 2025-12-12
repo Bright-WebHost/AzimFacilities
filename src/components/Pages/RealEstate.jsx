@@ -13,56 +13,42 @@ import 'owl.carousel/dist/assets/owl.theme.default.css';
 const services = [
     {
         image: require('./../../images/azim/53.webp'),
-        title: 'Real Estate Sector',
-        description: 'Azim Facilities Management Services delivers tailored solutions for the dynamic real estate sector, focusing on property value, tenant satisfaction, and operational excellence to ensure assets reach their full potential.'
+        title: 'Real Estate & Residential Sector',
+        description: 'In the Real Estate & Residential sector, maintaining property value and ensuring resident comfort is critical. AZIM Group delivers end-to-end support through:'
     }
 ]
 const achievements1 = [
     {
-        title: 'Property Maintenance',
-        description: 'Routine inspections, prompt repairs, and upkeep for lasting appeal.',
+        title: 'Property Care & Maintenance',
+        description: 'Comprehensive cleaning and maintenance for residential buildings.',
         date: '01',
         month: 'Oct',
         year: '01',
     },
     {
-        title: 'Energy Efficiency',
-        description: 'Audits, upgrades, and sustainable practices to cut costs and impact.',
+        title: 'Facility Management',
+        description: 'End-to-end operational support to enhance property value and comfort.',
         date: '20',
         month: 'Mar',
         year: '03',
-    },
-    {
-        title: 'Janitorial Services',
-        description: 'Thorough cleaning and waste management for welcoming spaces.',
-        date: '28',
-        month: 'Aug',
-        year: '05',
     },
 ]
 
 const achievements2 = [
     {
-        title: 'Tenant Experience',
-        description: 'Efficient operations and responsive service to boost retention.',
+        title: 'Lifestyle & Community Services',
+        description: 'Professional housekeeping, concierge, and resident support services.',
         date: '27',
         month: 'Nov',
         year: '02',
     },
     {
-        title: 'Security & Safety',
-        description: 'Access control, surveillance, and emergency planning for protection.',
+        title: 'Transport & Mobility',
+        description: 'Reliable transport and logistics solutions for residents and guests.',
         date: '07',
         month: 'Mar',
         year: '04',
     },
-    {
-        title: 'Space Optimisation',
-        description: 'Smart layout enhancements to improve functionality and value.',
-        date: '19',
-        month: 'July',
-        year: '06',
-    }
 ]
 
 var bgimg1 = require('./../../images/background/bg-map.png');
@@ -98,7 +84,7 @@ class RealEstate extends React.Component {
             <>
                 <Header2 />
                 <div className="page-content">
-                    <Banner title="Real Estate sector" pagename="Real Estate" description="Azim FMS provides tailored real estate solutions, enhancing property value, tenant satisfaction, and operational excellence." bgimage={bnrimg} />
+                    <Banner title="Real Estate & Residential Sector" pagename="Real Estate & Residential"  bgimage={bnrimg} />
                     {/* ABOUT TEAM MEMBER SECTION START */}
                     <div className="section-full p-tb80 bg-gray inner-page-padding">
                                         <div className="container">
@@ -118,9 +104,9 @@ class RealEstate extends React.Component {
                                                             <div key={index} className="item">
                                                                 <div className="sx-box   image-single-carousel bg-cover" style={{ backgroundImage: 'url(' + item.image + ')' }}>
                                                                     <div className="sx-info  p-t20 text-white">
-                                                                        <h4 className="sx-tilte m-t0"><NavLink to={"/project-detail1"}>{item.title}</NavLink></h4>
+                                                                        <h4 className="sx-tilte m-t0" style={{color:'orange '}}>{item.title}</h4>
                                                                         <p>{item.description}</p>
-                                                                        <NavLink to={"/project-detail1"} className="site-button btn-half button-sm"><span>View All</span></NavLink>
+                                                                        {/* <NavLink to={"/sector"} className="site-button btn-half button-sm"><span>Sector</span></NavLink> */}
                                                                     </div>
                                                                 </div>
                                                             </div>

@@ -147,29 +147,29 @@ var img4= require('./../../images/azim/58.webp');
 const sectors = [
   {
     id: 1,
-    title: 'Residential Sector',
-    description: 'Azim FMS provides expert Facility Management for Residential Communities, ensuring seamless operations, superior living, and well-maintained, connected environments.',
+    title: 'Hotel & Hospitality Sector',
+    description: 'In the competitive hospitality industry, guest experience defines success. AZIM Group enhances hotel operations with tailored support…',
     image: img1,
-    link: '/residential-sector' // Add your desired route here
+    link: '/hotel-hospital-sector' // Add your desired route here
   },
   {
     id: 2,
-    title: 'Government Sector',
-    description: 'Azim FMS ensures efficient Facility Management for Residential Communities, promoting smooth operations and quality living.',
+    title: 'Governmental Sector',
+    description: 'Government agencies require high standards of reliability, professionalism, and logistical precision. AZIM Group supports governmental facilities and initiatives through…',
     image: img2,
     link: '/government-sector' // Add your desired route here
   },
   {
     id: 3,
-    title: 'Real Estate Sector',
-    description: 'Azim FMS delivers efficient, cost-effective, and sustainable Facility Management solutions for the government sector.',
+    title: 'Real Estate & Residential Sector',
+    description: 'In the Real Estate & Residential sector, maintaining property value and ensuring resident comfort is critical. AZIM Group delivers end-to-end support through:',
     image: img3,
     link: '/real-estate-sector' // Add your desired route here
   },
   {
     id: 4,
     title: 'Education Sector',
-    description: 'Azim FMS provides tailored real estate solutions, enhancing property value, tenant satisfaction, and operational excellence.',
+    description: 'Educational institutions demand safe, clean, and supportive environments for students, staff, and visitors. AZIM Group delivers. AZIM Group supports this through…',
     image: img4,
     link: '/education-sector' // Add your desired route here
   }

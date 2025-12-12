@@ -14,20 +14,20 @@ const services = [
     {
         image: require('./../../images/azim/54.webp'),
         title: 'Education Sector',
-        description: 'Azim Facilities Management Services delivers tailored solutions for the education sector, ensuring safe, efficient, and inspiring learning environments for students and staff.'
+        description: 'Educational institutions demand safe, clean, and supportive environments for students, staff, and visitors. AZIM Group supports this through:'
     },
 ]
 const achievements1 = [
     {
-        title: 'Campus Maintenance',
-        description: 'Upkeep of classrooms, sports areas, and campus facilities.',
+        title: 'Campus Hygiene',
+        description: 'Daily cleaning, sanitation, and classroom upkeep.',
         date: '01',
         month: 'Oct',
         year: '01',
     },
     {
-        title: 'Building Upgrades',
-        description: 'Modernisation and modifications for functionality and compliance.',
+        title: 'Safe Learning Facilities',
+        description: 'Preventive maintenance for uninterrupted operations.',
         date: '20',
         month: 'Mar',
         year: '03',
@@ -36,15 +36,15 @@ const achievements1 = [
 
 const achievements2 = [
     {
-        title: 'Security & Safety',
-        description: 'Access control, surveillance, and emergency preparedness.',
+        title: 'Food Supply Services',
+        description: 'Quality food and ingredient delivery for cafeterias and meal programs.',
         date: '27',
         month: 'Nov',
         year: '02',
     },
     {
-        title: 'Janitorial Services',
-        description: 'Cleaning, sanitisation, and waste management for healthy spaces.',
+        title: 'Events & Transport',
+        description: 'Support for school events, activities, and student/guest transport.',
         date: '07',
         month: 'Mar',
         year: '04',
@@ -84,7 +84,7 @@ class Education extends React.Component {
             <>
                 <Header2 />
                 <div className="page-content">
-                    <Banner title="Education Sector" pagename="Education" description="Azim FMS provides tailored solutions for the education sector, creating safe, efficient, and inspiring learning environments." bgimage={bnrimg} />
+                    <Banner title="Education Sector" pagename="Education"  bgimage={bnrimg} />
                     {/* ABOUT TEAM MEMBER SECTION START */}
                     <div className="section-full p-tb80 bg-gray inner-page-padding">
                                         <div className="container">
@@ -104,9 +104,9 @@ class Education extends React.Component {
                                                             <div key={index} className="item">
                                                                 <div className="sx-box   image-single-carousel bg-cover" style={{ backgroundImage: 'url(' + item.image + ')' }}>
                                                                     <div className="sx-info  p-t20 text-white">
-                                                                        <h4 className="sx-tilte m-t0"><NavLink to={"/project-detail1"}>{item.title}</NavLink></h4>
+                                                                        <h4 className="sx-tilte m-t0" style={{color:'orange '}}>{item.title}</h4>
                                                                         <p>{item.description}</p>
-                                                                        <NavLink to={"/project-detail1"} className="site-button btn-half button-sm"><span>View All</span></NavLink>
+                                                                        {/* <NavLink to={"/project-detail1"} className="site-button btn-half button-sm"><span>View All</span></NavLink> */}
                                                                     </div>
                                                                 </div>
                                                             </div>

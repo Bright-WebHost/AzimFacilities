@@ -13,8 +13,8 @@ import 'owl.carousel/dist/assets/owl.theme.default.css';
 const services = [
     {
         image: require('./../../images/azim/52.webp'),
-        title: 'Government Sector',
-        description: 'Azim Facilities Management Services provides specialized Facility Management solutions for the government sector, ensuring efficient operations, cost-effectiveness, and sustainable facility performance.'
+        title: 'Governmental Sector',
+        description: 'Government agencies require high standards of reliability, professionalism, and logistical precision. AZIM Group supports governmental facilities and initiatives through:'
     },
     // {
     //     image: require('./../../images/gallery/pic2.jpg'),
@@ -29,39 +29,39 @@ const services = [
 ]
 const achievements1 = [
     {
-        title: 'Facility Maintenance',
-        description: 'Routine upkeep and rapid repairs for reliable functionality.',
+        title: 'Public Facility Management',
+        description: 'Integrated cleaning, maintenance, and operational support for government buildings.',
         date: '01',
         month: 'Oct',
         year: '01',
     },
     {
-        title: 'Security & Surveillance',
-        description: 'Advanced monitoring, access control, and trained personnel.',
+        title: 'Technical Services',
+        description: 'Electrical, mechanical, and system maintenance support.',
         date: '20',
         month: 'Mar',
         year: '03',
     },
-    {
-        title: 'Environmental Compliance',
-        description: 'Guidance on sustainability and regulatory adherence.',
-        date: '28',
-        month: 'Aug',
-        year: '05',
-    },
+    // {
+    //     title: 'Environmental Compliance',
+    //     description: 'Guidance on sustainability and regulatory adherence.',
+    //     date: '28',
+    //     month: 'Aug',
+    //     year: '05',
+    // },
 ]
 
 const achievements2 = [
     {
-        title: 'Janitorial Services',
-        description: 'Comprehensive cleaning, sanitization, and waste management.',
+        title: 'Official Event Management',
+        description: 'Professional execution of government programs and ceremonies.',
         date: '27',
         month: 'Nov',
         year: '02',
     },
     {
-        title: 'Project Management',
-        description: 'End-to-end handling of development, renovation, and expansion.',
+        title: 'VIP & Staff Transport',
+        description: 'Secure and reliable mobility solutions for official use.',
         date: '07',
         month: 'Mar',
         year: '04',
@@ -102,7 +102,7 @@ class Government extends React.Component {
             <>
                 <Header2 />
                 <div className="page-content">
-                    <Banner title="Government Sector" pagename="Government" description="Azim FMS delivers efficient, cost-effective, and sustainable Facility Management solutions for the government sector." bgimage={bnrimg} />
+                    <Banner title="Governmental Sector" pagename="Governmental"  bgimage={bnrimg} />
                     {/* ABOUT TEAM MEMBER SECTION START */}
                     <div className="section-full p-tb80 bg-gray inner-page-padding">
                                         <div className="container">
@@ -122,9 +122,9 @@ class Government extends React.Component {
                                                             <div key={index} className="item">
                                                                 <div className="sx-box   image-single-carousel bg-cover" style={{ backgroundImage: 'url(' + item.image + ')' }}>
                                                                     <div className="sx-info  p-t20 text-white">
-                                                                        <h4 className="sx-tilte m-t0"><NavLink to={"/project-detail1"}>{item.title}</NavLink></h4>
+                                                                        <h4 className="sx-tilte m-t0" style={{color:'orange '}}>{item.title}</h4>
                                                                         <p>{item.description}</p>
-                                                                        <NavLink to={"/project-detail1"} className="site-button btn-half button-sm"><span>View All</span></NavLink>
+                                                                        {/* <NavLink to={"/project-detail1"} className="site-button btn-half button-sm"><span>View All</span></NavLink> */}
                                                                     </div>
                                                                 </div>
                                                             </div>

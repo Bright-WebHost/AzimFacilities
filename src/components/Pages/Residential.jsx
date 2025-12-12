@@ -13,8 +13,8 @@ import 'owl.carousel/dist/assets/owl.theme.default.css';
 const services = [
     {
         image: require('./../../images/azim/51.webp'),
-        title: 'Residential Sector',
-        description: 'Azim FMS delivers specialized Facility Management solutions for Residential Communities, ensuring smooth operations, enhanced living experiences, and well-maintained environments that foster vibrant, connected lifestyles.'
+        title: 'Hotel & Hospitality Sector',
+        description: 'In the competitive hospitality industry, guest experience defines success. AZIM Group enhances hotel operations with tailored support:'
     },
     // {
     //     image: require('./../../images/gallery/pic2.jpg'),
@@ -29,57 +29,57 @@ const services = [
 ]
 const achievements1 = [
     {
-        title: 'Property Maintenance',
-        description: 'Comprehensive upkeep to create pleasant, inviting spaces.',
+        title: 'Hospitality Staffing',
+        description: 'Skilled staff for housekeeping, service, and guest operations.',
         date: '01',
         month: 'Oct',
         year: '01',
     },
     {
-        title: 'Security & Safety',
-        description: 'Advanced surveillance and access control for resident protection.',
+        title: 'Hotel Facilities Care',
+        description: 'Complete cleaning and maintenance for front- and back-of-house areas.',
         date: '20',
         month: 'Mar',
         year: '03',
     },
-    {
-        title: 'Landscaping',
-        description: 'Beautiful, balanced green spaces that enrich community living.',
-        date: '28',
-        month: 'Aug',
-        year: '05',
-    },
-    {
-        title: 'Emergency Preparedness',
-        description: 'Robust protocols ensuring safety in critical situations.',
-        date: '20',
-        month: 'Oct',
-        year: '07',
-    }
+    // {
+    //     title: 'Landscaping',
+    //     description: 'Beautiful, balanced green spaces that enrich community living.',
+    //     date: '28',
+    //     month: 'Aug',
+    //     year: '05',
+    // },
+    // {
+    //     title: 'Emergency Preparedness',
+    //     description: 'Robust protocols ensuring safety in critical situations.',
+    //     date: '20',
+    //     month: 'Oct',
+    //     year: '07',
+    // }
 ]
 
 const achievements2 = [
     {
-        title: 'Amenity Management',
-        description: 'Expert care for fitness centers, pools, and shared areas.',
+        title: 'Food & Beverage Supplies',
+        description: 'High-quality ingredients and provisions for hotel kitchens and dining.',
         date: '27',
         month: 'Nov',
         year: '02',
     },
     {
-        title: 'Energy Efficiency',
-        description: 'Sustainable practices to reduce costs and environmental impact.',
+        title: 'Hotel Events & Transport',
+        description: 'Event management and VIP transfer services for hotel guests.',
         date: '07',
         month: 'Mar',
         year: '04',
     },
-    {
-        title: 'Visitor Management',
-        description: 'Secure, convenient, and welcoming services for guests.',
-        date: '19',
-        month: 'July',
-        year: '06',
-    },
+    // {
+    //     title: 'Visitor Management',
+    //     description: 'Secure, convenient, and welcoming services for guests.',
+    //     date: '19',
+    //     month: 'July',
+    //     year: '06',
+    // },
     // {
     //     title: 'Center of Gloucester',
     //     description: 'Scrambled it to make a type specimen book. remaining essentially. ',
@@ -122,7 +122,7 @@ class Residential extends React.Component {
             <>
                 <Header2 />
                 <div className="page-content">
-                    <Banner title="Residential Sector" pagename="Residential" description="Azim FMS ensures efficient Facility Management for Residential Communities, promoting smooth operations and quality living." bgimage={bnrimg} />
+                    <Banner title="Hotel & Hospitality Sector" pagename="Hotel & Hospitality"  bgimage={bnrimg} />
                     {/* ABOUT TEAM MEMBER SECTION START */}
                     <div className="section-full p-tb80 bg-gray inner-page-padding">
                                         <div className="container">
@@ -142,7 +142,7 @@ class Residential extends React.Component {
                                                             <div key={index} className="item">
                                                                 <div className="sx-box   image-single-carousel bg-cover" style={{ backgroundImage: 'url(' + item.image + ')' }}>
                                                                     <div className="sx-info  p-t20 text-white">
-                                                                        <h4 className="sx-tilte m-t0"><NavLink to={"/project-detail1"}>{item.title}</NavLink></h4>
+                                                                        <h4 className="sx-tilte m-t0" style={{color:'orange '}}>{item.title}</h4>
                                                                         <p>{item.description}</p>
                                                                         {/* <NavLink to={"/project-detail1"} className="site-button btn-half button-sm"><span>View All</span></NavLink> */}
                                                                     </div>
