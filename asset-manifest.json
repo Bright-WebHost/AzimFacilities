@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.5ac8c4a9.css",
-    "main.js": "/static/js/main.b52902e0.js",
+    "main.js": "/static/js/main.47eb6931.js",
     "static/js/787.ad2546c4.chunk.js": "/static/js/787.ad2546c4.chunk.js",
     "static/media/video3.mp4": "/static/media/video3.e8d92527df17170ae42e.mp4",
     "static/media/16.png": "/static/media/16.2b31848c06d0fecb0af9.png",
@@ -14,6 +14,7 @@
     "static/media/37.webp": "/static/media/37.38183bb13b2dd53bb5fe.webp",
     "static/media/53.webp": "/static/media/53.071b7eebea914d93d941.webp",
     "static/media/51.webp": "/static/media/51.69aea7320b89dc0fc2d1.webp",
+    "static/media/br1.webp": "/static/media/br1.fa886e4ed380161a6fa3.webp",
     "static/media/66.webp": "/static/media/66.df27e70499045ec34f99.webp",
     "static/media/13.webp": "/static/media/13.4497b6f61adaf451b01a.webp",
     "static/media/video1.jpg": "/static/media/video1.b965e4c495e580a945b1.jpg",
@@ -32,6 +33,7 @@
     "static/media/32.webp": "/static/media/32.dc7a24687b7b7c70770d.webp",
     "static/media/55.webp": "/static/media/55.c19f6f6f40643c27825d.webp",
     "static/media/45.webp": "/static/media/45.b21cf4dd54f1736fa6e6.webp",
+    "static/media/br2.webp": "/static/media/br2.14d9cb56e5a4cae50676.webp",
     "static/media/63.webp": "/static/media/63.48def493eeea92ad07e8.webp",
     "static/media/bg-8.jpg": "/static/media/bg-8.0c67604595d5bd177cbe.jpg",
     "static/media/101.webp": "/static/media/101.7e35da93e5e68cae4c65.webp",
@@ -130,11 +132,11 @@
     "static/media/47.webp": "/static/media/47.6760386705652a491f8f.webp",
     "static/media/49.webp": "/static/media/49.51770a71061697552bd8.webp",
     "main.5ac8c4a9.css.map": "/static/css/main.5ac8c4a9.css.map",
-    "main.b52902e0.js.map": "/static/js/main.b52902e0.js.map",
+    "main.47eb6931.js.map": "/static/js/main.47eb6931.js.map",
     "787.ad2546c4.chunk.js.map": "/static/js/787.ad2546c4.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.5ac8c4a9.css",
-    "static/js/main.b52902e0.js"
+    "static/js/main.47eb6931.js"
   ]
 }

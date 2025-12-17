@@ -15686,3 +15686,14 @@ form.woocommerce-ordering:after {
 }
 
 .woocommerce-result-count{font-weight: 600;}
+
+
+
+
+
+  /* @media only screen and(min-width: 1024x) {
+        #bannerImg {
+          display: none !important;
+        }
+      
+      } */
