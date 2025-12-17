@@ -40,6 +40,55 @@ class Slider4 extends React.Component {
                         {/* START REVOLUTION SLIDER 5.4.1 fullscreen mode */}
                         <div id="rev_slider_26_1" className="rev_slider fullscreenbanner" style={{ display: 'none' }} data-version="5.4.1">
                             <ul>
+
+                                <li
+  data-index="rs-3"
+  data-transition="fade"
+  data-slotamount="default"
+  data-masterspeed={300}
+  style={{background: 'linear-gradient(0deg,rgba(255, 255, 255, 1) 28%, rgba(0, 0, 0, 1) 93%)'}}
+>
+  <picture >
+    {/* Mobile image → fill screen */}
+    <source
+      media="(max-width: 768px)"
+      srcSet={require("./../../images/azim/br2.webp")}
+    />
+
+    {/* Desktop image → full visible */}
+    <img
+      src={require("./../../images/azim/br1.webp")}
+      alt=""
+      className="rev-slidebg banner-img"
+      data-bgposition="center center"
+      data-bgrepeat="no-repeat"
+      data-no-retina
+      
+    />
+  </picture>
+
+  <style>{`
+    /* Desktop: NO CROP */
+    .banner-img {
+      width: 100%;
+      height: 100%;
+      object-fit: contain !important;
+      background-size: contain !important;
+    }
+
+    /* Mobile: FILL SCREEN */
+    @media (max-width: 768px) {
+      .banner-img {
+        object-fit: cover !important;
+        background-size: cover !important;
+      }
+    }
+  `}</style>
+</li>
+
+
+
+
                                 {/* SLIDE 1 */}
                                 <li data-index="rs-73" data-transition="fade" data-slotamount="default" data-hideafterloop={0} data-hideslideonmobile="off" data-easein="default" data-easeout="default" data-masterspeed={300} data-thumb={require('./../../images/main-slider/slider1/slide1.jpg')} data-rotate={0} data-saveperformance="off" data-title data-param1={1} data-param2 data-param3 data-param4 data-param5 data-param6 data-param7 data-param8 data-param9 data-param10 data-description>
                                     {/* MAIN IMAGE */}
