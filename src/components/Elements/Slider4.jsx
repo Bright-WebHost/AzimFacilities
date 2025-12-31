@@ -52,12 +52,12 @@ class Slider4 extends React.Component {
     {/* Mobile image → fill screen */}
     <source
       media="(max-width: 768px)"
-      srcSet={require("./../../images/azim/bnr2.webp")}
+      srcSet={require("./../../images/azim/new-year.jpg")}
     />
 
     {/* Desktop image → full visible */}
     <img
-      src={require("./../../images/azim/bnr1.webp")}
+      src={require("./../../images/azim/banner-pc.webp")}
       alt=""
       className="rev-slidebg banner-img"
       data-bgposition="center center"
