@@ -208,14 +208,64 @@ class ContactUs extends React.Component {
                                     </div>
                                     
                                     <div className="col-lg-4 col-md-12 col-sm-12">
-                                        {/* Your existing contact info section remains unchanged */}
+                                        <div className="contact-info block-shadow bg-white bg-center p-a40" style={{ backgroundImage: 'url(images/background/bg-map.png)' }}>
+                                            <div>
+                                                {/* TITLE START */}
+                                                <div className="section-head">
+                                                    <div className="sx-separator-outer separator-left">
+                                                        <div className="sx-separator bg-white bg-moving bg-repeat-x" style={{ backgroundImage: 'url(images/background/cross-line2.png)' }}>
+                                                            <h3 className="sep-line-one">Info</h3>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                {/* TITLE END */}
+                                                <div className="sx-icon-box-wraper left p-b30">
+                                                    <div className="icon-xs"><i className="fa fa-phone" /></div>
+                                                    <div className="icon-content">
+                                                        <h5 className="m-t0">Phone number</h5>
+                                                        <p> <a href="tel:+97444802851">
+                                                    + 974 4480 2851
+                                                </a></p>
+                                                        <p> <a href="tel:+97477047248">
+                                                    + 974 7704 7248
+                                                </a></p>
+                                                    </div>
+                                                </div>
+                                                <div className="sx-icon-box-wraper left p-b30">
+                                                    <div className="icon-xs"><i className="fa fa-envelope" /></div>
+                                                    <div className="icon-content">
+                                                        <h5 className="m-t0">Email address</h5>
+                                                        <p><a href="mailto:afms@azimgroup.qa">
+    afms@azimgroup.qa
+</a>
+</p>
+                                                    </div>
+                                                </div>
+                                                <div className="sx-icon-box-wraper left">
+                                                    <div className="icon-xs"><i className="fa fa-map-marker" /></div>
+                                                    <div className="icon-content">
+                                                        <h5 className="m-t0">Address info</h5>
+                                                        <p><a 
+                                                    href="https://maps.google.com/?q=Azim Facilities Management & Services" 
+                                                    target="_blank" 
+                                                    rel="noopener noreferrer"
+                                                >
+                                                    NBK Building, #805, 8th Floor, Doha-Qatar
+                                                </a></p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
                         </div>
                     </div>
                     
-                    {/* Your existing map sections remain unchanged */}
+                    <div>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3955.3517147155994!2d51.5274698!3d25.279608399999997!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3e45c5bf1c5b1b51%3A0x643fc6f5ecc3e715!2sAzim%20Facilities%20Management%20%26%20Services!5e1!3m2!1sen!2sin!4v1762862807058!5m2!1sen!2sin" width="100%" height="450"  style={{border:'0'}} allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+                </div>
                 </div>
                 <Footer />
             </>
