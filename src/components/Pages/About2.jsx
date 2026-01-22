@@ -102,6 +102,9 @@ const Home4 = (props) => {
           description="Empowering Growth, Uniting Excellence to Shape Tomorrow's Success"
           bgimage={bnrimg}
         />
+        <h1 className="sr-only">
+     About Azim Facilities Management
+      </h1>
 
         <div className={sectionWrapperClass}>
           <div className="container">

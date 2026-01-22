@@ -50,11 +50,10 @@ const services = [
         description: 'A culinary experience that embodies true authenticity.',
         link: '/restaurent'
     }
-]
+];
 
 class Services7 extends React.Component {
     render() {
-
         return (
             <>
                 <div className="section-full mobile-page-padding p-t80 p-b50 bg-white">
@@ -62,34 +61,47 @@ class Services7 extends React.Component {
                         <div className="row">
                             {services.map((item, index) => (
                                 <div className="col-lg-4 col-md-12 m-b30" key={index}>
-                                    <div className="bgcall-block d-flex flex-wrap justify-content-center align-content-end bg-cover overlay-wraper" style={{ backgroundImage: 'url(' + item.image + ')' }}>
-                                        <div className="overlay-main bg-black opacity-05" />
-                                        <div className="bg-content-mid-outer">
-                                            <div className="bg-content-mid">
-                                                <div className="sx-icon-box-wraper center   text-white">
-                                                    <div className="icon-lg m-b15">
-                                                        <span className="icon-cell">
-                                                            <img 
-                                                                src={item.logo} 
-                                                                alt={item.title} 
-                                                                style={{ 
-                                                                    width: '90px', 
-                                                                    height: '90px',
-                                                                    objectFit: 'contain'
-                                                                }} 
-                                                            />
-                                                        </span>
+                                    
+                                    {/* FULL CARD CLICKABLE */}
+                                    <NavLink to={item.link} className="service-card-link">
+                                        <div
+                                            className="bgcall-block d-flex flex-wrap justify-content-center align-content-end bg-cover overlay-wraper"
+                                            style={{ backgroundImage: 'url(' + item.image + ')' }}
+                                        >
+                                            <div className="overlay-main bg-black opacity-05" />
+
+                                            <div className="bg-content-mid-outer">
+                                                <div className="bg-content-mid">
+                                                    <div className="sx-icon-box-wraper center text-white">
+                                                        <div className="icon-lg m-b15">
+                                                            <span className="icon-cell">
+                                                                <img
+                                                                    src={item.logo}
+                                                                    alt={item.title}
+                                                                    style={{
+                                                                        width: '90px',
+                                                                        height: '90px',
+                                                                        objectFit: 'contain'
+                                                                    }}
+                                                                />
+                                                            </span>
+                                                        </div>
+
+                                                        <div className="icon-content m-b30">
+                                                            <h4 className="sx-tilte sx-text-white">
+                                                                {item.title}
+                                                            </h4>
+                                                            <p>{item.description}</p>
+                                                        </div>
                                                     </div>
-                                                    <div className="icon-content m-b30">
-                                                        <h4 className="sx-tilte"> <NavLink to={item.link}   className="sx-text-white">{item.title}</NavLink></h4>
-                                                        <p>{item.description}</p>
-                                                    </div>
+
+                                                    <span className="bgcall-block-number">{item.count}</span>
+                                                    <div className="bg-overlay" />
                                                 </div>
-                                                <span className="bgcall-block-number">{item.count}</span>
-                                                <div className="bg-overlay" />
                                             </div>
                                         </div>
-                                    </div>
+                                    </NavLink>
+
                                 </div>
                             ))}
                         </div>
@@ -98,6 +110,6 @@ class Services7 extends React.Component {
             </>
         );
     }
-};
+}
 
 export default Services7;

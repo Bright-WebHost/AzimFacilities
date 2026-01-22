@@ -100,7 +100,9 @@ class ContactUs extends React.Component {
                 <Header2 />
                 <div className="page-content">
                     <Banner title="Contact Us" pagename="Contact us" description=" We're always here to assist you and provide answers to your questions." bgimage={bnrimg}/>
-                    
+                     <h1 className="sr-only">
+        Contact Azim Facilities Management
+    </h1>
                     <div className="section-full p-tb80 inner-page-padding">
                         <div className="container">
                             <div className="section-content">

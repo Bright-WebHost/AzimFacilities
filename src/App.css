@@ -36,3 +36,13 @@
     transform: rotate(360deg);
   }
 }
+
+ .service-card-link {
+  display: block;
+  text-decoration: none;
+  color: inherit;
+}
+
+.service-card-link:hover {
+  text-decoration: none;
+}

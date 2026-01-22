@@ -345,6 +345,7 @@ var bnrimg = require('./../../images/azim/23.webp');
     <Header2 />
     <div className="page-content">
     <Banner title="Build Your Career With Excellence" pagename="Career" description="Discover opportunities across hospitality, operations, and management. Join a team that values growth, innovation, and exceptional service." bgimage={bnrimg}/>
+     <h1 className="sr-only">Careers at Azim Facilities Management</h1>
       <style>{styles}</style>
       <div className="careers-container">
        

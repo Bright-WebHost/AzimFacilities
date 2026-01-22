@@ -14,6 +14,7 @@ import Services2 from '../Elements/Services2';
 import About3 from './../Elements/About3';
 import Header2 from '../Common/Header2';
 import Slider4 from '../Elements/Slider4';
+import { NavLink } from 'react-router-dom';
 
 
 var bgimg1 = require('./../../images/background/cross-line2.png');
@@ -26,6 +27,7 @@ class Home7 extends React.Component {
                 <Header2 />
                 <div className="page-content">
                     {/* SLIDER START */}
+                      <h1 className="sr-only">Facility Management & Hospitality Services in Qatar</h1>
                    
                    <Slider4/>
                
@@ -114,9 +116,17 @@ class Home7 extends React.Component {
                                 <div className="blog-post blog-detail text-black">
                                     <div className="sx-post-text">                                        <p>
                                         </p><blockquote className="bdr-1 bdr-solid bdr-gray author-quote">
-                                            <h4 className="m-b0">Azim Facilities Management & Hospitality Services is an ISO 9001:2015 certified company, fully compliant with Sedex SMETA 4-Pillar guidelines. As a leading provider in facilities management and hospitality services across Qatar, we pride ourselves on delivering outstanding quality and operational excellence.<i className="fa fa-quote-left" /> </h4>
-                                            
-                                        </blockquote>
+  <h4 className="m-b0">
+    Azim Facilities Management & Hospitality Services is an ISO 9001:2015 certified company,
+    fully compliant with Sedex SMETA 4-Pillar guidelines.
+    As a leading provider of{' '}
+    <NavLink to="/facilities-management">
+      facilities management & hospitality services in Qatar
+    </NavLink>,
+    we pride ourselves on delivering outstanding quality and operational excellence.
+    <i className="fa fa-quote-left" />
+  </h4>
+</blockquote>
                                         <div className="row">
                                             <div className="col-md-6">
                                                 <div className="sx-box m-b30">
