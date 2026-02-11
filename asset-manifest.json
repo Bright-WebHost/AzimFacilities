@@ -1,10 +1,12 @@
 {
   "files": {
     "main.css": "/static/css/main.5ac8c4a9.css",
-    "main.js": "/static/js/main.35604522.js",
+    "main.js": "/static/js/main.46d9b74d.js",
     "static/js/787.ad2546c4.chunk.js": "/static/js/787.ad2546c4.chunk.js",
     "static/media/video3.mp4": "/static/media/video3.e8d92527df17170ae42e.mp4",
     "static/media/azimsportsP.jpeg": "/static/media/azimsportsP.9cadb094856a49237415.jpeg",
+    "static/media/ct-2.webp": "/static/media/ct-2.2d85143feb10451a7cd1.webp",
+    "static/media/ct-1.webp": "/static/media/ct-1.7470442c6e37b4987c54.webp",
     "static/media/16.png": "/static/media/16.2b31848c06d0fecb0af9.png",
     "static/media/Cert-3.webp": "/static/media/Cert-3.08b66d99637742876ab9.webp",
     "static/media/Cert-4.webp": "/static/media/Cert-4.5719974bdb72183fbf41.webp",
@@ -134,11 +136,11 @@
     "static/media/47.webp": "/static/media/47.6760386705652a491f8f.webp",
     "static/media/49.webp": "/static/media/49.51770a71061697552bd8.webp",
     "main.5ac8c4a9.css.map": "/static/css/main.5ac8c4a9.css.map",
-    "main.35604522.js.map": "/static/js/main.35604522.js.map",
+    "main.46d9b74d.js.map": "/static/js/main.46d9b74d.js.map",
     "787.ad2546c4.chunk.js.map": "/static/js/787.ad2546c4.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.5ac8c4a9.css",
-    "static/js/main.35604522.js"
+    "static/js/main.46d9b74d.js"
   ]
 }
