@@ -131,14 +131,14 @@ class Home7 extends React.Component {
                                             <div className="col-md-3">
                                                 <div className="sx-box m-b30">
                                                     <div className="sx-media">
-                                                        <img src={require('./../../images/azim/11.webp')} alt=""/>
+                                                        <img src={require('./../../images/azim/ct-1.webp')} alt=""/>
                                                     </div>
                                                 </div>
                                             </div>
                                             <div className="col-md-3">
                                                 <div className="sx-box m-b30">
                                                     <div className="sx-media">
-                                                        <img src={require('./../../images/azim/101.webp')} alt="" />
+                                                        <img src={require('./../../images/azim/ct-2.webp')} alt="" />
                                                     </div>
                                                 </div>
                                             </div>
