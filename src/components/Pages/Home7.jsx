@@ -128,17 +128,31 @@ class Home7 extends React.Component {
   </h4>
 </blockquote>
                                         <div className="row">
-                                            <div className="col-md-6">
+                                            <div className="col-md-3">
                                                 <div className="sx-box m-b30">
                                                     <div className="sx-media">
                                                         <img src={require('./../../images/azim/11.webp')} alt=""/>
                                                     </div>
                                                 </div>
                                             </div>
-                                            <div className="col-md-6">
+                                            <div className="col-md-3">
                                                 <div className="sx-box m-b30">
                                                     <div className="sx-media">
                                                         <img src={require('./../../images/azim/101.webp')} alt="" />
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div className="col-md-3">
+                                                <div className="sx-box m-b30">
+                                                    <div className="sx-media">
+                                                        <img src={require('./../../images/azim/Cert-3.webp')} alt="" />
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div className="col-md-3">
+                                                <div className="sx-box m-b30">
+                                                    <div className="sx-media">
+                                                        <img src={require('./../../images/azim/Cert-4.webp')} alt="" />
                                                     </div>
                                                 </div>
                                             </div>
