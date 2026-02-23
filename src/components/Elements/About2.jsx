@@ -23,7 +23,7 @@ class About2 extends React.Component {
                                             <h4 style={{color:'#E18A2E'}}>Azim Facilities Management and Services</h4>
                                             </div><br/>
                                             <h3 className="m-t0 sx-tilte">Bringing exceptional quality to every horizon we touch</h3>
-                                            <p>We are an ISO 9001:2015 certified company with full compliance to Sedex Smeta 4-pillar guidelines, stands as a leading player in the realm of facilities management & Hospitality in Qatar. With a heightened demand for quality services in the thriving hospitality and hotel industries, Azim Facilities Management & Hospitality Services emerges as a pivotal solution provider.<br/><br/> Our unwavering commitment to excellence, coupled with a highly skilled and adept workforce, positions us as a premier choice for comprehensive facility management & Hospitality services</p>
+                                            <p>We are an ISO 9001:2015, ISO 14001:2015, and ISO 45001:2018 certified company with full compliance to Sedex SMETA 4-Pillar guidelines, standing as a leading player in the realm of facilities management & hospitality in Qatar. With a heightened demand for quality services in the thriving hospitality and hotel industries, Azim Facilities Management & Hospitality Services emerges as a pivotal solution provider.<br/><br/> Our unwavering commitment to excellence, coupled with a highly skilled and adept workforce, positions us as a premier choice for comprehensive facility management & Hospitality services</p>
                                             
                                         </div>
                                     </div>

@@ -117,8 +117,7 @@ class Home7 extends React.Component {
                                     <div className="sx-post-text">                                        <p>
                                         </p><blockquote className="bdr-1 bdr-solid bdr-gray author-quote">
   <h4 className="m-b0">
-    Azim Facilities Management & Hospitality Services is an ISO 9001:2015 certified company,
-    fully compliant with Sedex SMETA 4-Pillar guidelines.
+    Azim Facilities Management & Hospitality Services is an ISO 9001:2015 (Quality Management System) certified company, fully compliant with Sedex SMETA 4-Pillar guidelines. We are further certified under ISO 14001:2015 (Environmental Management System) and ISO 45001:2018 (Occupational Health & Safety Management System).
     As a leading provider of{' '}
     <NavLink to="/facilities-management">
       facilities management & hospitality services in Qatar

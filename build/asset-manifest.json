@@ -1,10 +1,11 @@
 {
   "files": {
     "main.css": "/static/css/main.5ac8c4a9.css",
-    "main.js": "/static/js/main.46d9b74d.js",
+    "main.js": "/static/js/main.702b76fb.js",
     "static/js/787.ad2546c4.chunk.js": "/static/js/787.ad2546c4.chunk.js",
     "static/media/video3.mp4": "/static/media/video3.e8d92527df17170ae42e.mp4",
-    "static/media/azimsportsP.jpeg": "/static/media/azimsportsP.9cadb094856a49237415.jpeg",
+    "static/media/AzimRamadan.jpeg": "/static/media/AzimRamadan.a7bb46e3c0ddd711f7e7.jpeg",
+    "static/media/azim-ramadan-m.png": "/static/media/azim-ramadan-m.81a54041976027aea4c6.png",
     "static/media/ct-2.webp": "/static/media/ct-2.2d85143feb10451a7cd1.webp",
     "static/media/ct-1.webp": "/static/media/ct-1.7470442c6e37b4987c54.webp",
     "static/media/16.png": "/static/media/16.2b31848c06d0fecb0af9.png",
@@ -15,7 +16,6 @@
     "static/media/23.webp": "/static/media/23.0f3b280cf1e4f6497009.webp",
     "static/media/3.webp": "/static/media/3.34ed86b7d5447a987420.webp",
     "static/media/1.webp": "/static/media/1.56c0812d31f40c55b6ac.webp",
-    "static/media/azimsportsM.jpeg": "/static/media/azimsportsM.22b1b1b52eff4558ba85.jpeg",
     "static/media/2.webp": "/static/media/2.e87d47f5b38d343eefa6.webp",
     "static/media/37.webp": "/static/media/37.38183bb13b2dd53bb5fe.webp",
     "static/media/53.webp": "/static/media/53.071b7eebea914d93d941.webp",
@@ -136,11 +136,11 @@
     "static/media/47.webp": "/static/media/47.6760386705652a491f8f.webp",
     "static/media/49.webp": "/static/media/49.51770a71061697552bd8.webp",
     "main.5ac8c4a9.css.map": "/static/css/main.5ac8c4a9.css.map",
-    "main.46d9b74d.js.map": "/static/js/main.46d9b74d.js.map",
+    "main.702b76fb.js.map": "/static/js/main.702b76fb.js.map",
     "787.ad2546c4.chunk.js.map": "/static/js/787.ad2546c4.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.5ac8c4a9.css",
-    "static/js/main.46d9b74d.js"
+    "static/js/main.702b76fb.js"
   ]
 }
