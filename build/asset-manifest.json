@@ -1,8 +1,22 @@
 {
   "files": {
-    "main.css": "/static/css/main.5ac8c4a9.css",
-    "main.js": "/static/js/main.702b76fb.js",
-    "static/js/787.ad2546c4.chunk.js": "/static/js/787.ad2546c4.chunk.js",
+    "main.css": "/static/css/main.633963cb.css",
+    "main.js": "/static/js/main.a469c994.js",
+    "reactPlayerYouTube.js": "/static/js/reactPlayerYouTube.99d01f72.chunk.js",
+    "reactPlayerSoundCloud.js": "/static/js/reactPlayerSoundCloud.3e055499.chunk.js",
+    "reactPlayerVimeo.js": "/static/js/reactPlayerVimeo.49a85ea8.chunk.js",
+    "reactPlayerMux.js": "/static/js/reactPlayerMux.b837f991.chunk.js",
+    "reactPlayerFacebook.js": "/static/js/reactPlayerFacebook.e536914c.chunk.js",
+    "reactPlayerStreamable.js": "/static/js/reactPlayerStreamable.2f2536fc.chunk.js",
+    "reactPlayerWistia.js": "/static/js/reactPlayerWistia.8e53ff41.chunk.js",
+    "reactPlayerTwitch.js": "/static/js/reactPlayerTwitch.c67b8a21.chunk.js",
+    "reactPlayerDailyMotion.js": "/static/js/reactPlayerDailyMotion.cde7575e.chunk.js",
+    "reactPlayerMixcloud.js": "/static/js/reactPlayerMixcloud.c9d8fc43.chunk.js",
+    "reactPlayerVidyard.js": "/static/js/reactPlayerVidyard.b4f70ebc.chunk.js",
+    "reactPlayerKaltura.js": "/static/js/reactPlayerKaltura.45e9869a.chunk.js",
+    "reactPlayerFilePlayer.js": "/static/js/reactPlayerFilePlayer.14f21c54.chunk.js",
+    "reactPlayerPreview.js": "/static/js/reactPlayerPreview.a86ccbfa.chunk.js",
+    "static/js/453.1d4b38a3.chunk.js": "/static/js/453.1d4b38a3.chunk.js",
     "static/media/video3.mp4": "/static/media/video3.e8d92527df17170ae42e.mp4",
     "static/media/AzimRamadan.jpeg": "/static/media/AzimRamadan.a7bb46e3c0ddd711f7e7.jpeg",
     "static/media/azim-ramadan-m.png": "/static/media/azim-ramadan-m.81a54041976027aea4c6.png",
@@ -135,12 +149,26 @@
     "static/media/147.webp": "/static/media/147.c8286b5e9023a70e9d71.webp",
     "static/media/47.webp": "/static/media/47.6760386705652a491f8f.webp",
     "static/media/49.webp": "/static/media/49.51770a71061697552bd8.webp",
-    "main.5ac8c4a9.css.map": "/static/css/main.5ac8c4a9.css.map",
-    "main.702b76fb.js.map": "/static/js/main.702b76fb.js.map",
-    "787.ad2546c4.chunk.js.map": "/static/js/787.ad2546c4.chunk.js.map"
+    "main.633963cb.css.map": "/static/css/main.633963cb.css.map",
+    "main.a469c994.js.map": "/static/js/main.a469c994.js.map",
+    "reactPlayerYouTube.99d01f72.chunk.js.map": "/static/js/reactPlayerYouTube.99d01f72.chunk.js.map",
+    "reactPlayerSoundCloud.3e055499.chunk.js.map": "/static/js/reactPlayerSoundCloud.3e055499.chunk.js.map",
+    "reactPlayerVimeo.49a85ea8.chunk.js.map": "/static/js/reactPlayerVimeo.49a85ea8.chunk.js.map",
+    "reactPlayerMux.b837f991.chunk.js.map": "/static/js/reactPlayerMux.b837f991.chunk.js.map",
+    "reactPlayerFacebook.e536914c.chunk.js.map": "/static/js/reactPlayerFacebook.e536914c.chunk.js.map",
+    "reactPlayerStreamable.2f2536fc.chunk.js.map": "/static/js/reactPlayerStreamable.2f2536fc.chunk.js.map",
+    "reactPlayerWistia.8e53ff41.chunk.js.map": "/static/js/reactPlayerWistia.8e53ff41.chunk.js.map",
+    "reactPlayerTwitch.c67b8a21.chunk.js.map": "/static/js/reactPlayerTwitch.c67b8a21.chunk.js.map",
+    "reactPlayerDailyMotion.cde7575e.chunk.js.map": "/static/js/reactPlayerDailyMotion.cde7575e.chunk.js.map",
+    "reactPlayerMixcloud.c9d8fc43.chunk.js.map": "/static/js/reactPlayerMixcloud.c9d8fc43.chunk.js.map",
+    "reactPlayerVidyard.b4f70ebc.chunk.js.map": "/static/js/reactPlayerVidyard.b4f70ebc.chunk.js.map",
+    "reactPlayerKaltura.45e9869a.chunk.js.map": "/static/js/reactPlayerKaltura.45e9869a.chunk.js.map",
+    "reactPlayerFilePlayer.14f21c54.chunk.js.map": "/static/js/reactPlayerFilePlayer.14f21c54.chunk.js.map",
+    "reactPlayerPreview.a86ccbfa.chunk.js.map": "/static/js/reactPlayerPreview.a86ccbfa.chunk.js.map",
+    "453.1d4b38a3.chunk.js.map": "/static/js/453.1d4b38a3.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.5ac8c4a9.css",
-    "static/js/main.702b76fb.js"
+    "static/css/main.633963cb.css",
+    "static/js/main.a469c994.js"
   ]
 }
