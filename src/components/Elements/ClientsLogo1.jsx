@@ -274,7 +274,7 @@ function BrandOne({ className }) {
                   <Link to="#">
                     <img
                       src={brand.image}
-                      alt={`Brand ${index + 1}`}
+                     alt={`Azim Group Qatar facilities management client ${index + 1}`}
                     />
                   </Link>
                 </div>
@@ -285,7 +285,7 @@ function BrandOne({ className }) {
                   <Link to="#">
                     <img
                       src={brand.image}
-                      alt={`Brand ${index + 1}`}
+                      alt={`Facilities management client Doha Qatar ${index + 1}`}
                     />
                   </Link>
                 </div>
@@ -306,7 +306,7 @@ function BrandOne({ className }) {
                   <Link to="#">
                     <img
                       src={brand.image}
-                      alt={`Brand ${index + 28}`}
+                    alt={`FM services client Qatar Doha ${index + 28}`}
                     />
                   </Link>
                 </div>

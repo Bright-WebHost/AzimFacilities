@@ -1,320 +1,208 @@
 import React from 'react';
 import { NavLink } from 'react-router-dom';
-import Header4 from './../Common/Header4';
 import Footer from './../Common/Footer';
 import Banner from './../Elements/Banner';
 import Header2 from '../Common/Header2';
+import { Helmet } from 'react-helmet-async';
 
 var bnrimg = require('./../../images/azim/23.webp');
-var bgimg1 = require('./../../images/background/cross-line2.png');
 
 class BlogSingle extends React.Component {
     componentDidMount() {
         function loadScript(src) {
-
             return new Promise(function (resolve, reject) {
                 var script = document.createElement('script');
                 script.src = src;
-                script.addEventListener('load', function () {
-                    resolve();
-                });
-                script.addEventListener('error', function (e) {
-                    reject(e);
-                });
+                script.addEventListener('load', resolve);
+                script.addEventListener('error', reject);
                 document.body.appendChild(script);
                 document.body.removeChild(script);
-            })
-        };
-
+            });
+        }
         loadScript('./assets/js/custom.js');
+    }
 
-    };
     render() {
         return (
             <>
+                <Helmet>
+                    <title>Cleaning & Hospitality Services in Qatar | Golden Vision | Azim Group</title>
+                    <meta name="description" content="Golden Vision by Azim Group offers professional cleaning and hospitality services in Qatar. Commercial cleaning, deep interior cleaning, housekeeping for hotels and residences across Doha, Qatar." />
+                    <link rel="canonical" href="https://www.azimgroup.qa/cleaning-and-hospitality" />
+                    <meta property="og:title" content="Professional Cleaning & Hospitality Services Qatar | Golden Vision Azim Group" />
+                    <meta property="og:description" content="Expert cleaning and hospitality services in Qatar — exterior building cleaning, deep interior cleaning, hotel housekeeping and hygiene services across Doha." />
+                    <meta property="og:url" content="https://www.azimgroup.qa/cleaning-and-hospitality" />
+                </Helmet>
+
                 <Header2 />
-                <div className="page-content ">
-                    <Banner title="Golden Vision Cleaning and Hospitality Services" pagename="Cleaning and Hospitality Services" description="Where cleanliness meets a warm welcome — your comfort is our commitment." bgimage={bnrimg}/>
-                    {/* SECTION CONTENT START */}
+                <div className="page-content">
+                    <h1 className="sr-only">Professional Cleaning and Hospitality Services in Qatar — Commercial Cleaning, Housekeeping & Hotel Services Doha</h1>
+
+                    <Banner
+                        title="Golden Vision Cleaning and Hospitality Services"
+                        pagename="Cleaning & Hospitality Services Qatar"
+                        description="Qatar's trusted professional cleaning and hospitality services company — where cleanliness meets a warm welcome."
+                        bgimage={bnrimg}
+                    />
+
+                    {/* INTRO SECTION */}
                     <div className="section-full p-t80 p-b50 inner-page-padding">
                         <div className="container">
                             <div className="blog-single-space max-w900 ml-auto mr-auto">
-                                {/* BLOG START */}
                                 <div className="blog-post blog-detail text-black">
+
+                                    {/* MAIN IMAGE */}
                                     <div className="sx-post-media">
                                         <div className="portfolio-item">
-                                            <img className="img-responsive" src={require('./../../images/azim/46.webp')} alt=""/>
+                                            <img
+                                                className="img-responsive"
+                                                src={require('./../../images/azim/46.webp')}
+                                                alt="Professional cleaning and hospitality services in Qatar by Golden Vision Azim Group"
+                                            />
                                         </div>
                                     </div>
-                                    <div className="sx-post-meta  m-t20">
-                                        <ul>
-                                            {/* <li className="post-date"><strong>20 </strong> <span>Septembar 2022</span> </li>
-                                            <li className="post-author"><NavLink to={"#"}>By <span>Admin</span></NavLink> </li>
-                                            <li className="post-category"><NavLink to={"#"}><span>Architecture</span></NavLink> </li> */}
-                                        </ul>
+
+                                    {/* PAGE TITLE */}
+                                    <div className="sx-post-title m-t20">
+                                        <h2 className="post-title">Golden Vision Cleaning and Hospitality Services Qatar</h2>
                                     </div>
-                                    <div className="sx-post-title ">
-                                        <h3 className="post-title">Golden Vision Cleaning and Hospitality Services</h3>
-                                    </div>
+
+                                    {/* INTRO TEXT */}
                                     <div className="sx-post-text">
-                                        <p>Introducing Golden Vision Hospitality and Cleaning Services, an esteemed extension of Azim Facilities Management and Services. Specializing in the meticulous cleaning of both building exteriors and interiors, Golden Vision takes pride in delivering unparalleled cleanliness and hygiene standards.</p>
-                                        <p>
+                                        <p style={{marginBottom: '15px'}}>
+                                            Golden Vision Hospitality and Cleaning Services is a premier <strong>cleaning and hospitality services company in Qatar</strong>, operating as an esteemed division of Azim Facilities Management and Services. We specialize in the meticulous cleaning of both building exteriors and interiors across Doha, delivering unparalleled cleanliness and hygiene standards that Qatar's top businesses trust.
                                         </p>
-                                        {/* <blockquote className="bdr-1 bdr-solid bdr-gray author-quote">
-                                            <h4 className="m-b0">We let our quality work and commitment to customer satisfaction be our slogan. quality you deserve and dependability you can count on.<i className="fa fa-quote-left" /> </h4>
-                                            <div className="p-t15">
-                                                <strong>Jessica Mcdade</strong>
-                                                <span>Interior Designer</span>
-                                            </div>
-                                        </blockquote> */}
-                                        {/* <div className="row">
-                                            <div className="col-md-6">
-                                                <div className="sx-box m-b30">
-                                                    <div className="sx-media">
-                                                        <img src={require('./../../images/blog/default/thum1.jpg')} alt=""/>
-                                                    </div>
+                                        <p style={{marginBottom: '15px'}}>
+                                            As one of Qatar's leading <strong>professional cleaning services Qatar</strong> providers, Golden Vision combines expert hospitality management with world-class cleaning solutions — serving commercial properties, luxury hotels, residential complexes, and government facilities throughout Doha and Qatar.
+                                        </p>
+                                        <p style={{marginBottom: '25px'}}>
+                                            Our <strong>housekeeping management Qatar</strong> services are trusted by 5-star hotels and premium residences across Doha, delivering the highest standards of cleanliness, hygiene, and guest comfort. As your <strong>Qatar hospitality and housekeeping service provider</strong>, we are committed to excellence in every service we deliver.
+                                        </p>
+
+                                        {/* KEY STATS */}
+                                        <div style={{display: 'grid', gridTemplateColumns: 'repeat(3, 1fr)', gap: '15px', marginBottom: '40px'}}>
+                                            {[
+                                                {num: '12+', label: 'Years Serving Qatar'},
+                                                {num: '100+', label: 'Satisfied Clients'},
+                                                {num: '700+', label: 'Cleaning Professionals'},
+                                            ].map((s, i) => (
+                                                <div key={i} style={{backgroundColor: '#E0892E', color: 'white', padding: '20px', borderRadius: '8px', textAlign: 'center'}}>
+                                                    <h3 style={{fontSize: '28px', margin: '0', color: 'white'}}>{s.num}</h3>
+                                                    <p style={{margin: '5px 0 0', color: 'white', fontSize: '13px'}}>{s.label}</p>
                                                 </div>
-                                            </div>
-                                            <div className="col-md-6">
-                                                <div className="sx-box m-b30">
-                                                    <div className="sx-media">
-                                                        <img src={require('./../../images/blog/default/thum2.jpg')} alt="" />
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div> */}
-                                        {/* <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. remaining essentially unchanged. It was popularised in the with the . Proin tincidunt tellus ac porta volutpat. Cras mattis congue lacus id bibendum. Mauris ut sodales libero. Maecenas feugiat sit amet enim in accumsan. Here, then, is what I wanted to tell you of my architecture. I created it with courage and idealism, but also with an awareness of the fact that what is important is life, friends, and attempting to make this unjust world a better place in which to live.</p> */}
-                                    </div>
-                                    {/* <div className="autor-post-tag-share p-a30 bg-gray">
-                                        <div className="row">
-                                            <div className="col-md-12">
-                                                <div className="widget_tag_cloud m-b15">
-                                                    <h5 className="tagcloud">Tags</h5>
-                                                    <div className="tagcloud">
-                                                        <NavLink to={"/blog-masonry"}>Kitchen</NavLink>
-                                                        <NavLink to={"/blog-masonry"}>Food</NavLink>
-                                                        <NavLink to={"/blog-masonry"}>Planining</NavLink>
-                                                        <NavLink to={"/blog-masonry"}>Between </NavLink>
-                                                        <NavLink to={"/blog-masonry"}>Chairs</NavLink>
-                                                        <NavLink to={"/blog-masonry"}>Lawn</NavLink>
-                                                        <NavLink to={"/blog-masonry"}>Table</NavLink>
-                                                        <NavLink to={"/blog-masonry"}>Mantinance</NavLink>
-                                                        <NavLink to={"/blog-masonry"}>Room</NavLink>
-                                                        <NavLink to={"/blog-masonry"}>Landscape </NavLink>
-                                                        <NavLink to={"/blog-masonry"}>Bedroom </NavLink>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <div className="col-md-12">
-                                                <div className="clearfix single-post-share">
-                                                    <h5>Share this Post:</h5>
-                                                    <div className="widget_social_inks">
-                                                        <ul className="social-icons social-md social-square social-dark m-b0">
-                                                            <li><a href="https://www.facebook.com" target="_blank" className="fa fa-facebook" /></li>
-                                                            <li><a href="https://www.twitter.com" target="_blank" className="fa fa-twitter" /></li>
-                                                            <li><a href="https://rss.com" target="_blank" className="fa fa-rss" /></li>
-                                                            <li><a href="https://www.youtube.com" target="_blank" className="fa fa-youtube" /></li>
-                                                            <li><a href="https://www.instagram.com" target="_blank" className="fa fa-instagram" /></li>
-                                                        </ul>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div> */}
-                                    {/* <div className="post-controls p-t30">
-                                        <div className="d-flex justify-content-between">
-                                            <div className="prev-post"><NavLink to={"#"}>Prev Article</NavLink></div>
-                                            <div className="next-post"><NavLink to={"#"}>Next Article</NavLink></div>
-                                        </div>
-                                    </div> */}
-                                </div>
-                                {/* OUR BLOG START */}
-                                {/* TITLE START */}
-                                {/* <div className="section-head">
-                                    <div className="sx-separator-outer separator-left">
-                                        <div className="sx-separator bg-white bg-moving bg-repeat-x" style={{ backgroundImage: 'url(' + bgimg1 + ')' }}>
-                                            <h3 className="sep-line-one">Blog</h3>
+                                            ))}
                                         </div>
                                     </div>
-                                </div> */}
-                                {/* TITLE END */}
-                                {/* IMAGE CAROUSEL START */}
-                                {/* <div className="section-content">
-                                    <div className="row">
-                                        <div className="col-md-4 col-sm-12">
-                                            <div className="blog-post blog-grid date-style-2">
-                                                <div className="sx-post-media sx-img-effect img-reflection">
-                                                    <NavLink to={"/blog-masonry"}><img src={require('./../../images/blog/blog-grid/pic1.jpg')} alt=""/></NavLink>
-                                                </div>
-                                                <div className="sx-post-info p-t30">
-                                                    <div className="sx-post-meta ">
-                                                        <ul>
-                                                            <li className="post-date"><strong>05</strong> <span>Sep</span> </li>
-                                                            <li className="post-author"><NavLink to={"/blog-masonry"}>By <span>John</span></NavLink> </li>
-                                                            <li className="post-comment"> <NavLink to={"/blog-masonry"}>5 Comments</NavLink> </li>
-                                                        </ul>
-                                                    </div>
-                                                    <div className="sx-post-title ">
-                                                        <h4 className="post-title"><NavLink to={"/blog-masonry"}>We’ll nail your next project, because...</NavLink></h4>
-                                                    </div>
-                                                    <div className="sx-post-readmore">
-                                                        <NavLink to={"/blog-masonry"} title="READ MORE" rel="bookmark" className="site-button-link">View More</NavLink>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div className="col-md-4 col-sm-12">
-                                            <div className="blog-post blog-grid date-style-2">
-                                                <div className="sx-post-media sx-img-effect img-reflection">
-                                                    <NavLink to={"/blog-masonry"}><img src={require('./../../images/blog/blog-grid/pic2.jpg')} alt=""/></NavLink>
-                                                </div>
-                                                <div className="sx-post-info p-t30">
-                                                    <div className="sx-post-meta ">
-                                                        <ul>
-                                                            <li className="post-date"><strong>25</strong> <span>Sep</span> </li>
-                                                            <li className="post-author"><NavLink to={"/blog-masonry"}>By <span>John</span></NavLink> </li>
-                                                            <li className="post-comment"> <NavLink to={"/blog-masonry"}>5 Comments</NavLink> </li>
-                                                        </ul>
-                                                    </div>
-                                                    <div className="sx-post-title ">
-                                                        <h4 className="post-title"><NavLink to={"/blog-masonry"}>Helping you and your house become...</NavLink></h4>
-                                                    </div>
-                                                    <div className="sx-post-readmore">
-                                                        <NavLink to={"/blog-masonry"} title="READ MORE" rel="bookmark" className="site-button-link">View More</NavLink>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div className="col-md-4 col-sm-12">
-                                            <div className="blog-post blog-grid date-style-2">
-                                                <div className="sx-post-media sx-img-effect img-reflection">
-                                                    <NavLink to={"/blog-masonry"}><img src={require('./../../images/blog/blog-grid/pic3.jpg')} alt=""/></NavLink>
-                                                </div>
-                                                <div className="sx-post-info p-t30">
-                                                    <div className="sx-post-meta ">
-                                                        <ul>
-                                                            <li className="post-date"><strong>05</strong> <span>Sep</span> </li>
-                                                            <li className="post-author"><NavLink to={"/blog-masonry"}>By <span>John</span></NavLink> </li>
-                                                            <li className="post-comment"> <NavLink to={"/blog-masonry"}>5 Comments</NavLink> </li>
-                                                        </ul>
-                                                    </div>
-                                                    <div className="sx-post-title ">
-                                                        <h4 className="post-title"><NavLink to={"/blog-masonry"}>Creating quality urban lifestyles, building...</NavLink></h4>
-                                                    </div>
-                                                    <div className="sx-post-readmore">
-                                                        <NavLink to={"/blog-masonry"} title="READ MORE" rel="bookmark" className="site-button-link">View More</NavLink>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div> */}
-                                {/* OUR BLOG END */}
-                                <div className="clear" id="comment-list">
-                                    <div className="comments-area" id="comments">
-                                        <h2 className="comments-title">We are specialized in</h2>
-                                        <div className="comments-outer p-tb30">
-                                            {/* COMMENT LIST START */}
-                                            <ol className="comment-list">
-                                                <li className="comment">
-                                                    {/* COMMENT BLOCK */}
-                                                    <div className="comment-body">
-                                                        <div className="comment-meta">
-                                                            {/* <NavLink to={"#"}>20 Sep 2022</NavLink> */}
-                                                        </div>
-                                                        <div className="comment-author vcard">
-                                                            <img className="avatar photo" src={require('./../../images/azim/47.webp')} alt=""/>
-                                                            <cite className="fn"> Exterior Building Cleaning </cite>
-                                                            <span className="says">says:</span>
-                                                        </div>
-                                                        <p>Professional cleaning of building exteriors to remove dirt, grime, and environmental pollutants. This service enhances the building’s appearance and helps maintain its structural integrity. </p>
-                                                        <div className="reply">
-                                                            {/* <NavLink to={"#"} className="comment-reply-link letter-spacing-2 text-uppercase">Reply</NavLink> */}
-                                                        </div>
-                                                    </div>
-                                                    {/* SUB COMMENT BLOCK */}
-                                                    <ol className="children">
-                                                        <li className="comment odd parent">
-                                                            <div className="comment-body">
-                                                                <div className="comment-meta">
-                                                                    {/* <NavLink to={"#"}>22 Sep 2022</NavLink> */}
-                                                                </div>
-                                                                <div className="comment-author vcard">
-                                                                    <img className="avatar photo" src={require('./../../images/azim/48.webp')} alt=""/>
-                                                                    <cite className="fn">Deep Interior Cleaning</cite>
-                                                                    <span className="says">says:</span>
-                                                                </div>
-                                                                <p>Comprehensive deep cleaning of interiors, including scrubbing, sanitizing, and decluttering. Ensures the removal of dirt, dust, and grime, leaving spaces spotless and hygienic. </p>
-                                                                <div className="reply">
-                                                                    {/* <NavLink to={"#"} className="comment-reply-link letter-spacing-2 text-uppercase">Reply</NavLink> */}
-                                                                </div>
+
+                                    {/* SERVICES SECTION */}
+                                    <div className="clear" id="comment-list">
+                                        <div className="comments-area" id="comments">
+                                            <h2 className="comments-title" style={{marginBottom: '10px'}}>
+                                                Our Professional Cleaning & Hospitality Services in Qatar
+                                            </h2>
+                                            <p style={{marginBottom: '25px'}}>
+                                                As a trusted <strong>commercial cleaning services Doha</strong> provider, Golden Vision specializes in:
+                                            </p>
+
+                                            <div className="comments-outer p-tb30">
+                                                <ol className="comment-list">
+                                                    <li className="comment">
+                                                        <div className="comment-body">
+                                                            <div className="comment-author vcard">
+                                                                <img className="avatar photo" src={require('./../../images/azim/47.webp')} alt="Exterior building cleaning services Qatar Doha" />
+                                                                <cite className="fn">Exterior Building Cleaning Services Qatar</cite>
+                                                                <span className="says">says:</span>
                                                             </div>
-                                                            <ol className="children">
-                                                                <li className="comment odd parent">
-                                                                    <div className="comment-body">
-                                                                        <div className="comment-meta">
-                                                                            {/* <NavLink to={"#"}>24 Oct 2019</NavLink> */}
-                                                                        </div>
-                                                                        <div className="comment-author vcard">
-                                                                            <img className="avatar photo" src={require('./../../images/azim/49.webp')} alt="" />
-                                                                            <cite className="fn">Hygiene & Cleaning Services for Hotels and Residences</cite>
-                                                                            <span className="says">says:</span>
-                                                                        </div>
-                                                                        <p>Specialized cleaning and hygiene solutions designed for hotels and residential properties. Delivering tailored services that ensure exceptional cleanliness, guest satisfaction, and resident comfort.</p>
-                                                                        <div className="reply">
-                                                                            {/* <NavLink to={"#"} className="comment-reply-link letter-spacing-2 text-uppercase">Reply</NavLink> */}
-                                                                        </div>
+                                                            <p>
+                                                                Professional <strong>commercial cleaning services Qatar</strong> for building exteriors — removing dirt, grime, and environmental pollutants from facades, glass, and surfaces. Our exterior cleaning services enhance your building's appearance and protect its structural integrity across Doha and Qatar. We use industry-approved equipment and eco-friendly cleaning solutions safe for Qatar's environment.
+                                                            </p>
+                                                        </div>
+
+                                                        <ol className="children">
+                                                            <li className="comment odd parent">
+                                                                <div className="comment-body">
+                                                                    <div className="comment-author vcard">
+                                                                        <img className="avatar photo" src={require('./../../images/azim/48.webp')} alt="Deep interior cleaning services Doha Qatar" />
+                                                                        <cite className="fn">Deep Interior Cleaning Services Doha</cite>
+                                                                        <span className="says">says:</span>
                                                                     </div>
-                                                                </li>
-                                                            </ol>
-                                                        </li>
-                                                    </ol>
-                                                </li>
-                                            </ol>
-                                            {/* COMMENT LIST END */}
-                                            {/* LEAVE A REPLY START */}
-                                            {/* <div className="comment-respond m-t30" id="respond">
-                                                <h2 className="comment-reply-title" id="reply-title">Leave a Comments
-                                                    <small>
-                                                    <NavLink to={"#"} style={{ display: 'none' }} id="cancel-comment-reply-link" rel="nofollow">Cancel reply</NavLink>
-                                                    </small>
-                                                </h2>
-                                                <form className="comment-form bdr-1 bdr-solid bdr-gray p-tb15" id="commentform" method="post">
-                                                    <p className="comment-form-author">
-                                                        <label htmlFor="author">Name <span className="required">*</span></label>
-                                                        <input defaultValue="" className="form-control" type="text" name="user-comment" placeholder="Author" id="author" />
-                                                    </p>
-                                                    <p className="comment-form-email">
-                                                        <label htmlFor="email">Email <span className="required">*</span></label>
-                                                        <input defaultValue="" className="form-control" type="text" name="email" placeholder="Email" id="email" />
-                                                    </p>
-                                                    <p className="comment-form-url">
-                                                        <label htmlFor="url">Website</label>
-                                                        <input defaultValue="" className="form-control" type="text" name="url" placeholder="Website" id="url" />
-                                                    </p>
-                                                    <p className="comment-form-comment">
-                                                        <label htmlFor="comment">Comment</label>
-                                                        <textarea className="form-control" rows={8} name="comment" placeholder="Comment" id="comment" defaultValue={""} />
-                                                    </p>
-                                                    <p className="form-submit">
-                                                        <button className="site-button btn-half" type="button"><span> Submit</span></button>
-                                                    </p>
-                                                </form>
-                                            </div> */}
-                                            {/* LEAVE A REPLY END */}
+                                                                    <p>
+                                                                        Comprehensive <strong>deep interior cleaning Qatar</strong> services including scrubbing, sanitizing, and thorough decluttering. Our deep cleaning teams ensure complete removal of dirt, dust, allergens, and grime — leaving every space spotless, hygienic, and healthy. Serving offices, commercial spaces, and residential properties across Doha with the highest standards of <strong>maintenance and cleaning services Qatar</strong> businesses expect.
+                                                                    </p>
+                                                                </div>
+
+                                                                <ol className="children">
+                                                                    <li className="comment odd parent">
+                                                                        <div className="comment-body">
+                                                                            <div className="comment-author vcard">
+                                                                                <img className="avatar photo" src={require('./../../images/azim/49.webp')} alt="Hotel housekeeping services Qatar professional housekeeping Doha" />
+                                                                                <cite className="fn">Professional Housekeeping Services for Star Hotels Qatar</cite>
+                                                                                <span className="says">says:</span>
+                                                                            </div>
+                                                                            <p>
+                                                                                Specialized <strong>housekeeping management Qatar</strong> solutions designed for luxury hotels, star-rated properties, and premium residences across Doha. As a leading <strong>Qatar hospitality and housekeeping service provider</strong>, Golden Vision delivers tailored housekeeping services ensuring exceptional cleanliness, outstanding guest satisfaction, and superior resident comfort. Our <strong>professional housekeeping services for star hotels</strong> meet international hospitality standards demanded by Qatar's premium hotel sector.
+                                                                            </p>
+                                                                        </div>
+                                                                    </li>
+                                                                </ol>
+                                                            </li>
+                                                        </ol>
+                                                    </li>
+                                                </ol>
+                                            </div>
                                         </div>
                                     </div>
+
+                                    {/* ADDITIONAL SERVICES GRID */}
+                                    <div style={{marginTop: '40px'}}>
+                                        <h2 style={{fontSize: '22px', marginBottom: '20px'}}>
+                                            Complete Cleaning & Hospitality Solutions in Doha, Qatar
+                                        </h2>
+                                        <div className="row">
+                                            {[
+                                                {title: 'Office Cleaning Qatar', desc: 'Daily, weekly and monthly professional office cleaning services across Doha keeping your workspace clean and productive.'},
+                                                {title: 'Commercial Cleaning Doha', desc: 'Comprehensive commercial cleaning for malls, retail spaces, restaurants and business facilities throughout Qatar.'},
+                                                {title: 'Post-Construction Cleaning', desc: 'Thorough post-construction cleaning preparing your newly built or renovated facility for immediate use across Qatar.'},
+                                                {title: 'Hospitality Staff Qatar', desc: 'Trained hotel butlers, waiters, bartenders and hospitality staff supply for hotels and events across Doha.'},
+                                                {title: 'Sanitization Services', desc: 'Professional sanitization and disinfection services for commercial and residential properties across Qatar.'},
+                                                {title: 'Housekeeping for Hotels', desc: 'Full housekeeping management services for 3, 4 and 5-star hotels across Doha meeting international standards.'},
+                                            ].map((s, i) => (
+                                                <div className="col-md-4 m-b20" key={i}>
+                                                    <div style={{backgroundColor: '#f9f9f9', padding: '20px', borderRadius: '8px', borderLeft: '3px solid #E0892E', height: '100%'}}>
+                                                        <h3 style={{fontSize: '15px', marginBottom: '8px', color: '#333'}}>{s.title}</h3>
+                                                        <p style={{fontSize: '13px', margin: 0}}>{s.desc}</p>
+                                                    </div>
+                                                </div>
+                                            ))}
+                                        </div>
+                                    </div>
+
+                                    {/* CALL TO ACTION */}
+                                    <div style={{marginTop: '40px', backgroundColor: '#E0892E', padding: '35px', borderRadius: '8px', textAlign: 'center'}}>
+                                        <h3 style={{color: 'white', marginBottom: '10px'}}>
+                                            Need Professional Cleaning Services in Qatar?
+                                        </h3>
+                                        <p style={{color: 'white', marginBottom: '20px'}}>
+                                            Contact Golden Vision by Azim Group for the best <strong style={{color: 'white'}}>cleaning and hospitality services in Doha</strong>. Get a free quote today.
+                                        </p>
+                                        <NavLink to="/contact-us" className="site-button" style={{backgroundColor: 'white', color: '#E0892E', marginRight: '15px'}}>
+                                            Get a Free Quote
+                                        </NavLink>
+                                        <a href="tel:+97444802851" className="site-button-secondry" style={{borderColor: 'white', color: 'white'}}>
+                                            Call: +974 4480 2851
+                                        </a>
+                                    </div>
+
                                 </div>
                             </div>
                         </div>
                     </div>
-                    {/* SECTION CONTENT END */}
                 </div>
 
                 <Footer />
             </>
         );
-    };
-};
+    }
+}
 
 export default BlogSingle;
