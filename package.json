@@ -28,10 +28,11 @@
   "scripts": {
     "start": "react-scripts start",
     "build": "cross-env DISABLE_ESLINT_PLUGIN=true react-scripts build",
-    "postbuild": "react-snap",
+    "snap": "react-snap",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "predeploy": "npm run build",
+    "predeploy": "npm run build && npm run snap && npm run fix-pages",
+    "fix-pages": "node scripts/fix-pages.js",
     "deploy": "gh-pages -d build --add"
   },
   "eslintConfig": {
@@ -52,6 +53,7 @@
   "reactSnap": {
     "source": "build",
     "puppeteerArgs": ["--no-sandbox", "--disable-setuid-sandbox"],
+    "skipThirdPartyRequests": true,
     "minifyHtml": {
       "collapseWhitespace": false,
       "removeComments": false
