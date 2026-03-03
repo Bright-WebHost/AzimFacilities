@@ -3,6 +3,7 @@ import { NavLink } from 'react-router-dom';
 import Footer from './../Common/Footer';
 import Banner from './../Elements/Banner';
 import Header2 from '../Common/Header2';
+import { Helmet } from 'react-helmet-async';
 
 const styles = `
   .sectors-container {
@@ -90,6 +91,7 @@ const styles = `
     transition: all 300ms ease;
     text-decoration: none;
   }
+
   .sector-title:hover {
     color: black;
     font-size: 1.875rem;
@@ -139,73 +141,106 @@ const styles = `
 `;
 
 var bnrimg = require('./../../images/azim/23.webp');
-var img1= require('./../../images/azim/55.webp');
-var img2= require('./../../images/azim/56.webp');
-var img3= require('./../../images/azim/57.webp');
-var img4= require('./../../images/azim/58.webp');
+var img1 = require('./../../images/azim/55.webp');
+var img2 = require('./../../images/azim/56.webp');
+var img3 = require('./../../images/azim/57.webp');
+var img4 = require('./../../images/azim/58.webp');
 
 const sectors = [
   {
     id: 1,
-    title: 'Hotel & Hospitality Sector',
-    description: 'In the competitive hospitality industry, guest experience defines success. AZIM Group enhances hotel operations with tailored support…',
+    title: 'Hotel & Hospitality Sector Qatar',
+    description: 'In Qatar\'s competitive hospitality industry, guest experience defines success. Azim Group enhances hotel operations with professional housekeeping, cleaning, and hospitality staffing services across Doha.',
     image: img1,
-    link: '/hotel-hospital-sector' // Add your desired route here
+    alt: 'Hotel and hospitality facilities management services Qatar — Azim Group Doha',
+    link: '/hotel-hospital-sector'
   },
   {
     id: 2,
-    title: 'Governmental Sector',
-    description: 'Government agencies require high standards of reliability, professionalism, and logistical precision. AZIM Group supports governmental facilities and initiatives through…',
+    title: 'Government Sector Facilities Management Qatar',
+    description: 'Government agencies in Qatar require the highest standards of reliability and professionalism. Azim Group supports governmental facilities with ISO-certified FM and cleaning services across Doha.',
     image: img2,
-    link: '/government-sector' // Add your desired route here
+    alt: 'Government sector facilities management company Qatar Doha — Azim Group',
+    link: '/government-sector'
   },
   {
     id: 3,
-    title: 'Real Estate & Residential Sector',
-    description: 'In the Real Estate & Residential sector, maintaining property value and ensuring resident comfort is critical. AZIM Group delivers end-to-end support through:',
+    title: 'Real Estate & Residential Sector Qatar',
+    description: 'Maintaining property value and resident comfort in Qatar\'s real estate sector. Azim Group delivers end-to-end facilities management, cleaning and maintenance solutions across Doha.',
     image: img3,
-    link: '/real-estate-sector' // Add your desired route here
+    alt: 'Real estate residential facilities management Qatar — Azim Group cleaning maintenance Doha',
+    link: '/real-estate-sector'
   },
   {
     id: 4,
-    title: 'Education Sector',
-    description: 'Educational institutions demand safe, clean, and supportive environments for students, staff, and visitors. AZIM Group delivers. AZIM Group supports this through…',
+    title: 'Education Sector Facilities Management Qatar',
+    description: 'Educational institutions in Qatar demand safe, clean and supportive environments. Azim Group delivers professional cleaning, maintenance and FM services for schools and universities across Doha.',
     image: img4,
-    link: '/education-sector' // Add your desired route here
+    alt: 'Education sector facilities management cleaning services Qatar Doha — Azim Group',
+    link: '/education-sector'
   }
 ];
 
 class ShopList extends React.Component {
   render() {
-    const options = {
-      loop: true,
-      autoplay: true,
-      autoplayTimeout: 2000,
-      margin: 30,
-      nav: true,
-      navText: ['<i class="fa fa-angle-left"></i>', '<i class="fa fa-angle-right"></i>'],
-      items: 1,
-      dots: false,
-      animateOut: 'fadeOut',
-    };
-    
     return (
       <>
+        <Helmet>
+          <title>Sectors We Serve | Facilities Management Company Qatar | Azim Group</title>
+          <meta name="description" content="Azim Group provides professional facilities management services across Qatar's key sectors — hospitality, government, real estate and education. ISO certified FM company serving Doha and Qatar." />
+          <link rel="canonical" href="https://www.azimgroup.qa/sector" />
+          <meta property="og:title" content="Sectors | Facilities Management Services Qatar | Azim Group" />
+          <meta property="og:description" content="Azim Group delivers FM services across hospitality, government, real estate and education sectors in Qatar. Professional cleaning & maintenance in Doha." />
+          <meta property="og:url" content="https://www.azimgroup.qa/sector" />
+        </Helmet>
+
         <Header2 />
         <div className="page-content">
-          <Banner title="Sector" pagename="Sector" description="" bgimage={bnrimg} />
-          
-          {/* SHOP SECTION START */}
+
+          {/* H1 - invisible to users, fully read by Google */}
+          <h1 style={{
+            position: 'absolute',
+            width: '1px',
+            height: '1px',
+            overflow: 'hidden',
+            clip: 'rect(0,0,0,0)',
+            whiteSpace: 'nowrap'
+          }}>
+            Sectors We Serve — Facilities Management Services Across Qatar's Hospitality, Government, Real Estate & Education Sectors
+          </h1>
+
+          <Banner
+            title="Sectors We Serve in Qatar"
+            pagename="Sectors"
+            description="Professional Facilities Management Services Across Qatar's Key Industry Sectors — Doha & Beyond"
+            bgimage={bnrimg}
+          />
+
           <style>{styles}</style>
           <div className="sectors-container">
             <div className="sectors-wrapper">
+
+              {/* SEO INTRO - small, clean, above grid */}
+              <div style={{
+                maxWidth: '700px',
+                margin: '0 auto 3rem',
+                textAlign: 'center'
+              }}>
+                <h2 style={{ fontSize: '24px', marginBottom: '12px', color: '#333' }}>
+                  Facilities Management Services Across All Sectors in Qatar
+                </h2>
+                <p style={{ color: '#666', fontSize: '15px', lineHeight: '1.7' }}>
+                  As Qatar's leading <strong>facilities management company</strong>, Azim Group delivers <strong>professional cleaning, building maintenance, and hospitality staffing</strong> services across Doha's hospitality, government, real estate, and education sectors.
+                </p>
+              </div>
+
               <div className="sectors-grid">
                 {sectors.map((sector) => (
                   <div key={sector.id} className="sector-card">
                     <div className="sector-image-container">
                       <img
                         src={sector.image}
-                        alt={sector.title}
+                        alt={sector.alt}
                         className="sector-image"
                       />
                     </div>
@@ -222,9 +257,10 @@ class ShopList extends React.Component {
                   </div>
                 ))}
               </div>
+
             </div>
           </div>
-          {/* SHOP SECTION END */}
+
         </div>
         <Footer />
       </>

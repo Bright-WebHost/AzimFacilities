@@ -29,51 +29,61 @@ class ProjectDetail1 extends React.Component {
   render() {
     return (
       <>
+        <Helmet>
+          <title>Facilities Management Company in Qatar | Azim Facilities Management & Services</title>
+          <meta name="description" content="Azim Facilities Management & Services is a leading ISO-certified facilities management company in Qatar. Professional cleaning, building maintenance, hospitality staffing and integrated FM solutions across Doha, Qatar." />
+          <link rel="canonical" href="https://www.azimgroup.qa/facilities-management" />
+          <meta property="og:title" content="Facilities Management Company in Qatar | Azim Group" />
+          <meta property="og:description" content="Professional facilities management services in Qatar — cleaning, building maintenance, hospitality staffing & housekeeping. ISO certified. Serving Doha & Qatar." />
+          <meta property="og:url" content="https://www.azimgroup.qa/facilities-management" />
+          <script type="application/ld+json">{`
+            {
+              "@context": "https://schema.org",
+              "@type": "Service",
+              "name": "Facilities Management & Hospitality Services Qatar",
+              "provider": {
+                "@type": "Organization",
+                "name": "Azim Facilities Management & Services",
+                "url": "https://www.azimgroup.qa",
+                "telephone": "+97444802851",
+                "address": {
+                  "@type": "PostalAddress",
+                  "streetAddress": "NBK Building, #805, 8th Floor",
+                  "addressLocality": "Doha",
+                  "addressCountry": "QA"
+                }
+              },
+              "areaServed": {
+                "@type": "City",
+                "name": "Doha, Qatar"
+              },
+              "serviceType": [
+                "Facilities Management",
+                "Building Maintenance",
+                "Professional Cleaning Services",
+                "Hospitality Staffing",
+                "Housekeeping Management"
+              ]
+            }
+          `}</script>
+        </Helmet>
+
         <Header2 />
 
         <div className="page-content">
 
-          {/* SEO META */}
-          {/* <Helmet>
-            <title>Facilities Management & Hospitality Services in Qatar | Azim Group</title>
-            <meta
-              name="description"
-              content="Azim Facilities Management provides professional facilities management, hospitality, cleaning, and building maintenance services across Qatar."
-            />
-            <script type="application/ld+json">
-              {`
-              {
-                "@context": "https://schema.org",
-                "@type": "Service",
-                "name": "Facilities Management & Hospitality Services",
-                "provider": {
-                  "@type": "Organization",
-                  "name": "Azim Facilities Management & Services",
-                  "url": "https://www.azimgroup.qa/"
-                },
-                "areaServed": {
-                  "@type": "Country",
-                  "name": "Qatar"
-                },
-                "serviceType": "Facilities Management"
-              }
-              `}
-            </script>
-          </Helmet> */}
-
-          {/* MAIN H1 (Hidden – SEO Only) */}
           <h1 className="sr-only">
-            Facilities Management & Hospitality Services in Qatar
+            Facilities Management Company in Qatar — Professional Cleaning, Building Maintenance and Hospitality Services Doha
           </h1>
 
           <Banner
-            title="AZIM Facilities Management & Services"
-            pagename="AZIM Facilities"
-            description="Crafting Elevated Experiences: Where Excellence Meets Service. Your space, our commitment."
+            title="AZIM Facilities Management & Services Qatar"
+            pagename="Facilities Management Qatar"
+            description="Qatar's Leading ISO-Certified Facilities Management Company. Professional cleaning, building maintenance and hospitality services across Doha."
             bgimage={bnrimg}
           />
 
-          {/* CONTENT SECTION */}
+          {/* CONTENT SECTION — SAME LAYOUT, SEO TEXT */}
           <div className="section-full mobile-page-padding p-t80 p-b50">
             <div className="container">
               <div className="section-content">
@@ -82,9 +92,11 @@ class ProjectDetail1 extends React.Component {
                   <div className="col-xl-6 col-lg-6 col-md-12">
                     <div className="about-home-3 m-b30 bg-white">
                       <h2 className="m-t0 m-b20 sx-tilte">
-                        What Azim Facilities Do
+                        Professional Facilities Management & Hospitality Services in Qatar
                       </h2>
-
+                      <p className="m-b15">
+                        Azim Facilities Management & Services is a premier facilities management company in Qatar with over 12 years of experience serving Doha's commercial, hospitality, and government sectors. As an ISO 9001, ISO 14001, and ISO 45001 certified FM company in Qatar, we deliver world-class integrated facilities management solutions trusted by 100+ clients across Qatar.
+                      </p>
                       <h3
                         style={{
                           color: '#E18A2E',
@@ -92,7 +104,7 @@ class ProjectDetail1 extends React.Component {
                           fontWeight: 'bold'
                         }}
                       >
-                        We provide highly trained and professional hospitality staff, which include
+                        Professional Hospitality Staff Supply Qatar — We provide highly trained staff including:
                       </h3>
                     </div>
                   </div>
@@ -116,7 +128,7 @@ class ProjectDetail1 extends React.Component {
           <JobCategory />
           <Plans1 />
 
-          {/* BUILDING MAINTENANCE SECTION */}
+          {/* BUILDING MAINTENANCE — SAME LAYOUT, SEO TEXT */}
           <div className="section-full mobile-page-padding p-tb80 bg-bottom-left bg-no-repeat">
             <div className="container">
               <div className="section-content">
@@ -125,31 +137,30 @@ class ProjectDetail1 extends React.Component {
                   <div className="col-md-7">
                     <img
                       src={require('./../../images/azim/31.webp')}
-                      alt="Building maintenance and facilities management services by Azim Group in Qatar"
+                      alt="Building maintenance and facilities management services by Azim Group Qatar Doha"
                     />
                   </div>
 
                   <div className="col-md-5">
-                    <h3 className="title">Building Maintenance Services</h3>
+                    <h3 className="title">Building Maintenance Services in Qatar</h3>
                     <p>
-                      We provide professional services in plumbing, electrical work, HVAC,
-                      landscaping, and security systems. Our skilled technicians ensure reliable
-                      solutions tailored to your needs, delivering quality, safety, and efficiency
-                      for every project.
+                      Azim Group provides comprehensive building maintenance services across Qatar and Doha. Our skilled technicians deliver professional plumbing, electrical, HVAC, landscaping, and security system solutions — ensuring reliable, safe, and efficient facility maintenance tailored to Qatar's demanding environment.
                     </p>
-
                     <ul style={{
                       marginLeft: '20px',
                       textAlign: 'left',
                       listStylePosition: 'outside',
                       paddingLeft: '20px',
                     }}>
-                      <li>Plumbing</li>
-                      <li>Electrical</li>
-                      <li>HVAC</li>
-                      <li>Landscaping</li>
-                      <li>Security Systems</li>
+                      <li>Plumbing Services Qatar</li>
+                      <li>Electrical Works Qatar</li>
+                      <li>HVAC Maintenance Qatar</li>
+                      <li>Landscaping Services Doha</li>
+                      <li>Security Systems Qatar</li>
                     </ul>
+                    <p className="m-t15">
+                      As Qatar's trusted facility maintenance and support provider, we serve commercial buildings, hotels, government facilities, and residential properties across Doha with 700+ trained FM professionals.
+                    </p>
                   </div>
 
                 </div>
