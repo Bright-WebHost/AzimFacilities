@@ -27,7 +27,7 @@ class BlogSingle extends React.Component {
             <>
                 <Helmet>
                     <title>Cleaning & Hospitality Services in Qatar | Golden Vision | Azim Group</title>
-                    <meta name="description" content="Golden Vision by Azim Group offers professional cleaning and hospitality services in Qatar. Commercial cleaning, deep interior cleaning, housekeeping for hotels and residences across Doha, Qatar." />
+                    <meta name="description" content="Golden Vision by Azim Group offers professional cleaning and hospitality services in Qatar — commercial cleaning, housekeeping for hotels and residences across Doha." />
                     <link rel="canonical" href="https://www.azimgroup.qa/cleaning-and-hospitality" />
                     <meta property="og:title" content="Professional Cleaning & Hospitality Services Qatar | Golden Vision Azim Group" />
                     <meta property="og:description" content="Expert cleaning and hospitality services in Qatar — exterior building cleaning, deep interior cleaning, hotel housekeeping and hygiene services across Doha." />
@@ -36,16 +36,15 @@ class BlogSingle extends React.Component {
 
                 <Header2 />
                 <div className="page-content">
-                    <h1 className="sr-only">Professional Cleaning and Hospitality Services in Qatar — Commercial Cleaning, Housekeeping & Hotel Services Doha</h1>
+                    <h1 className="sr-only">Professional Cleaning and Hospitality Services in Qatar</h1>
 
                     <Banner
                         title="Golden Vision Cleaning and Hospitality Services"
                         pagename="Cleaning & Hospitality Services Qatar"
-                        description="Qatar's trusted professional cleaning and hospitality services company — where cleanliness meets a warm welcome."
+                        description="Qatar's trusted professional cleaning and hospitality services — where cleanliness meets a warm welcome."
                         bgimage={bnrimg}
                     />
 
-                    {/* INTRO SECTION */}
                     <div className="section-full p-t80 p-b50 inner-page-padding">
                         <div className="container">
                             <div className="blog-single-space max-w900 ml-auto mr-auto">
@@ -57,29 +56,29 @@ class BlogSingle extends React.Component {
                                             <img
                                                 className="img-responsive"
                                                 src={require('./../../images/azim/46.webp')}
-                                                alt="Professional cleaning and hospitality services in Qatar by Golden Vision Azim Group"
+                                                alt="Professional cleaning and hospitality services in Qatar by Golden Vision Azim Group Doha"
                                             />
                                         </div>
                                     </div>
 
-                                    {/* PAGE TITLE */}
+                                    {/* PAGE TITLE - only H2 on this page */}
                                     <div className="sx-post-title m-t20">
                                         <h2 className="post-title">Golden Vision Cleaning and Hospitality Services Qatar</h2>
                                     </div>
 
                                     {/* INTRO TEXT */}
                                     <div className="sx-post-text">
-                                        <p style={{marginBottom: '15px'}}>
-                                            Golden Vision Hospitality and Cleaning Services is a premier <strong>cleaning and hospitality services company in Qatar</strong>, operating as an esteemed division of Azim Facilities Management and Services. We specialize in the meticulous cleaning of both building exteriors and interiors across Doha, delivering unparalleled cleanliness and hygiene standards that Qatar's top businesses trust.
+                                        <p>
+                                            Golden Vision Hospitality and Cleaning Services is a premier cleaning and hospitality services company in Qatar, operating as a division of Azim Facilities Management and Services. We specialize in meticulous cleaning of building exteriors and interiors across Doha, delivering unparalleled cleanliness and hygiene standards that Qatar's top businesses trust.
                                         </p>
-                                        <p style={{marginBottom: '15px'}}>
-                                            As one of Qatar's leading <strong>professional cleaning services Qatar</strong> providers, Golden Vision combines expert hospitality management with world-class cleaning solutions — serving commercial properties, luxury hotels, residential complexes, and government facilities throughout Doha and Qatar.
+                                        <p>
+                                            As one of Qatar's leading professional cleaning services providers, Golden Vision combines expert hospitality management with world-class cleaning solutions — serving commercial properties, luxury hotels, residential complexes, and government facilities throughout Doha and Qatar.
                                         </p>
-                                        <p style={{marginBottom: '25px'}}>
-                                            Our <strong>housekeeping management Qatar</strong> services are trusted by 5-star hotels and premium residences across Doha, delivering the highest standards of cleanliness, hygiene, and guest comfort. As your <strong>Qatar hospitality and housekeeping service provider</strong>, we are committed to excellence in every service we deliver.
+                                        <p>
+                                            Our housekeeping management services in Qatar are trusted by 5-star hotels and premium residences across Doha, delivering the highest standards of cleanliness, hygiene, and guest comfort. As your Qatar hospitality and housekeeping service provider, we are committed to excellence in every project.
                                         </p>
 
-                                        {/* KEY STATS */}
+                                        {/* KEY STATS — p tags not h3 */}
                                         <div style={{display: 'grid', gridTemplateColumns: 'repeat(3, 1fr)', gap: '15px', marginBottom: '40px'}}>
                                             {[
                                                 {num: '12+', label: 'Years Serving Qatar'},
@@ -87,21 +86,21 @@ class BlogSingle extends React.Component {
                                                 {num: '700+', label: 'Cleaning Professionals'},
                                             ].map((s, i) => (
                                                 <div key={i} style={{backgroundColor: '#E0892E', color: 'white', padding: '20px', borderRadius: '8px', textAlign: 'center'}}>
-                                                    <h3 style={{fontSize: '28px', margin: '0', color: 'white'}}>{s.num}</h3>
+                                                    <p style={{fontSize: '28px', margin: '0', color: 'white', fontWeight: 'bold'}}>{s.num}</p>
                                                     <p style={{margin: '5px 0 0', color: 'white', fontSize: '13px'}}>{s.label}</p>
                                                 </div>
                                             ))}
                                         </div>
                                     </div>
 
-                                    {/* SERVICES SECTION */}
+                                    {/* SERVICES SECTION — original comment layout preserved */}
                                     <div className="clear" id="comment-list">
                                         <div className="comments-area" id="comments">
-                                            <h2 className="comments-title" style={{marginBottom: '10px'}}>
+                                            <h2 className="comments-title">
                                                 Our Professional Cleaning & Hospitality Services in Qatar
                                             </h2>
                                             <p style={{marginBottom: '25px'}}>
-                                                As a trusted <strong>commercial cleaning services Doha</strong> provider, Golden Vision specializes in:
+                                                As a trusted commercial cleaning services provider in Doha, Golden Vision specializes in:
                                             </p>
 
                                             <div className="comments-outer p-tb30">
@@ -114,7 +113,7 @@ class BlogSingle extends React.Component {
                                                                 <span className="says">says:</span>
                                                             </div>
                                                             <p>
-                                                                Professional <strong>commercial cleaning services Qatar</strong> for building exteriors — removing dirt, grime, and environmental pollutants from facades, glass, and surfaces. Our exterior cleaning services enhance your building's appearance and protect its structural integrity across Doha and Qatar. We use industry-approved equipment and eco-friendly cleaning solutions safe for Qatar's environment.
+                                                                Professional commercial cleaning services for building exteriors in Qatar — removing dirt, grime, and environmental pollutants from facades, glass, and surfaces. Our exterior cleaning enhances your building's appearance and protects its structural integrity across Doha. We use industry-approved equipment and eco-friendly cleaning solutions suited to Qatar's environment.
                                                             </p>
                                                         </div>
 
@@ -127,7 +126,7 @@ class BlogSingle extends React.Component {
                                                                         <span className="says">says:</span>
                                                                     </div>
                                                                     <p>
-                                                                        Comprehensive <strong>deep interior cleaning Qatar</strong> services including scrubbing, sanitizing, and thorough decluttering. Our deep cleaning teams ensure complete removal of dirt, dust, allergens, and grime — leaving every space spotless, hygienic, and healthy. Serving offices, commercial spaces, and residential properties across Doha with the highest standards of <strong>maintenance and cleaning services Qatar</strong> businesses expect.
+                                                                        Comprehensive deep interior cleaning services in Qatar including scrubbing, sanitizing, and thorough decluttering. Our cleaning teams ensure complete removal of dirt, dust, allergens, and grime — leaving every space spotless and hygienic. Serving offices, commercial spaces, and residential properties across Doha with the highest standards of maintenance and cleaning services.
                                                                     </p>
                                                                 </div>
 
@@ -135,12 +134,12 @@ class BlogSingle extends React.Component {
                                                                     <li className="comment odd parent">
                                                                         <div className="comment-body">
                                                                             <div className="comment-author vcard">
-                                                                                <img className="avatar photo" src={require('./../../images/azim/49.webp')} alt="Hotel housekeeping services Qatar professional housekeeping Doha" />
+                                                                                <img className="avatar photo" src={require('./../../images/azim/49.webp')} alt="Professional housekeeping services for star hotels Qatar Doha" />
                                                                                 <cite className="fn">Professional Housekeeping Services for Star Hotels Qatar</cite>
                                                                                 <span className="says">says:</span>
                                                                             </div>
                                                                             <p>
-                                                                                Specialized <strong>housekeeping management Qatar</strong> solutions designed for luxury hotels, star-rated properties, and premium residences across Doha. As a leading <strong>Qatar hospitality and housekeeping service provider</strong>, Golden Vision delivers tailored housekeeping services ensuring exceptional cleanliness, outstanding guest satisfaction, and superior resident comfort. Our <strong>professional housekeeping services for star hotels</strong> meet international hospitality standards demanded by Qatar's premium hotel sector.
+                                                                                Specialized housekeeping management solutions for luxury hotels, star-rated properties, and premium residences across Doha, Qatar. Golden Vision delivers tailored housekeeping services ensuring exceptional cleanliness, outstanding guest satisfaction, and superior resident comfort — meeting international hospitality standards demanded by Qatar's premium hotel and hospital sector.
                                                                             </p>
                                                                         </div>
                                                                     </li>
@@ -153,7 +152,7 @@ class BlogSingle extends React.Component {
                                         </div>
                                     </div>
 
-                                    {/* ADDITIONAL SERVICES GRID */}
+                                    {/* ADDITIONAL SERVICES GRID — p tags not h3 */}
                                     <div style={{marginTop: '40px'}}>
                                         <h2 style={{fontSize: '22px', marginBottom: '20px'}}>
                                             Complete Cleaning & Hospitality Solutions in Doha, Qatar
@@ -162,14 +161,14 @@ class BlogSingle extends React.Component {
                                             {[
                                                 {title: 'Office Cleaning Qatar', desc: 'Daily, weekly and monthly professional office cleaning services across Doha keeping your workspace clean and productive.'},
                                                 {title: 'Commercial Cleaning Doha', desc: 'Comprehensive commercial cleaning for malls, retail spaces, restaurants and business facilities throughout Qatar.'},
-                                                {title: 'Post-Construction Cleaning', desc: 'Thorough post-construction cleaning preparing your newly built or renovated facility for immediate use across Qatar.'},
-                                                {title: 'Hospitality Staff Qatar', desc: 'Trained hotel butlers, waiters, bartenders and hospitality staff supply for hotels and events across Doha.'},
-                                                {title: 'Sanitization Services', desc: 'Professional sanitization and disinfection services for commercial and residential properties across Qatar.'},
-                                                {title: 'Housekeeping for Hotels', desc: 'Full housekeeping management services for 3, 4 and 5-star hotels across Doha meeting international standards.'},
+                                                {title: 'Post-Construction Cleaning Qatar', desc: 'Thorough post-construction cleaning preparing your newly built or renovated facility for immediate use across Qatar.'},
+                                                {title: 'Hospitality Staff Supply Qatar', desc: 'Trained hotel butlers, waiters, bartenders and hospitality staff for hotels and events across Doha.'},
+                                                {title: 'Sanitization Services Qatar', desc: 'Professional sanitization and disinfection services for commercial and residential properties across Qatar.'},
+                                                {title: 'Hotel Housekeeping Qatar', desc: 'Full housekeeping management for 3, 4 and 5-star hotels across Doha meeting international standards.'},
                                             ].map((s, i) => (
                                                 <div className="col-md-4 m-b20" key={i}>
                                                     <div style={{backgroundColor: '#f9f9f9', padding: '20px', borderRadius: '8px', borderLeft: '3px solid #E0892E', height: '100%'}}>
-                                                        <h3 style={{fontSize: '15px', marginBottom: '8px', color: '#333'}}>{s.title}</h3>
+                                                        <p style={{fontSize: '15px', marginBottom: '8px', color: '#333', fontWeight: 'bold'}}>{s.title}</p>
                                                         <p style={{fontSize: '13px', margin: 0}}>{s.desc}</p>
                                                     </div>
                                                 </div>
@@ -179,11 +178,11 @@ class BlogSingle extends React.Component {
 
                                     {/* CALL TO ACTION */}
                                     <div style={{marginTop: '40px', backgroundColor: '#E0892E', padding: '35px', borderRadius: '8px', textAlign: 'center'}}>
-                                        <h3 style={{color: 'white', marginBottom: '10px'}}>
+                                        <p style={{color: 'white', fontSize: '22px', fontWeight: 'bold', marginBottom: '10px'}}>
                                             Need Professional Cleaning Services in Qatar?
-                                        </h3>
+                                        </p>
                                         <p style={{color: 'white', marginBottom: '20px'}}>
-                                            Contact Golden Vision by Azim Group for the best <strong style={{color: 'white'}}>cleaning and hospitality services in Doha</strong>. Get a free quote today.
+                                            Contact Golden Vision by Azim Group for the best cleaning and hospitality services in Doha. Get a free quote today.
                                         </p>
                                         <NavLink to="/contact-us" className="site-button" style={{backgroundColor: 'white', color: '#E0892E', marginRight: '15px'}}>
                                             Get a Free Quote
