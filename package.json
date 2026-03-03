@@ -1,1 +1,74 @@
-{"homepage":"https://www.azimgroup.qa","name":"inteshape","version":"0.1.0","private":true,"dependencies":{"@testing-library/jest-dom":"^5.16.5","@testing-library/react":"^13.4.0","@testing-library/user-event":"^13.5.0","emailjs-com":"^3.2.0","framer-motion":"^12.23.24","google-map-react":"^2.2.0","lucide-react":"^0.554.0","react":"^18.2.0","react-countup":"^6.3.2","react-dom":"^18.2.0","react-ga4":"^2.1.0","react-helmet-async":"^2.0.5","react-image-gallery":"^1.2.11","react-owl-carousel":"^2.3.3","react-player":"^2.11.0","react-router-dom":"^6.4.2","react-scripts":"5.0.1","react-select":"^5.10.2","react-snap":"^1.23.0","web-vitals":"^2.1.4"},"scripts":{"start":"react-scripts start","build":"cross-env DISABLE_ESLINT_PLUGIN=true react-scripts build","postbuild":"react-snap","test":"react-scripts test","eject":"react-scripts eject","predeploy":"npm run build","deploy":"gh-pages -d build --add"},"eslintConfig":{"extends":["react-app","react-app/jest"]},"browserslist":{"production":[">0.2%","not dead","not op_mini all"],"development":["last 1 chrome version","last 1 firefox version","last 1 safari version"]},"devDependencies":{"cross-env":"^7.0.3","gh-pages":"^6.3.0"},"reactSnap":{"source":"build","puppeteerArgs":["--no-sandbox","--disable-setuid-sandbox"],"minifyHtml":{"collapseWhitespace":false,"removeComments":false},"include":["/","/about","/services","/contact-us","/career","/sector"]}}
+{
+  "homepage": "https://www.azimgroup.qa",
+  "name": "inteshape",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@testing-library/jest-dom": "^5.16.5",
+    "@testing-library/react": "^13.4.0",
+    "@testing-library/user-event": "^13.5.0",
+    "emailjs-com": "^3.2.0",
+    "framer-motion": "^12.23.24",
+    "google-map-react": "^2.2.0",
+    "lucide-react": "^0.554.0",
+    "react": "^18.2.0",
+    "react-countup": "^6.3.2",
+    "react-dom": "^18.2.0",
+    "react-ga4": "^2.1.0",
+    "react-helmet-async": "^2.0.5",
+    "react-image-gallery": "^1.2.11",
+    "react-owl-carousel": "^2.3.3",
+    "react-player": "^2.11.0",
+    "react-router-dom": "^6.4.2",
+    "react-scripts": "5.0.1",
+    "react-select": "^5.10.2",
+    "react-snap": "^1.23.0",
+    "web-vitals": "^2.1.4"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "cross-env DISABLE_ESLINT_PLUGIN=true react-scripts build",
+    "postbuild": "react-snap",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build --add"
+  },
+  "eslintConfig": {
+    "extends": ["react-app", "react-app/jest"]
+  },
+  "browserslist": {
+    "production": [">0.2%", "not dead", "not op_mini all"],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "cross-env": "^7.0.3",
+    "gh-pages": "^6.3.0"
+  },
+  "reactSnap": {
+    "source": "build",
+    "puppeteerArgs": ["--no-sandbox", "--disable-setuid-sandbox"],
+    "minifyHtml": {
+      "collapseWhitespace": false,
+      "removeComments": false
+    },
+    "include": [
+      "/",
+      "/about",
+      "/services",
+      "/contact-us",
+      "/career",
+      "/sector",
+      "/facilities-management",
+      "/cleaning-and-hospitality",
+      "/hotel-hospital-sector",
+      "/government-sector",
+      "/real-estate-sector",
+      "/education-sector"
+    ]
+  }
+}
