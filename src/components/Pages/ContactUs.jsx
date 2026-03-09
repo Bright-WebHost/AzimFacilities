@@ -6,7 +6,7 @@ import GoogleMapReact from 'google-map-react';
 import Header2 from '../Common/Header2';
 import Select from "react-select";
 import emailjs from 'emailjs-com'; // Import EmailJS
-
+import { Helmet } from 'react-helmet-async';
 const serviceOptions = [
     { value: "facilities Management ", label: "facilities Management " },
     { value: "Hospitality", label: "Hospitality" },
@@ -97,6 +97,11 @@ class ContactUs extends React.Component {
         
         return (
             <>
+            <Helmet>
+    <title>Contact Us | Facilities Management Company Qatar | Azim Group</title>
+    <meta name="description" content="Contact Azim Group Qatar for professional facilities management, cleaning and hospitality services in Doha. Call +974 4480 2851 or email afms@azimgroup.qa." />
+    <link rel="canonical" href="https://www.azimgroup.qa/contact-us" />
+</Helmet>
                 <Header2 />
                 <div className="page-content">
                     <Banner title="Contact Us" pagename="Contact us" description=" We're always here to assist you and provide answers to your questions." bgimage={bnrimg}/>

@@ -97,15 +97,17 @@ class ProjectDetail1 extends React.Component {
                       <p className="m-b15">
                         Azim Facilities Management & Services is a premier facilities management company in Qatar with over 12 years of experience serving Doha's commercial, hospitality, and government sectors. As an ISO 9001, ISO 14001, and ISO 45001 certified FM company in Qatar, we deliver world-class integrated facilities management solutions trusted by 100+ clients across Qatar.
                       </p>
-                      <h3
-                        style={{
-                          color: '#E18A2E',
-                          textTransform: 'uppercase',
-                          fontWeight: 'bold'
-                        }}
-                      >
-                        Professional Hospitality Staff Supply Qatar — We provide highly trained staff including:
-                      </h3>
+                      <p
+  style={{
+    color: '#E18A2E',
+    textTransform: 'uppercase',
+    fontWeight: 'bold',
+    fontSize: '14px',
+    letterSpacing: '1px'
+  }}
+>
+  We provide highly trained and professional hospitality staff, which include
+</p>
                     </div>
                   </div>
 
