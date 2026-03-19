@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.633963cb.css",
-    "main.js": "/static/js/main.c372884c.js",
+    "main.js": "/static/js/main.268dec25.js",
     "reactPlayerYouTube.js": "/static/js/reactPlayerYouTube.99d01f72.chunk.js",
     "reactPlayerSoundCloud.js": "/static/js/reactPlayerSoundCloud.3e055499.chunk.js",
     "reactPlayerVimeo.js": "/static/js/reactPlayerVimeo.49a85ea8.chunk.js",
@@ -18,8 +18,6 @@
     "reactPlayerPreview.js": "/static/js/reactPlayerPreview.a86ccbfa.chunk.js",
     "static/js/453.1d4b38a3.chunk.js": "/static/js/453.1d4b38a3.chunk.js",
     "static/media/video3.mp4": "/static/media/video3.e8d92527df17170ae42e.mp4",
-    "static/media/AzimRamadan.jpeg": "/static/media/AzimRamadan.a7bb46e3c0ddd711f7e7.webp",
-    "static/media/azim-ramadan-m.png": "/static/media/azim-ramadan-m.81a54041976027aea4c6.webp",
     "static/media/ct-2.webp": "/static/media/ct-2.2d85143feb10451a7cd1.webp",
     "static/media/ct-1.webp": "/static/media/ct-1.7470442c6e37b4987c54.webp",
     "static/media/16.png": "/static/media/16.2b31848c06d0fecb0af9.webp",
@@ -29,6 +27,7 @@
     "static/media/6.webp": "/static/media/6.d91adf7ed91a6a30df71.webp",
     "static/media/23.webp": "/static/media/23.0f3b280cf1e4f6497009.webp",
     "static/media/3.webp": "/static/media/3.34ed86b7d5447a987420.webp",
+    "static/media/eid.webp": "/static/media/eid.539b5bc13aec636988f2.webp",
     "static/media/1.webp": "/static/media/1.56c0812d31f40c55b6ac.webp",
     "static/media/2.webp": "/static/media/2.e87d47f5b38d343eefa6.webp",
     "static/media/37.webp": "/static/media/37.38183bb13b2dd53bb5fe.webp",
@@ -38,6 +37,7 @@
     "static/media/13.webp": "/static/media/13.4497b6f61adaf451b01a.webp",
     "static/media/video1.jpg": "/static/media/video1.b965e4c495e580a945b1.webp",
     "static/media/64.webp": "/static/media/64.926ffdabb499c652b850.webp",
+    "static/media/eid_mobile.webp": "/static/media/eid_mobile.eb9e539dad0a5a02b952.webp",
     "static/media/39.webp": "/static/media/39.ef31f78dcbc4cb475be0.webp",
     "static/media/4.webp": "/static/media/4.db699ef02644433e9a0e.webp",
     "static/media/52.webp": "/static/media/52.6471b17f086f972e5070.webp",
@@ -150,7 +150,7 @@
     "static/media/47.webp": "/static/media/47.6760386705652a491f8f.webp",
     "static/media/49.webp": "/static/media/49.51770a71061697552bd8.webp",
     "main.633963cb.css.map": "/static/css/main.633963cb.css.map",
-    "main.c372884c.js.map": "/static/js/main.c372884c.js.map",
+    "main.268dec25.js.map": "/static/js/main.268dec25.js.map",
     "reactPlayerYouTube.99d01f72.chunk.js.map": "/static/js/reactPlayerYouTube.99d01f72.chunk.js.map",
     "reactPlayerSoundCloud.3e055499.chunk.js.map": "/static/js/reactPlayerSoundCloud.3e055499.chunk.js.map",
     "reactPlayerVimeo.49a85ea8.chunk.js.map": "/static/js/reactPlayerVimeo.49a85ea8.chunk.js.map",
@@ -169,6 +169,6 @@
   },
   "entrypoints": [
     "static/css/main.633963cb.css",
-    "static/js/main.c372884c.js"
+    "static/js/main.268dec25.js"
   ]
 }
