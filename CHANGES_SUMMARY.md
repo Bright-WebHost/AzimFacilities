@@ -1,3 +1,6 @@
+Replaced hero section images:
+- azim-ramadan-m.png → eid_mobile.webp
+- AzimRamadan.jpeg → eid.webp
 # Complete List of Changes - Azim Facilities Website
 
 ## MAIN PAGE CHANGES (4 PAGES)

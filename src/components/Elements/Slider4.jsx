@@ -52,12 +52,12 @@ class Slider4 extends React.Component {
     {/* Mobile image → fill screen */}
     <source
       media="(max-width: 768px)"
-      srcSet={require("./../../images/azim/azim-ramadan-m.png")}
+      srcSet={require("./../../images/azim/eid_mobile.webp")}
     />
 
     {/* Desktop image → full visible */}
     <img fetchpriority="high" height={800} width={1200}
-      src={require("./../../images/azim/AzimRamadan.jpeg")}
+      src={require("./../../images/azim/eid.webp")}
       alt="Azim Facilities Management Qatar hero banner"
       className="rev-slidebg banner-img"
       data-bgposition="center center"
@@ -70,10 +70,10 @@ class Slider4 extends React.Component {
   <style>{`
     /* Desktop: NO CROP */
     .banner-img {
-      width: 100%;
-      height: 100%;
-      object-fit: contain !important;
-      background-size: contain !important;
+      width: 100vw;
+      height: 100vh;
+      object-fit: cover !important;
+      background-size: cover !important;
     }
 
     /* Mobile: FILL SCREEN */
