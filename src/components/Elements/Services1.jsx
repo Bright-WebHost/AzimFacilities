@@ -74,7 +74,7 @@ class Services1 extends React.Component {
             <h4 className="sx-tilte">{item.title}</h4>
             <p className="flex-grow-1">{item.description}</p>
             <div className="text-left mt-auto">
-              {/* <NavLink to={"/services-detail"} className="site-button-link">Read More</NavLink> */}
+              {/* <NavLink to={"/services-detail"} className="site-button-link">Read about our facilities management services</NavLink> */}
             </div>
           </div>
         </div>

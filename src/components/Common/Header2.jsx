@@ -79,7 +79,7 @@ class Header2 extends React.Component {
                 whiteSpace: 'nowrap' // ✅ prevents text wrapping
             }}
         >
-            <img
+            <img loading="lazy" height={120} width={120}
                 src={this.state.logo}
                 alt="Azim Facilities"
                 // style={{ height: '74px', width:'auto !important' }}
@@ -125,7 +125,7 @@ class Header2 extends React.Component {
                                     <form role="search" id="searchform" action="/search" method="get" className="radius-xl">
                                         <div className="input-group">
                                             <input defaultValue="" name="q" type="search" placeholder="Type to search" />
-                                            <span className="input-group-btn"><button type="button" className="search-btn"><i className="fa fa-search arrow-animation" /></button></span>                                  </div>
+                                            <span className="input-group-btn"><button aria-label="Interactive action" type="button" className="search-btn"><i className="fa fa-search arrow-animation" /></button></span>                                  </div>
                                     </form>
                                 </div>
                             </div>

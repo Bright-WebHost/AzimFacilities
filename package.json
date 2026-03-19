@@ -29,9 +29,11 @@
     "start": "react-scripts start",
     "build": "cross-env DISABLE_ESLINT_PLUGIN=true react-scripts build",
     "snap": "react-snap",
+    "optimize:build": "node scripts/optimize-build-assets.js",
+    "compress:build": "node scripts/compress-build-assets.js",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "predeploy": "npm run build && npm run snap && npm run fix-pages",
+    "predeploy": "npm run build && npm run snap && npm run fix-pages && npm run optimize:build && npm run compress:build",
     "fix-pages": "node scripts/fix-pages.js",
     "deploy": "gh-pages -d build --add"
   },
@@ -48,7 +50,8 @@
   },
   "devDependencies": {
     "cross-env": "^7.0.3",
-    "gh-pages": "^6.3.0"
+    "gh-pages": "^6.3.0",
+    "sharp": "^0.33.5"
   },
   "reactSnap": {
     "source": "build",
@@ -70,7 +73,11 @@
       "/hotel-hospital-sector",
       "/government-sector",
       "/real-estate-sector",
-      "/education-sector"
+      "/education-sector",
+      "/events",
+      "/food-trading",
+      "/limousine",
+      "/restaurent"
     ]
   }
 }

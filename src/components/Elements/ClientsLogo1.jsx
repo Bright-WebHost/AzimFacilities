@@ -124,7 +124,7 @@
 //                                             }}
 //                                         >
 //                                             <NavLink to={"/about"} className="client-logo-pic">
-//                                                 <img 
+//                                                 <img loading="lazy" height={120} width={120} 
 //                                                     src={item.image} 
 //                                                     alt={`Client logo ${index + 1}`}
 //                                                     style={{
@@ -272,7 +272,7 @@ function BrandOne({ className }) {
               {brands.map((brand, index) => (
                 <div className="brand-box" key={index}>
                   <Link to="#">
-                    <img
+                    <img loading="lazy" height={240} width={320}
                       src={brand.image}
                      alt={`Azim Group Qatar facilities management client ${index + 1}`}
                     />
@@ -283,7 +283,7 @@ function BrandOne({ className }) {
               {brands.map((brand, index) => (
                 <div className="brand-box" key={`dup-${index}`}>
                   <Link to="#">
-                    <img
+                    <img loading="lazy" height={240} width={320}
                       src={brand.image}
                       alt={`Facilities management client Doha Qatar ${index + 1}`}
                     />
@@ -304,7 +304,7 @@ function BrandOne({ className }) {
               {brands1.map((brand, index) => (
                 <div className="brand-box" key={index}>
                   <Link to="#">
-                    <img
+                    <img loading="lazy" height={240} width={320}
                       src={brand.image}
                     alt={`FM services client Qatar Doha ${index + 28}`}
                     />
@@ -315,7 +315,7 @@ function BrandOne({ className }) {
               {brands1.map((brand, index) => (
                 <div className="brand-box" key={`dup1-${index}`}>
                   <Link to="#">
-                    <img
+                    <img loading="lazy" height={800} width={1200}
                       src={brand.image}
                       alt={`Brand ${index + 28}`}
                     />

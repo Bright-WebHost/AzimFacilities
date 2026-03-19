@@ -46,7 +46,7 @@ class ClientsLogo2 extends React.Component {
                                 {logos.map((item, index) => (
                                     <div className="item" key={index}>
                                         <NavLink to={"/about-2"} className="client-logo-pic">
-                                            <img src={item.image} alt="" />
+                                            <img loading="lazy" height={800} width={1200} src={item.image} alt="" />
                                             <div>
                                                 <span>View More</span>
                                             </div>

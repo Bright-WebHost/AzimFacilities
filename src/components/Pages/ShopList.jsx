@@ -238,7 +238,7 @@ class ShopList extends React.Component {
                 {sectors.map((sector) => (
                   <div key={sector.id} className="sector-card">
                     <div className="sector-image-container">
-                      <img
+                      <img loading="lazy" height={800} width={1200}
                         src={sector.image}
                         alt={sector.alt}
                         className="sector-image"

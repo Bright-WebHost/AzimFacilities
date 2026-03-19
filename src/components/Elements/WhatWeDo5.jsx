@@ -19,7 +19,7 @@ class WhatWeDo5 extends React.Component {
                                 <div className="row number-block-one-outer justify-content-center">
                                     <div className="col-lg-4 col-md-6 col-sm-6 m-b30">
                                         <div className="number-block-one animate-in-to-top">
-                                            <img src="images/pic1.jpg" alt />
+                                            <img loading="lazy" height="800" width="1200" alt="Pic1" src="images/pic1.jpg" />
                                             <div className="figcaption bg-white text-center p-a20">
                                                 <h4 className="m-a0">Interior Design</h4>
                                             </div>
@@ -30,7 +30,7 @@ class WhatWeDo5 extends React.Component {
                                     </div>
                                     <div className="col-lg-4 col-md-6 col-sm-6 m-b30">
                                         <div className="number-block-one animate-in-to-top">
-                                            <img src="images/pic2.jpg" alt />
+                                            <img loading="lazy" height="800" width="1200" alt="Pic2" src="images/pic2.jpg" />
                                             <div className="figcaption bg-white text-center p-a20">
                                                 <h4 className="m-a0">Architectur</h4>
                                             </div>
@@ -41,7 +41,7 @@ class WhatWeDo5 extends React.Component {
                                     </div>
                                     <div className="col-lg-4 col-md-6 col-sm-6 m-b30">
                                         <div className="number-block-one animate-in-to-top">
-                                            <img src="images/pic3.jpg" alt />
+                                            <img loading="lazy" height="800" width="1200" alt="Pic3" src="images/pic3.jpg" />
                                             <div className="figcaption bg-white text-center p-a20">
                                                 <h4 className="m-a0">Floor Plan</h4>
                                             </div>
@@ -62,7 +62,7 @@ class WhatWeDo5 extends React.Component {
                                             <div className="large-title-info">
                                                 <p>Vivid colors and abstract patterns, combined with unique uses of light, textures, and space, create an outdoor space that magnifies...</p>
                                                 <div className="text-left">
-                                                    <a href="javascript:;" className="site-button-link">Read More</a>
+                                                    <a href="javascript:;" className="site-button-link">Read about our facilities management services</a>
                                                 </div>
                                             </div>
                                         </div>

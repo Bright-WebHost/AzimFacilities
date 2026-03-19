@@ -121,7 +121,7 @@ class Projects4 extends React.Component {
                                         <div key={index} className={`${item.filter} item fadingcol overflow-hide`}>
                                             <div className="sx-box   image-hover-block">
                                                 <div className="sx-thum-bx">
-                                                    <img src={item.image} alt="" />
+                                                    <img loading="lazy" height={800} width={1200} src={item.image} alt="" />
                                                 </div>
                                                 <div className="sx-info  p-t20 text-white">
                                                     <h4 className="sx-tilte"><NavLink to={"/project-detail1"}>{item.title}</NavLink></h4>

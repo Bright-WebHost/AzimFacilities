@@ -53,7 +53,7 @@ class BlogSingle extends React.Component {
                                     {/* MAIN IMAGE */}
                                     <div className="sx-post-media">
                                         <div className="portfolio-item">
-                                            <img
+                                            <img loading="lazy" height={800} width={1200}
                                                 className="img-responsive"
                                                 src={require('./../../images/azim/46.webp')}
                                                 alt="Professional cleaning and hospitality services in Qatar by Golden Vision Azim Group Doha"
@@ -108,7 +108,7 @@ class BlogSingle extends React.Component {
                                                     <li className="comment">
                                                         <div className="comment-body">
                                                             <div className="comment-author vcard">
-                                                                <img className="avatar photo" src={require('./../../images/azim/47.webp')} alt="Exterior building cleaning services Qatar Doha" />
+                                                                <img loading="lazy" height={120} width={120} className="avatar photo" src={require('./../../images/azim/47.webp')} alt="Exterior building cleaning services Qatar Doha" />
                                                                 <cite className="fn">Exterior Building Cleaning Services Qatar</cite>
                                                                 <span className="says">says:</span>
                                                             </div>
@@ -121,7 +121,7 @@ class BlogSingle extends React.Component {
                                                             <li className="comment odd parent">
                                                                 <div className="comment-body">
                                                                     <div className="comment-author vcard">
-                                                                        <img className="avatar photo" src={require('./../../images/azim/48.webp')} alt="Deep interior cleaning services Doha Qatar" />
+                                                                        <img loading="lazy" height={120} width={120} className="avatar photo" src={require('./../../images/azim/48.webp')} alt="Deep interior cleaning services Doha Qatar" />
                                                                         <cite className="fn">Deep Interior Cleaning Services Doha</cite>
                                                                         <span className="says">says:</span>
                                                                     </div>
@@ -134,7 +134,7 @@ class BlogSingle extends React.Component {
                                                                     <li className="comment odd parent">
                                                                         <div className="comment-body">
                                                                             <div className="comment-author vcard">
-                                                                                <img className="avatar photo" src={require('./../../images/azim/49.webp')} alt="Professional housekeeping services for star hotels Qatar Doha" />
+                                                                                <img loading="lazy" height={120} width={120} className="avatar photo" src={require('./../../images/azim/49.webp')} alt="Professional housekeeping services for star hotels Qatar Doha" />
                                                                                 <cite className="fn">Professional Housekeeping Services for Star Hotels Qatar</cite>
                                                                                 <span className="says">says:</span>
                                                                             </div>

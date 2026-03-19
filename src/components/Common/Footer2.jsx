@@ -21,7 +21,7 @@ class Footer2 extends React.Component {
                                         {/*<h4 class="widget-title">About Company</h4>*/}
                                         <div className="logo-footer clearfix p-b15">
                                             <NavLink to={"./"}>
-                                                <img src={require('./../../images/logo-light.png')} alt="Inteshape" />
+                                                <img loading="lazy" height={120} width={120} src={require('./../../images/logo-light.png')} alt="Inteshape" />
                                             </NavLink>
                                         </div>
                                         <p>7X Theme is a html template for interior and architecture purpose. Today we can tell you, thanks to your passion.</p>
@@ -139,7 +139,7 @@ class Footer2 extends React.Component {
                                                         <div className="input-group">
                                                             <input name="news-letter" className="form-control" placeholder="ENTER YOUR EMAIL" type="text" />
                                                             <span className="input-group-btn">
-                                                                <button type="button" className="site-button"><i className="fa fa-paper-plane-o" /></button>
+                                                                <button aria-label="Interactive action" type="button" className="site-button"><i className="fa fa-paper-plane-o" /></button>
                                                             </span>
                                                         </div>
                                                     </form>

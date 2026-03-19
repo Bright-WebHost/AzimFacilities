@@ -34,7 +34,7 @@ class ShopSidebar extends React.Component {
                                 <div className="input-group">
                                     <input name="news-letter" type="text" className="form-control bg-gray" placeholder="Write your text" />
                                     <span className="input-group-btn bg-gray">
-                                        <button type="button" className="btn"><i className="fa fa-search" /></button>
+                                        <button aria-label="Interactive action" type="button" className="btn"><i className="fa fa-search" /></button>
                                     </span>
                                 </div>
                             </form>
@@ -75,7 +75,7 @@ class ShopSidebar extends React.Component {
                                     <div className="input-group">
                                         <input name="news-letter" className="form-control" placeholder="ENTER YOUR EMAIL" type="text" />
                                         <span className="input-group-btn">
-                                            <button type="button" className="site-button"><i className="fa fa-paper-plane-o" /></button>
+                                            <button aria-label="Interactive action" type="button" className="site-button"><i className="fa fa-paper-plane-o" /></button>
                                         </span>
                                     </div>
                                 </form>

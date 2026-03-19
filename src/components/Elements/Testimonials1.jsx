@@ -124,7 +124,7 @@ class Testimonials1 extends React.Component {
                                             <div className="item" key={index}>
                                                 <div className="testimonial-2  hover-animation-1">
                                                     <div className="testimonial-detail clearfix">
-                                                        <div className="testimonial-pic shadow scale-in-center"><img src={item.image} alt="" width={100} height={100} /></div>
+                                                        <div className="testimonial-pic shadow scale-in-center"><img loading="lazy" src={item.image} alt="" width={100} height={100} /></div>
                                                         <h4 className="testimonial-name">{item.reviewername}</h4>
                                                         <span className="testimonial-position">{item.position}</span>
                                                         <span className="fa fa-quote-right" />

@@ -58,7 +58,7 @@ class Team2 extends React.Component {
                                         <div className="col-xl-4 col-lg-4 col-md-6 col-sm-12 m-b30" key={index}>
                                             <div className="our-team-3">
                                                 <div className="our-team-info ">
-                                                    <img src={item.image} alt="" />
+                                                    <img loading="lazy" height={800} width={1200} src={item.image} alt="" />
                                                     <div className="our-team-content">
                                                         <h4 className="sx-team-name"><NavLink to={"/team-single"} className="sx-text-white">{item.membername}</NavLink></h4>
                                                         <span className="sx-team-position text-white">{item.position}</span>

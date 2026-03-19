@@ -45,7 +45,7 @@ class PostRightSidebar extends React.Component {
                                         <div className="blog-post blog-detail text-black">
                                             <div className="sx-post-media">
                                                 <div className="portfolio-item">
-                                                    <img className="img-responsive" src={require('./../../images/blog/default/thum1.jpg')} alt="" />
+                                                    <img loading="lazy" height={800} width={1200} className="img-responsive" src={require('./../../images/blog/default/thum1.jpg')} alt="" />
                                                 </div>
                                             </div>
                                             <div className="sx-post-meta  m-t20">
@@ -71,14 +71,14 @@ class PostRightSidebar extends React.Component {
                                                     <div className="col-md-6">
                                                         <div className="sx-box m-b30">
                                                             <div className="sx-media">
-                                                                <img src={require('./../../images/blog/default/thum1.jpg')} alt="" />
+                                                                <img loading="lazy" height={800} width={1200} src={require('./../../images/blog/default/thum1.jpg')} alt="" />
                                                             </div>
                                                         </div>
                                                     </div>
                                                     <div className="col-md-6">
                                                         <div className="sx-box m-b30">
                                                             <div className="sx-media">
-                                                                <img src={require('./../../images/blog/default/thum2.jpg')} alt="" />
+                                                                <img loading="lazy" height={800} width={1200} src={require('./../../images/blog/default/thum2.jpg')} alt="" />
                                                             </div>
                                                         </div>
                                                     </div>
@@ -144,7 +144,7 @@ class PostRightSidebar extends React.Component {
                                                 <div className="col-md-6 col-sm-6">
                                                     <div className="blog-post blog-grid date-style-2">
                                                         <div className="sx-post-media sx-img-effect img-reflection">
-                                                            <NavLink to={"/blog-masonry"}><img src={require('./../../images/blog/blog-grid/pic1.jpg')} alt="" /></NavLink>
+                                                            <NavLink to={"/blog-masonry"}><img loading="lazy" height={800} width={1200} src={require('./../../images/blog/blog-grid/pic1.jpg')} alt="" /></NavLink>
                                                         </div>
                                                         <div className="sx-post-info p-t30">
                                                             <div className="sx-post-meta ">
@@ -166,7 +166,7 @@ class PostRightSidebar extends React.Component {
                                                 <div className="col-md-6 col-sm-6">
                                                     <div className="blog-post blog-grid date-style-2">
                                                         <div className="sx-post-media sx-img-effect img-reflection">
-                                                            <NavLink to={"/blog-masonry"}><img src={require('./../../images/blog/blog-grid/pic2.jpg')} alt="" /></NavLink>
+                                                            <NavLink to={"/blog-masonry"}><img loading="lazy" height={800} width={1200} src={require('./../../images/blog/blog-grid/pic2.jpg')} alt="" /></NavLink>
                                                         </div>
                                                         <div className="sx-post-info p-t30">
                                                             <div className="sx-post-meta ">
@@ -201,7 +201,7 @@ class PostRightSidebar extends React.Component {
                                                                     <NavLink to={"#"}>20 Sep 2022</NavLink>
                                                                 </div>
                                                                 <div className="comment-author vcard">
-                                                                    <img className="avatar photo" src={require('./../../images/testimonials/pic4.jpg')} alt="" />
+                                                                    <img loading="lazy" height={120} width={120} className="avatar photo" src={require('./../../images/testimonials/pic4.jpg')} alt="" />
                                                                     <cite className="fn"> Schiocchet </cite>
                                                                     <span className="says">says:</span>
                                                                 </div>
@@ -218,7 +218,7 @@ class PostRightSidebar extends React.Component {
                                                                             <NavLink to={"#"}>22 Sep 2022</NavLink>
                                                                         </div>
                                                                         <div className="comment-author vcard">
-                                                                            <img className="avatar photo" src={require('./../../images/testimonials/pic3.jpg')} alt="" />
+                                                                            <img loading="lazy" height={120} width={120} className="avatar photo" src={require('./../../images/testimonials/pic3.jpg')} alt="" />
                                                                             <cite className="fn">Brayden</cite>
                                                                             <span className="says">says:</span>
                                                                         </div>
@@ -234,7 +234,7 @@ class PostRightSidebar extends React.Component {
                                                                                     <NavLink to={"#"}>24 Sep 2022</NavLink>
                                                                                 </div>
                                                                                 <div className="comment-author vcard">
-                                                                                    <img className="avatar photo" src={require('./../../images/testimonials/pic2.jpg')} alt="" />
+                                                                                    <img loading="lazy" height={120} width={120} className="avatar photo" src={require('./../../images/testimonials/pic2.jpg')} alt="" />
                                                                                     <cite className="fn">Diego</cite>
                                                                                     <span className="says">says:</span>
                                                                                 </div>

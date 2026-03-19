@@ -63,7 +63,7 @@ class Services6 extends React.Component {
                                             <div className="figcaption bg-white  p-a30">
                                                 <h4 className="m-t0">{item.title}</h4>
                                                 <p>{item.description}</p>
-                                                <NavLink to={"/services-detail"} className="site-button-link">Read More</NavLink>
+                                                <NavLink to={"/services-detail"} className="site-button-link">Read about our facilities management services</NavLink>
                                                 <div className="figcaption-number animate-in-to-top-content">
                                                     <span>{item.count}</span>
                                                 </div>

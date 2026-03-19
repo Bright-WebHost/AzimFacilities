@@ -48,7 +48,7 @@ class Team1 extends React.Component {
                                     <div className="col-lg-3 col-md-6 col-sm-6 m-b30" key={index}>
                                         <div className="our-team-2 ">
                                             <div className="profile-image">
-                                                <img src={item.image} alt="" />
+                                                <img loading="lazy" height={800} width={1200} src={item.image} alt="" />
                                                 <div className="icons">
                                                     <a href="https://www.facebook.com" target="_blank"><i className="fa fa-facebook" /></a>
                                                     <a href="https://www.twitter.com" target="_blank"> <i className="fa fa-twitter" /></a>

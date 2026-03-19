@@ -137,7 +137,7 @@ class ProjectDetail1 extends React.Component {
                 <div className="page-notfound row">
 
                   <div className="col-md-7">
-                    <img
+                    <img loading="lazy" height={800} width={1200}
                       src={require('./../../images/azim/31.webp')}
                       alt="Building maintenance and facilities management services by Azim Group Qatar Doha"
                     />

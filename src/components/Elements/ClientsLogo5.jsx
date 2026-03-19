@@ -38,7 +38,7 @@ class ClientsLogo5 extends React.Component {
                                 <div className="owl-carousel home-client-carousel-2">
                                     <div className="item">
                                         <a href="javascript:;" className="client-logo-pic">
-                                            <img src="images/client-logo/1.webp" alt />
+                                            <img loading="lazy" height="120" width="120" alt="1" src="images/client-logo/1.webp" />
                                             <div>
                                                 <span>View More</span>
                                             </div>
@@ -46,7 +46,7 @@ class ClientsLogo5 extends React.Component {
                                     </div>
                                     <div className="item">
                                         <a href="javascript:;" className="client-logo-pic">
-                                            <img src="images/client-logo/2.webp" alt />
+                                            <img loading="lazy" height="120" width="120" alt="2" src="images/client-logo/2.webp" />
                                             <div>
                                                 <span>View More</span>
                                             </div>
@@ -54,7 +54,7 @@ class ClientsLogo5 extends React.Component {
                                     </div>
                                     <div className="item">
                                         <a href="javascript:;" className="client-logo-pic">
-                                            <img src="images/client-logo/3.webp" alt />
+                                            <img loading="lazy" height="120" width="120" alt="3" src="images/client-logo/3.webp" />
                                             <div>
                                                 <span>View More</span>
                                             </div>
@@ -62,7 +62,7 @@ class ClientsLogo5 extends React.Component {
                                     </div>
                                     <div className="item">
                                         <a href="javascript:;" className="client-logo-pic">
-                                            <img src="images/client-logo/4.webp" alt />
+                                            <img loading="lazy" height="120" width="120" alt="4" src="images/client-logo/4.webp" />
                                             <div>
                                                 <span>View More</span>
                                             </div>
@@ -70,7 +70,7 @@ class ClientsLogo5 extends React.Component {
                                     </div>
                                     <div className="item">
                                         <a href="javascript:;" className="client-logo-pic">
-                                            <img src="images/client-logo/5.webp" alt />
+                                            <img loading="lazy" height="120" width="120" alt="5" src="images/client-logo/5.webp" />
                                             <div>
                                                 <span>View More</span>
                                             </div>
@@ -78,7 +78,7 @@ class ClientsLogo5 extends React.Component {
                                     </div>
                                     <div className="item">
                                         <a href="javascript:;" className="client-logo-pic">
-                                            <img src="images/client-logo/6.webp" alt />
+                                            <img loading="lazy" height="120" width="120" alt="6" src="images/client-logo/6.webp" />
                                             <div>
                                                 <span>View More</span>
                                             </div>

@@ -64,7 +64,7 @@ class Home1 extends React.Component {
                                                                                         <div className="icon-content">
                                                                                             <h4 className="sx-tilte">Reliable</h4>
                                                                                             <p>Unwavering reliability, consistently delivering on promises and meeting client expectations.</p>
-                                                                                            {/* <NavLink to={"/services-1"} className="site-button-link">Read More</NavLink> */}
+                                                                                            {/* <NavLink to={"/services-1"} className="site-button-link">Read about our facilities management services</NavLink> */}
                                                                                         </div>
                                                                                     </div>
                                                                                 </div>
@@ -76,7 +76,7 @@ class Home1 extends React.Component {
                                                                                         <div className="icon-content">
                                                                                             <h4 className="sx-tilte">Quality Assurance</h4>
                                                                                             <p>Maintaining high standards of quality across all its services, ensuring excellence in every endeavor.</p>
-                                                                                            {/* <NavLink to={"/services-1"} className="site-button-link">Read More</NavLink> */}
+                                                                                            {/* <NavLink to={"/services-1"} className="site-button-link">Read about our facilities management services</NavLink> */}
                                                                                         </div>
                                                                                     </div>
                                                                                 </div>
@@ -88,7 +88,7 @@ class Home1 extends React.Component {
                                                                                         <div className="icon-content">
                                                                                             <h4 className="sx-tilte">Consistent Performance</h4>
                                                                                             <p>Successful projects and reliable performance instills confidence in clients, making us the trusted partner.</p>
-                                                                                            {/* <NavLink to={"/services-1"} className="site-button-link">Read More</NavLink> */}
+                                                                                            {/* <NavLink to={"/services-1"} className="site-button-link">Read about our facilities management services</NavLink> */}
                                                                                         </div>
                                                                                     </div>
                                                                                 </div>
@@ -100,7 +100,7 @@ class Home1 extends React.Component {
                                                                                         <div className="icon-content">
                                                                                             <h4 className="sx-tilte">Transparent Communication</h4>
                                                                                             <p>Building trust through clear and honest interactions.</p>
-                                                                                            {/* <NavLink to={"/services-1"} className="site-button-link">Read More</NavLink> */}
+                                                                                            {/* <NavLink to={"/services-1"} className="site-button-link">Read about our facilities management services</NavLink> */}
                                                                                         </div>
                                                                                     </div>
                                                                                 </div>
@@ -120,14 +120,14 @@ class Home1 extends React.Component {
                                             <div className="col-md-6">
                                                 <div className="sx-box m-b30">
                                                     <div className="sx-media">
-                                                        <img src={require('./../../images/azim/11.webp')} alt=""/>
+                                                        <img loading="lazy" height={800} width={1200} src={require('./../../images/azim/11.webp')} alt=""/>
                                                     </div>
                                                 </div>
                                             </div>
                                             <div className="col-md-6">
                                                 <div className="sx-box m-b30">
                                                     <div className="sx-media">
-                                                        <img src={require('./../../images/azim/101.webp')} alt="" />
+                                                        <img loading="lazy" height={800} width={1200} src={require('./../../images/azim/101.webp')} alt="" />
                                                     </div>
                                                 </div>
                                             </div>

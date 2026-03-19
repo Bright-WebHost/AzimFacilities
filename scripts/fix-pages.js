@@ -5,6 +5,8 @@ const buildDir = path.join(__dirname, '..', 'build');
 const indexHtml = path.join(buildDir, 'index.html');
 
 const pages = [
+  'about',
+  'services',
   'facilities-management',
   'cleaning-and-hospitality',
   'contact-us',
@@ -13,7 +15,11 @@ const pages = [
   'hotel-hospital-sector',
   'government-sector',
   'real-estate-sector',
-  'education-sector'
+  'education-sector',
+  'events',
+  'food-trading',
+  'limousine',
+  'restaurent'
 ];
 
 pages.forEach(page => {

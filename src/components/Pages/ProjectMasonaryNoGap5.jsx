@@ -157,7 +157,7 @@ class ProjectMasonaryNoGap5 extends React.Component {
                                     <div key={index} className={`${item.filter} masonry-item col-xl-3 col-lg-4  col-md-6 col-sm-12`}>
                                         <div className="project-mas hover-shadow">
                                             <div className="image-effect-one">
-                                                <img src={item.image} alt="" />
+                                                <img loading="lazy" height={800} width={1200} src={item.image} alt="" />
                                                 <div className="figcaption">
                                                     <a className="mfp-link" href={item.image}>
                                                         <i className="fa fa-arrows-alt" />

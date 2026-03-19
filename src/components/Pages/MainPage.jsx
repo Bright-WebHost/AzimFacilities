@@ -74,7 +74,7 @@ class Home4 extends React.Component {
                     
                     `}</style>
                                                             <div className="text-left">
-                                                                <NavLink to="/about-1" className="site-button btn-half"><span>Read More</span></NavLink>
+                                                                <NavLink to="/about-1" className="site-button btn-half"><span>Read about our facilities management services</span></NavLink>
                                                             </div>
                                                         </div>
                                                     </div>

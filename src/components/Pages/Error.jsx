@@ -20,7 +20,7 @@ class Error extends React.Component {
                             <div className="section-content">
                                 <div className="page-notfound row">
                                     <div className="col-md-7">
-                                        <img src={require('./../../images/azim/50.webp')} alt="" />
+                                        <img loading="lazy" height={800} width={1200} src={require('./../../images/azim/50.webp')} alt="" />
                                     </div>
                                     <div className="col-md-5">
                                         <strong>Welcome To Our Restaurant</strong>

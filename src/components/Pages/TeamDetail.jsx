@@ -21,7 +21,7 @@ class TeamDetail extends React.Component {
                                         <div className="col-lg-4 col-md-5 col-sm-12">
                                             <div className="about-single-team-info-left p-a30 sx-bg-secondry">
                                                 <div className="profile-image">
-                                                    <img src={require('./../../images/our-team5/1.jpg')} alt="" />
+                                                    <img loading="lazy" height={800} width={1200} src={require('./../../images/our-team5/1.jpg')} alt="" />
                                                 </div>
                                                 <div className="text-black bg-white p-a30">
                                                     <h4 className="m-t0">Johnny Smith</h4>

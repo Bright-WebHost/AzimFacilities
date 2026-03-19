@@ -36,7 +36,7 @@ class Slider5 extends React.Component {
                         <li data-index="rs-964" data-transition="fade" data-slotamount="default" data-hideafterloop="0" data-hideslideonmobile="off" data-easein="default" data-easeout="default" data-masterspeed="default" data-thumb="" data-rotate="0" data-saveperformance="off" data-title="Slide" data-param1="" data-param2="" data-param3="" data-param4="" data-param5="" data-param6="" data-param7="" data-param8="" data-param9="" data-param10="{&quot;revslider-weather-addon&quot; : { &quot;type&quot; : &quot;&quot; ,&quot;name&quot; : &quot;&quot; ,&quot;woeid&quot; : &quot;&quot; ,&quot;unit&quot; : &quot;&quot; }}" data-description="" data-beforeafter={`{"moveto":"50%|50%|50%|50%","bgColor":"#e7e7e7","bgType":"image","bgImage":"${slideimg1}",
                   "bgFit":"cover","bgPos":"center center","bgRepeat":"no-repeat","direction":"horizontal","easing":"Power2.easeInOut","delay":"500","time":"750","out":"fade","carousel":false}`}>
                    
-                    <img src={require('./../../images/main-slider/slider5/slide1-sk.jpg')} alt="" data-beforeafter="after"  data-bgcolor="" data-bgposition="center center" data-bgfit="cover" data-bgrepeat="no-repeat" data-bgparallax="off" className="rev-slidebg" data-no-retina />
+                    <img loading="lazy" height={800} width={1200} src={require('./../../images/main-slider/slider5/slide1-sk.jpg')} alt="" data-beforeafter="after"  data-bgcolor="" data-bgposition="center center" data-bgfit="cover" data-bgrepeat="no-repeat" data-bgparallax="off" className="rev-slidebg" data-no-retina />
                     
                     
                     
@@ -115,7 +115,7 @@ class Slider5 extends React.Component {
                     
                         style={{ zIndex: 12, whiteSpace: 'nowrap', fontSize: 15, fontWeight: 700, color: '#fff', letterSpacing: 5, fontFamily: '"Poppins", sans-serif', backgroundColor: '#2e313b', cursor: 'pointer' }}>
                             
-                            <NavLink to={"/about-1"} title="READ MORE" rel="bookmark" style={{color: '#fff'}}>READ MORE</NavLink>
+                            <NavLink to={"/about-1"} title="READ MORE" rel="bookmark" style={{color: '#fff'}}>Read about our facilities management services</NavLink>
                         </div>
                
                     <div className="tp-caption   tp-resizeme  tp-blackshadow rs-parallaxlevel-5" 
@@ -191,7 +191,7 @@ class Slider5 extends React.Component {
                         data-paddingleft="[45,45,45,45]"
                        
                         style={{ zIndex: 18, whiteSpace: 'nowrap', fontSize: 15,fontWeight: 700, color: '#000', letterSpacing: 5, fontFamily: '"Poppins", sans-serif', backgroundColor: 'rgb(255,255,255)', cursor: 'pointer' }}>
-                            <NavLink to={"/about-1"} title="READ MORE" rel="bookmark">READ MORE</NavLink>
+                            <NavLink to={"/about-1"} title="READ MORE" rel="bookmark">Read about our facilities management services</NavLink>
                         </div>
                     </li>
                     
@@ -199,7 +199,7 @@ class Slider5 extends React.Component {
                         <li data-index="rs-965" data-transition="fade" data-slotamount="default" data-hideafterloop="0" data-hideslideonmobile="off" data-easein="default" data-easeout="default" data-masterspeed="default" data-thumb="" data-rotate="0" data-saveperformance="off" data-title="Slide" data-param1="" data-param2="" data-param3="" data-param4="" data-param5="" data-param6="" data-param7="" data-param8="" data-param9="" data-param10="{&quot;revslider-weather-addon&quot; : { &quot;type&quot; : &quot;&quot; ,&quot;name&quot; : &quot;&quot; ,&quot;woeid&quot; : &quot;&quot; ,&quot;unit&quot; : &quot;&quot; }}" data-description="" data-beforeafter={`{"moveto":"50%|50%|50%|50%","bgColor":"#e7e7e7","bgType":"image","bgImage":"${slideimg2}",
                   "bgFit":"cover","bgPos":"center center","bgRepeat":"no-repeat","direction":"horizontal","easing":"Power2.easeInOut","delay":"500","time":"750","out":"fade","carousel":false}`}>
                    
-                    <img src={require('./../../images/main-slider/slider5/slide2-sk.jpg')} alt="" data-beforeafter="after"  data-bgcolor=""  data-bgposition="center center" data-bgfit="cover" data-bgrepeat="no-repeat" data-bgparallax="off" className="rev-slidebg" data-no-retina />
+                    <img loading="lazy" height={800} width={1200} src={require('./../../images/main-slider/slider5/slide2-sk.jpg')} alt="" data-beforeafter="after"  data-bgcolor=""  data-bgposition="center center" data-bgfit="cover" data-bgrepeat="no-repeat" data-bgparallax="off" className="rev-slidebg" data-no-retina />
                    
                     
                    
@@ -275,7 +275,7 @@ class Slider5 extends React.Component {
                         data-paddingleft="[45,45,45,45]"
                     
                         style={{ zIndex: 12, whiteSpace: 'nowrap', fontSize: 15, fontWeight: 700, color: '#fff', letterSpacing: 5, fontFamily: '"Poppins", sans-serif', backgroundColor: '#2e313b', cursor: 'pointer' }}>
-                            <NavLink to={"/about-1"} title="READ MORE" rel="bookmark" style={{color: '#fff'}}>READ MORE</NavLink>
+                            <NavLink to={"/about-1"} title="READ MORE" rel="bookmark" style={{color: '#fff'}}>Read about our facilities management services</NavLink>
                         </div>
                         
                    
@@ -349,7 +349,7 @@ class Slider5 extends React.Component {
                         data-paddingleft="[45,45,45,45]"
                        
                         style={{ zIndex: 18, whiteSpace: 'nowrap', fontSize: 15, fontWeight: 700, color: '#000', letterSpacing: 5, fontFamily: '"Poppins", sans-serif', backgroundColor: 'rgb(255,255,255)', cursor: 'pointer' }}>
-                            <NavLink to={"/about-1"} title="READ MORE" rel="bookmark">READ MORE</NavLink></div>
+                            <NavLink to={"/about-1"} title="READ MORE" rel="bookmark">Read about our facilities management services</NavLink></div>
                     </li>                    
                     
                     </ul>

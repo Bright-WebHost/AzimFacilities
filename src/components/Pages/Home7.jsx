@@ -142,7 +142,7 @@ class Home7 extends React.Component {
                                             <div className="col-md-3">
                                                 <div className="sx-box m-b30">
                                                     <div className="sx-media">
-                                                        <img
+                                                        <img fetchpriority="high" height={800} width={1200}
                                                             src={require('./../../images/azim/ct-1.webp')}
                                                             alt="ISO 9001:2015 Quality Management Certification — Azim Facilities Management Qatar"
                                                         />
@@ -152,7 +152,7 @@ class Home7 extends React.Component {
                                             <div className="col-md-3">
                                                 <div className="sx-box m-b30">
                                                     <div className="sx-media">
-                                                        <img
+                                                        <img loading="lazy" height={800} width={1200}
                                                             src={require('./../../images/azim/ct-2.webp')}
                                                             alt="ISO 14001:2015 Environmental Management Certification — Azim Group Qatar Doha"
                                                         />
@@ -162,7 +162,7 @@ class Home7 extends React.Component {
                                             <div className="col-md-3">
                                                 <div className="sx-box m-b30">
                                                     <div className="sx-media">
-                                                        <img
+                                                        <img loading="lazy" height={800} width={1200}
                                                             src={require('./../../images/azim/Cert-3.webp')}
                                                             alt="ISO 45001:2018 Occupational Health Safety Certification — Azim FM Qatar"
                                                         />
@@ -172,7 +172,7 @@ class Home7 extends React.Component {
                                             <div className="col-md-3">
                                                 <div className="sx-box m-b30">
                                                     <div className="sx-media">
-                                                        <img
+                                                        <img loading="lazy" height={800} width={1200}
                                                             src={require('./../../images/azim/Cert-4.webp')}
                                                             alt="Sedex SMETA 4-Pillar Ethical Compliance — Azim Facilities Management Doha Qatar"
                                                         />

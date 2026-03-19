@@ -26,6 +26,14 @@
     { "src": "/government-sector", "dest": "/government-sector/index.html" },
     { "src": "/real-estate-sector", "dest": "/real-estate-sector/index.html" },
     { "src": "/education-sector", "dest": "/education-sector/index.html" },
+    { "src": "/events", "dest": "/events/index.html" },
+    { "src": "/events/", "dest": "/events/index.html" },
+    { "src": "/food-trading", "dest": "/food-trading/index.html" },
+    { "src": "/food-trading/", "dest": "/food-trading/index.html" },
+    { "src": "/limousine", "dest": "/limousine/index.html" },
+    { "src": "/limousine/", "dest": "/limousine/index.html" },
+    { "src": "/restaurent", "dest": "/restaurent/index.html" },
+    { "src": "/restaurent/", "dest": "/restaurent/index.html" },
     { "src": "/(.*)\\.(.+)", "dest": "/$1.$2" },
     { "src": "/(.*)", "dest": "/index.html" }
   ]

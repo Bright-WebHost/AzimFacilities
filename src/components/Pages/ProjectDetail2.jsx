@@ -45,49 +45,49 @@ class ProjectDetail2 extends React.Component {
                                         <div className="col-md-6">
                                             <div className="project-detail-pic m-b30">
                                                 <div className="sx-media">
-                                                    <img src={require('./../../images/projects/square/pic8.jpg')} alt="" />
+                                                    <img loading="lazy" height={800} width={1200} src={require('./../../images/projects/square/pic8.jpg')} alt="" />
                                                 </div>
                                             </div>
                                         </div>
                                         <div className="col-md-6">
                                             <div className="project-detail-pic m-b30">
                                                 <div className="sx-media">
-                                                    <img src={require('./../../images/projects/square/pic9.jpg')} alt="" />
+                                                    <img loading="lazy" height={800} width={1200} src={require('./../../images/projects/square/pic9.jpg')} alt="" />
                                                 </div>
                                             </div>
                                         </div>
                                         <div className="col-md-6">
                                             <div className="project-detail-pic m-b30">
                                                 <div className="sx-media">
-                                                    <img src={require('./../../images/projects/square/pic10.jpg')} alt="" />
+                                                    <img loading="lazy" height={800} width={1200} src={require('./../../images/projects/square/pic10.jpg')} alt="" />
                                                 </div>
                                             </div>
                                         </div>
                                         <div className="col-md-6">
                                             <div className="project-detail-pic m-b30">
                                                 <div className="sx-media">
-                                                    <img src={require('./../../images/projects/square/pic7.jpg')} alt="" />
+                                                    <img loading="lazy" height={800} width={1200} src={require('./../../images/projects/square/pic7.jpg')} alt="" />
                                                 </div>
                                             </div>
                                         </div>
                                         <div className="col-md-6">
                                             <div className="project-detail-pic m-b30">
                                                 <div className="sx-media">
-                                                    <img src={require('./../../images/projects/square/pic2.jpg')} alt="" />
+                                                    <img loading="lazy" height={800} width={1200} src={require('./../../images/projects/square/pic2.jpg')} alt="" />
                                                 </div>
                                             </div>
                                         </div>
                                         <div className="col-md-6">
                                             <div className="project-detail-pic m-b30">
                                                 <div className="sx-media">
-                                                    <img src={require('./../../images/projects/square/pic3.jpg')} alt="" />
+                                                    <img loading="lazy" height={800} width={1200} src={require('./../../images/projects/square/pic3.jpg')} alt="" />
                                                 </div>
                                             </div>
                                         </div>
                                         <div className="col-md-12">
                                             <div className="sx-box">
                                                 <div className="sx-thum-bx sx-img-overlay1 sx-img-effect yt-thum-box">
-                                                    <img src="https://img.youtube.com/vi/Oy2QIiSQT2U/0.jpg" alt="" />
+                                                    <img loading="lazy" height="800" width="1200" src="https://img.youtube.com/vi/Oy2QIiSQT2U/0.jpg" alt="" />
                                                     <NavLink to={"#"} className="play-now" data-toggle="modal" data-target="#myModal">
                                                         <i className="icon fa fa-play" />
                                                         <span className="ripple" />

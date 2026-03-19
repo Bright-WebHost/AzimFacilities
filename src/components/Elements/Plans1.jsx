@@ -30,7 +30,7 @@ class Plans1 extends React.Component {
                                             <div className="pricingtable-wrapper pricing-table-style-5 bg-white">
                                                 <div className="pricingtable-inner">
                                                     <div className="pricingtable-title">
-                                                        <img src={img1}/>
+                                                        <img loading="lazy" height={800} width={1200} alt="" src={img1}/>
                                                     </div>
                                                     <div className="pricingtable-price">
                                                         {/* <span className="pricingtable-bx">$29</span> */}
@@ -52,7 +52,7 @@ class Plans1 extends React.Component {
                                             <div className="pricingtable-wrapper  pricing-table-style-5 bg-white">
                                                 <div className="pricingtable-inner pricingtable-highlight shadow-lg">
                                                     <div className="pricingtable-title">
-                                                        <img src={img2}/>
+                                                        <img loading="lazy" height={800} width={1200} alt="" src={img2}/>
                                                     </div>
                                                     <div className="pricingtable-price">
                                                         {/* <span className="pricingtable-bx">$39</span> */}
@@ -74,7 +74,7 @@ class Plans1 extends React.Component {
                                             <div className="pricingtable-wrapper  pricing-table-style-5 bg-white">
                                                 <div className="pricingtable-inner">
                                                     <div className="pricingtable-title">
-                                                        <img src={img3}/>
+                                                        <img loading="lazy" height={800} width={1200} alt="" src={img3}/>
                                                     </div>
                                                     <div className="pricingtable-price">
                                                         {/* <span className="pricingtable-bx">$49</span> */}

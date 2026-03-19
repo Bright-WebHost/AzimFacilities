@@ -19,7 +19,7 @@ class About2 extends React.Component {
                                     <div className="col-xl-7 col-lg-7 col-md-12">
                                         <div className="about-home-2">
                                             <div className="text-left">
-                                                <img src={logo} style={{height:'44px'}}/>
+                                                <img loading="lazy" height={120} width={120} alt="" src={logo} style={{height:'44px'}}/>
                                             <h4 style={{color:'#E18A2E'}}>Azim Facilities Management and Services</h4>
                                             </div><br/>
                                             <h3 className="m-t0 sx-tilte">Bringing exceptional quality to every horizon we touch</h3>

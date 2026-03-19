@@ -130,7 +130,7 @@ const Home4 = (props) => {
 
                     <div className="text-left">
                       <NavLink to="/facilities-management" className="site-button btn-half">
-                        <span>Read More</span>
+                        <span>Read about our facilities management services</span>
                       </NavLink>
                     </div>
                   </div>

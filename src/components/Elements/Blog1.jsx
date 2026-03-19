@@ -52,7 +52,7 @@ class Blog1 extends React.Component {
                                     <div className="col-lg-4 col-md-6 col-sm-12" key={index}>
                                     <div className="blog-post blog-grid date-style-2">
                                             <div className="sx-post-media sx-img-effect img-reflection">
-                                                <NavLink to={"/blog-single"}><img src={item.image} alt="" /></NavLink>
+                                                <NavLink to={"/blog-single"}><img loading="lazy" height={800} width={1200} src={item.image} alt="" /></NavLink>
                                             </div>
                                             <div className="sx-post-info p-t30">
                                                 <div className="sx-post-meta ">

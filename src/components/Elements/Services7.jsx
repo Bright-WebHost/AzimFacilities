@@ -75,7 +75,7 @@ class Services7 extends React.Component {
                                                     <div className="sx-icon-box-wraper center text-white">
                                                         <div className="icon-lg m-b15">
                                                             <span className="icon-cell">
-                                                                <img
+                                                                <img loading="lazy" height={120} width={120}
                                                                     src={item.logo}
                                                                     alt={item.title}
                                                                     style={{

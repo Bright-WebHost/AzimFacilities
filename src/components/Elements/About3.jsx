@@ -33,7 +33,7 @@ class About3 extends React.Component {
 
 `}</style>
                                         <div className="text-left">
-                                            <NavLink to="/about" className="site-button btn-half"><span>Read More</span></NavLink>
+                                            <NavLink to="/about" className="site-button btn-half"><span>Read about our facilities management services</span></NavLink>
                                         </div>
                                     </div>
                                 </div>

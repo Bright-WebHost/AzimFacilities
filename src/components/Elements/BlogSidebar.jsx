@@ -14,7 +14,7 @@ class BlogSidebar extends React.Component {
                                 <div className="input-group">
                                     <input name="news-letter" type="text" className="form-control bg-gray" placeholder="Write your text" />
                                     <span className="input-group-btn bg-gray">
-                                        <button type="button" className="btn"><i className="fa fa-search" /></button>
+                                        <button aria-label="Interactive action" type="button" className="btn"><i className="fa fa-search" /></button>
                                     </span>
                                 </div>
                             </form>
@@ -27,7 +27,7 @@ class BlogSidebar extends React.Component {
                             <div className="widget-post-bx">
                                 <div className="widget-post clearfix">
                                     <div className="sx-post-media">
-                                        <img src={require('./../../images/blog/recent-blog/pic1.jpg')} alt=""/>
+                                        <img loading="lazy" height={800} width={1200} src={require('./../../images/blog/recent-blog/pic1.jpg')} alt=""/>
                                     </div>
                                     <div className="sx-post-info">
                                         <div className="sx-post-header">
@@ -42,7 +42,7 @@ class BlogSidebar extends React.Component {
                                 </div>
                                 <div className="widget-post clearfix">
                                     <div className="sx-post-media">
-                                        <img src={require('./../../images/blog/recent-blog/pic2.jpg')} alt=""/>
+                                        <img loading="lazy" height={800} width={1200} src={require('./../../images/blog/recent-blog/pic2.jpg')} alt=""/>
                                     </div>
                                     <div className="sx-post-info">
                                         <div className="sx-post-header">
@@ -57,7 +57,7 @@ class BlogSidebar extends React.Component {
                                 </div>
                                 <div className="widget-post clearfix">
                                     <div className="sx-post-media">
-                                        <img src={require('./../../images/blog/recent-blog/pic3.jpg')} alt="" />
+                                        <img loading="lazy" height={800} width={1200} src={require('./../../images/blog/recent-blog/pic3.jpg')} alt="" />
                                     </div>
                                     <div className="sx-post-info">
                                         <div className="sx-post-header">
@@ -97,7 +97,7 @@ class BlogSidebar extends React.Component {
                                     <div className="input-group">
                                         <input name="news-letter" className="form-control" placeholder="ENTER YOUR EMAIL" type="text" />
                                         <span className="input-group-btn">
-                                            <button type="button" className="site-button"><i className="fa fa-paper-plane-o" /></button>
+                                            <button aria-label="Interactive action" type="button" className="site-button"><i className="fa fa-paper-plane-o" /></button>
                                         </span>
                                     </div>
                                 </form>
@@ -110,42 +110,42 @@ class BlogSidebar extends React.Component {
                         <ul className="p-a10 bg-white clearfix">
                             <li>
                                 <div className="sx-post-thum">
-                                    <a href={require('./../../images/gallery/pic1.jpg')} className="mfp-link"><img src={require('./../../images/gallery/thumb/pic1.jpg')} alt=""/></a>
+                                    <a href={require('./../../images/gallery/pic1.jpg')} className="mfp-link"><img loading="lazy" height={240} width={320} src={require('./../../images/gallery/thumb/pic1.jpg')} alt=""/></a>
                                 </div>
                             </li>
                             <li>
                                 <div className="sx-post-thum ">
-                                    <a href={require('./../../images/gallery/pic2.jpg')} className="mfp-link"><img src={require('./../../images/gallery/thumb/pic2.jpg')} alt=""/></a>
+                                    <a href={require('./../../images/gallery/pic2.jpg')} className="mfp-link"><img loading="lazy" height={240} width={320} src={require('./../../images/gallery/thumb/pic2.jpg')} alt=""/></a>
                                 </div>
                             </li>
                             <li>
                                 <div className="sx-post-thum  ">
-                                    <a href={require('./../../images/gallery/pic3.jpg')} className="mfp-link"><img src={require('./../../images/gallery/thumb/pic3.jpg')} alt="" /></a>
+                                    <a href={require('./../../images/gallery/pic3.jpg')} className="mfp-link"><img loading="lazy" height={240} width={320} src={require('./../../images/gallery/thumb/pic3.jpg')} alt="" /></a>
                                 </div>
                             </li>
                             <li>
                                 <div className="sx-post-thum ">
-                                    <a href={require('./../../images/gallery/pic4.jpg')}  className="mfp-link"><img src={require('./../../images/gallery/thumb/pic4.jpg')} alt="" /></a>
+                                    <a href={require('./../../images/gallery/pic4.jpg')}  className="mfp-link"><img loading="lazy" height={240} width={320} src={require('./../../images/gallery/thumb/pic4.jpg')} alt="" /></a>
                                 </div>
                             </li>
                             <li>
                                 <div className="sx-post-thum ">
-                                    <a href={require('./../../images/gallery/pic5.jpg')} className="mfp-link"><img src={require('./../../images/gallery/thumb/pic5.jpg')} alt=""/></a>
+                                    <a href={require('./../../images/gallery/pic5.jpg')} className="mfp-link"><img loading="lazy" height={240} width={320} src={require('./../../images/gallery/thumb/pic5.jpg')} alt=""/></a>
                                 </div>
                             </li>
                             <li>
                                 <div className="sx-post-thum ">
-                                    <a href={require('./../../images/gallery/pic6.jpg')} className="mfp-link"><img src={require('./../../images/gallery/thumb/pic6.jpg')} alt="" /></a>
+                                    <a href={require('./../../images/gallery/pic6.jpg')} className="mfp-link"><img loading="lazy" height={240} width={320} src={require('./../../images/gallery/thumb/pic6.jpg')} alt="" /></a>
                                 </div>
                             </li>
                             <li>
                                 <div className="sx-post-thum">
-                                    <a href={require('./../../images/gallery/pic7.jpg')} className="mfp-link"><img src={require('./../../images/gallery/thumb/pic7.jpg')} alt="" /></a>
+                                    <a href={require('./../../images/gallery/pic7.jpg')} className="mfp-link"><img loading="lazy" height={240} width={320} src={require('./../../images/gallery/thumb/pic7.jpg')} alt="" /></a>
                                 </div>
                             </li>
                             <li>
                                 <div className="sx-post-thum ">
-                                    <a href={require('./../../images/gallery/pic8.jpg')} className="mfp-link"><img src={require('./../../images/gallery/thumb/pic8.jpg')} alt=""/></a>
+                                    <a href={require('./../../images/gallery/pic8.jpg')} className="mfp-link"><img loading="lazy" height={240} width={320} src={require('./../../images/gallery/thumb/pic8.jpg')} alt=""/></a>
                                 </div>
                             </li>
                         </ul>

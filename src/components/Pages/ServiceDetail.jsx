@@ -53,7 +53,7 @@ class ServiceDetail extends React.Component {
                                         <div className="about4-content m-t30">
                                             <h4>GET 10% OFF TODAY</h4>
                                             <p>A Completely Safe and Advanced Cleaning Solution for both Petrol and Diesel Engines</p>
-                                            <NavLink to={"/services-1"} className="site-button-link">Read More</NavLink>
+                                            <NavLink to={"/services-1"} className="site-button-link">Read about our facilities management services</NavLink>
                                         </div>
                                     </div>
                                 </div>
@@ -61,7 +61,7 @@ class ServiceDetail extends React.Component {
                                     <div className="section-content">
                                         <div className="service-single-block m-b30">
                                             <div className="sx-media">
-                                                <img src={require('./../../images/gallery/pic5.jpg')} alt="" />
+                                                <img loading="lazy" height={800} width={1200} src={require('./../../images/gallery/pic5.jpg')} alt="" />
                                             </div>
                                             <h3 className="m-t30 sx-tilte">Interior design, a fine line with more shine a design gives you.</h3>
                                             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
@@ -91,7 +91,7 @@ class ServiceDetail extends React.Component {
                                             </div>
                                             <div className="sx-media sx-img-effect zoom-slow">
                                                 <div className="sx-thum-bx sx-img-overlay1 sx-img-effect yt-thum-box">
-                                                    <img src="https://img.youtube.com/vi/Oy2QIiSQT2U/0.jpg" alt=""/>
+                                                    <img loading="lazy" height="800" width="1200" src="https://img.youtube.com/vi/Oy2QIiSQT2U/0.jpg" alt=""/>
                                                     <NavLink to={"#"} className="play-now" data-toggle="modal" data-target="#myModal6">
                                                         <i className="icon fa fa-play" />
                                                         <span className="ripple" />
@@ -150,7 +150,7 @@ class ServiceDetail extends React.Component {
                                                     <div className="icon-content">
                                                         <h4 className="sx-tilte">Decoration</h4>
                                                         <p>Lorem Ipsum is simply dummy text of the printing and setting as Planning.</p>
-                                                        <NavLink to={"/services-1"} className="site-button-link">Read More</NavLink>
+                                                        <NavLink to={"/services-1"} className="site-button-link">Read about our facilities management services</NavLink>
                                                     </div>
                                                 </div>
                                             </div>
@@ -162,7 +162,7 @@ class ServiceDetail extends React.Component {
                                                     <div className="icon-content">
                                                         <h4 className="sx-tilte">Solution</h4>
                                                         <p>Lorem Ipsum is simply dummy text of the printing and setting as Planning.</p>
-                                                        <NavLink to={"/services-1"} className="site-button-link">Read More</NavLink>
+                                                        <NavLink to={"/services-1"} className="site-button-link">Read about our facilities management services</NavLink>
                                                     </div>
                                                 </div>
                                             </div>

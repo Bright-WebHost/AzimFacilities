@@ -54,7 +54,7 @@ class About1 extends React.Component {
                                         <h3 className="m-t0 sx-tilte">bringing exceptional quality to every horizon we touch</h3>
                                         <p>We are an ISO 9001:2015 certified company with full compliance to Sedex Smeta 4-pillar guidelines, stands as a leading player in the realm of facilities management & Hospitality in Qatar. With a heightened demand for quality services in the thriving hospitality and hotel industries, Azim Facilities Management & Hospitality Services emerges as a pivotal solution provider. Our unwavering commitment to excellence, coupled with a highly skilled and adept workforce, positions us as a premier choice for comprehensive facility management & Hospitality services</p>
                                         <div className="text-left">
-                                            <NavLink to="/about-1" className="site-button-secondry btn-half"><span>Read More</span></NavLink>
+                                            <NavLink to="/about-1" className="site-button-secondry btn-half"><span>Read about our facilities management services</span></NavLink>
                                         </div>
                                     </div>
                                 </div>
@@ -64,7 +64,7 @@ class About1 extends React.Component {
                                             {images.map((item, index) => (
                                                 <div className="item" key={index}>
                                                     <div className="sx-img-effect zoom-slow">
-                                                    <NavLink to={"/about-1"}><img src={item} alt="" /></NavLink>
+                                                    <NavLink to={"/about-1"}><img loading="lazy" height={800} width={1200} src={item} alt="" /></NavLink>
                                                     </div>
                                                 </div>
 
@@ -72,7 +72,7 @@ class About1 extends React.Component {
 
                                         </OwlCarousel>
                                         <div className="about-home-before">
-                                            <img src={require('./../../images/about-slider/1-ab.jpg')} alt="" />
+                                            <img loading="lazy" height={800} width={1200} src={require('./../../images/about-slider/1-ab.jpg')} alt="" />
                                         </div>
                                     </div>
                                 </div>

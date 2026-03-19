@@ -68,7 +68,7 @@ class WhatWeDo3 extends React.Component {
                                     <div className="col-xl-3 col-lg-4 col-md-6 col-sm-12 m-b30" key={index}>
                                         <div className="number-block-three slide-ani-top">
                                             <div className="sx-media">
-                                                <img src={item.image} alt="" />
+                                                <img loading="lazy" height={800} width={1200} src={item.image} alt="" />
                                             </div>
                                             <div className="figcaption bg-gray  p-a30">
                                                 <h4 className="m-tb0"><NavLink to={"/services-detail"}>{item.title}</NavLink></h4>

@@ -52,7 +52,7 @@ class Header4 extends React.Component {
                                 <div className="logo-header">
                                     <div className="logo-header-inner logo-header-one">
                                         <NavLink to={"./"}>
-                                            <img src={this.state.logo} alt="Inteshape" />
+                                            <img loading="lazy" height={120} width={120} src={this.state.logo} alt="Inteshape" />
                                         </NavLink>
                                     </div>
                                 </div>
@@ -82,7 +82,7 @@ class Header4 extends React.Component {
                                     <form role="search" id="searchform" action="/search" method="get" className="radius-xl">
                                         <div className="input-group">
                                             <input defaultValue="" name="q" type="search" placeholder="Type to search" />
-                                            <span className="input-group-btn"><button type="button" className="search-btn"><i className="fa fa-search arrow-animation" /></button></span>
+                                            <span className="input-group-btn"><button aria-label="Interactive action" type="button" className="search-btn"><i className="fa fa-search arrow-animation" /></button></span>
                                         </div>
                                     </form>
                                 </div>

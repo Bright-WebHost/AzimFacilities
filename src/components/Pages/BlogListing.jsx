@@ -59,7 +59,7 @@ class BlogListing extends React.Component {
                                                 </div>
                                                 <div className="clearfix">
                                                     <div className="sx-post-readmore pull-left">
-                                                        <NavLink to={"/blog-single"} title="READ MORE" rel="bookmark" className="site-button-link">Read More</NavLink>
+                                                        <NavLink to={"/blog-single"} title="READ MORE" rel="bookmark" className="site-button-link">Read about our facilities management services</NavLink>
                                                     </div>
                                                     <div className="widget_social_inks pull-right">
                                                         <ul className="social-icons social-square social-dark m-b0">
@@ -76,7 +76,7 @@ class BlogListing extends React.Component {
                                         {/* COLUMNS 2 */}
                                         <div className="blog-post blog-lg date-style-3 block-shadow">
                                             <div className="sx-post-media sx-img-effect zoom-slow">
-                                                <NavLink to={"/blog-single"}><img src={require('./../../images/blog/default/thum1.jpg')} alt="" /></NavLink>
+                                                <NavLink to={"/blog-single"}><img loading="lazy" height={800} width={1200} src={require('./../../images/blog/default/thum1.jpg')} alt="" /></NavLink>
                                             </div>
                                             <div className="sx-post-info  bg-white">
                                                 <div className="sx-post-meta ">
@@ -94,7 +94,7 @@ class BlogListing extends React.Component {
                                                 </div>
                                                 <div className="clearfix">
                                                     <div className="sx-post-readmore pull-left">
-                                                        <NavLink to={"/blog-single"} title="READ MORE" rel="bookmark" className="site-button-link">Read More</NavLink>
+                                                        <NavLink to={"/blog-single"} title="READ MORE" rel="bookmark" className="site-button-link">Read about our facilities management services</NavLink>
                                                     </div>
                                                     <div className="widget_social_inks pull-right">
                                                         <ul className="social-icons social-square social-dark m-b0">
@@ -115,17 +115,17 @@ class BlogListing extends React.Component {
                                                 <OwlCarousel className="owl-carousel owl-fade-slider-one owl-btn-vertical-center owl-dots-bottom-right" {...options}>
                                                     <div className="item">
                                                         <div className="aon-thum-bx">
-                                                            <img src={require('./../../images/blog/default/thum1.jpg')} alt="" />
+                                                            <img loading="lazy" height={800} width={1200} src={require('./../../images/blog/default/thum1.jpg')} alt="" />
                                                         </div>
                                                     </div>
                                                     <div className="item">
                                                         <div className="aon-thum-bx">
-                                                            <img src={require('./../../images/blog/default/thum2.jpg')} alt="" />
+                                                            <img loading="lazy" height={800} width={1200} src={require('./../../images/blog/default/thum2.jpg')} alt="" />
                                                         </div>
                                                     </div>
                                                     <div className="item">
                                                         <div className="aon-thum-bx">
-                                                            <img src={require('./../../images/blog/default/thum3.jpg')} alt="" />
+                                                            <img loading="lazy" height={800} width={1200} src={require('./../../images/blog/default/thum3.jpg')} alt="" />
                                                         </div>
                                                     </div>
                                                 </OwlCarousel>
@@ -148,7 +148,7 @@ class BlogListing extends React.Component {
                                                 </div>
                                                 <div className="clearfix">
                                                     <div className="sx-post-readmore pull-left">
-                                                        <NavLink to={"/blog-single"} title="READ MORE" rel="bookmark" className="site-button-link">Read More</NavLink>
+                                                        <NavLink to={"/blog-single"} title="READ MORE" rel="bookmark" className="site-button-link">Read about our facilities management services</NavLink>
                                                     </div>
                                                     <div className="widget_social_inks pull-right">
                                                         <ul className="social-icons social-square social-dark m-b0">
@@ -183,7 +183,7 @@ class BlogListing extends React.Component {
                                                 </div>
                                                 <div className="clearfix">
                                                     <div className="sx-post-readmore pull-left">
-                                                        <NavLink to={"/blog-single"} title="READ MORE" rel="bookmark" className="site-button-link">Read More</NavLink>
+                                                        <NavLink to={"/blog-single"} title="READ MORE" rel="bookmark" className="site-button-link">Read about our facilities management services</NavLink>
                                                     </div>
                                                     <div className="widget_social_inks pull-right">
                                                         <ul className="social-icons social-square social-dark m-b0">
@@ -218,7 +218,7 @@ class BlogListing extends React.Component {
                                                 </div>
                                                 <div className="clearfix">
                                                     <div className="sx-post-readmore pull-left">
-                                                        <NavLink to={"/blog-single"} title="READ MORE" rel="bookmark" className="site-button-link">Read More</NavLink>
+                                                        <NavLink to={"/blog-single"} title="READ MORE" rel="bookmark" className="site-button-link">Read about our facilities management services</NavLink>
                                                     </div>
                                                     <div className="widget_social_inks pull-right">
                                                         <ul className="social-icons social-square social-dark m-b0">
@@ -236,7 +236,7 @@ class BlogListing extends React.Component {
                                         <div className="blog-post blog-lg date-style-3 block-shadow">
                                             <div className="sx-post-media sx-img-effect zoom-slow">
                                                 <div className="sx-thum-bx sx-img-overlay1 sx-img-effect yt-thum-box">
-                                                    <img src="https://img.youtube.com/vi/Oy2QIiSQT2U/0.jpg" alt="" />
+                                                    <img loading="lazy" height="800" width="1200" src="https://img.youtube.com/vi/Oy2QIiSQT2U/0.jpg" alt="" />
                                                     <NavLink to={"#"} className="play-now" data-toggle="modal" data-target="#myModal4">
                                                         <i className="icon fa fa-play" />
                                                         <span className="ripple" />
@@ -260,7 +260,7 @@ class BlogListing extends React.Component {
                                                 </div>
                                                 <div className="clearfix">
                                                     <div className="sx-post-readmore pull-left">
-                                                        <NavLink to={"/blog-single"} title="READ MORE" rel="bookmark" className="site-button-link">Read More</NavLink>
+                                                        <NavLink to={"/blog-single"} title="READ MORE" rel="bookmark" className="site-button-link">Read about our facilities management services</NavLink>
                                                     </div>
                                                     <div className="widget_social_inks pull-right">
                                                         <ul className="social-icons social-square social-dark m-b0">
@@ -278,7 +278,7 @@ class BlogListing extends React.Component {
                                         <div className="blog-post blog-lg date-style-3 block-shadow">
                                             <div className="sx-post-media sx-img-effect zoom-slow">
                                                 <div className="sx-thum-bx sx-img-overlay1">
-                                                    <img src="https://i.vimeocdn.com/video/497807626_590x332.jpg" alt="" />
+                                                    <img loading="lazy" height="800" width="1200" src="https://i.vimeocdn.com/video/497807626_590x332.jpg" alt="" />
                                                     <NavLink to={"#"} className="play-now" data-toggle="modal" data-target="#myModal3">
                                                         <i className="icon fa fa-play" />
                                                         <span className="ripple" />
@@ -302,7 +302,7 @@ class BlogListing extends React.Component {
                                                 </div>
                                                 <div className="clearfix">
                                                     <div className="sx-post-readmore pull-left">
-                                                        <NavLink to={"/blog-single"} title="READ MORE" rel="bookmark" className="site-button-link">Read More</NavLink>
+                                                        <NavLink to={"/blog-single"} title="READ MORE" rel="bookmark" className="site-button-link">Read about our facilities management services</NavLink>
                                                     </div>
                                                     <div className="widget_social_inks pull-right">
                                                         <ul className="social-icons social-square social-dark m-b0">

@@ -160,7 +160,7 @@ class ShopDetail extends React.Component {
                                                                                 <NavLink to={"#"}>06 August 2022</NavLink>
                                                                             </div>
                                                                             <div className="comment-author vcard">
-                                                                                <img className="avatar photo" src={require('./../../images/testimonials/pic4.jpg')} alt=""/>
+                                                                                <img loading="lazy" height={120} width={120} className="avatar photo" src={require('./../../images/testimonials/pic4.jpg')} alt=""/>
                                                                                 <cite className="fn"> Schiocchet </cite>
                                                                                 <span className="says">says:</span>
                                                                             </div>
@@ -177,7 +177,7 @@ class ShopDetail extends React.Component {
                                                                                         <NavLink to={"#"}>05 August 2022</NavLink>
                                                                                     </div>
                                                                                     <div className="comment-author vcard">
-                                                                                        <img className="avatar photo" src={require('./../../images/testimonials/pic3.jpg')} alt=""/>
+                                                                                        <img loading="lazy" height={120} width={120} className="avatar photo" src={require('./../../images/testimonials/pic3.jpg')} alt=""/>
                                                                                         <cite className="fn">Brayden</cite>
                                                                                         <span className="says">says:</span>
                                                                                     </div>
@@ -193,7 +193,7 @@ class ShopDetail extends React.Component {
                                                                                                 <NavLink to={"#"}>02 August 2022</NavLink>
                                                                                             </div>
                                                                                             <div className="comment-author vcard">
-                                                                                                <img className="avatar photo" src={require('./../../images/testimonials/pic2.jpg')} alt=""/>
+                                                                                                <img loading="lazy" height={120} width={120} className="avatar photo" src={require('./../../images/testimonials/pic2.jpg')} alt=""/>
                                                                                                 <cite className="fn">Diego</cite>
                                                                                                 <span className="says">says:</span>
                                                                                             </div>
@@ -262,7 +262,7 @@ class ShopDetail extends React.Component {
                                 <div className="col-md-3 col-sm-6 col-xs-6 col-xs-100pc m-b30">
                                     <div className="sx-box sx-product-box   overflow-hide">
                                         <div className="sx-thum-bx sx-img-overlay1">
-                                            <img src={require('./../../images/products/pic-1.jpg')} alt=""/>
+                                            <img loading="lazy" height={800} width={1200} src={require('./../../images/products/pic-1.jpg')} alt=""/>
                                             <div className="item-cart-view">
                                                 <div className="item-cart-btn">
                                                     <NavLink to={"#"}>
@@ -293,7 +293,7 @@ class ShopDetail extends React.Component {
                                     <div className="sx-box sx-product-box   overflow-hide">
                                         <div className="shop-pro-sale-bnr">Sale!</div>
                                         <div className="sx-thum-bx sx-img-overlay1">
-                                            <img src={require('./../../images/products/pic-2.jpg')} alt=""/>
+                                            <img loading="lazy" height={800} width={1200} src={require('./../../images/products/pic-2.jpg')} alt=""/>
                                             <div className="item-cart-view">
                                                 <div className="item-cart-btn">
                                                     <NavLink to={"#"}>
@@ -324,7 +324,7 @@ class ShopDetail extends React.Component {
                                 <div className="col-md-3 col-sm-6 col-xs-6 col-xs-100pc m-b30">
                                     <div className="sx-box sx-product-box   overflow-hide">
                                         <div className="sx-thum-bx sx-img-overlay1">
-                                            <img src={require('./../../images/products/pic-3.jpg')} alt=""/>
+                                            <img loading="lazy" height={800} width={1200} src={require('./../../images/products/pic-3.jpg')} alt=""/>
                                             <div className="item-cart-view">
                                                 <div className="item-cart-btn">
                                                     <NavLink to={"#"}>
@@ -354,7 +354,7 @@ class ShopDetail extends React.Component {
                                 <div className="col-md-3 col-sm-6 col-xs-6 col-xs-100pc m-b30">
                                     <div className="sx-box sx-product-box   overflow-hide">
                                         <div className="sx-thum-bx sx-img-overlay1">
-                                            <img src={require('./../../images/products/pic-4.jpg')} alt="" />
+                                            <img loading="lazy" height={800} width={1200} src={require('./../../images/products/pic-4.jpg')} alt="" />
                                             <div className="item-cart-view">
                                                 <div className="item-cart-btn">
                                                     <NavLink to={"#"}>
