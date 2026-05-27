@@ -1,5 +1,5 @@
 Replaced hero section images:
-- azim-ramadan-m.png → eid_mobile.webp
+- azim-ramadan-m.png → adha.png
 - AzimRamadan.jpeg → eid.webp
 # Complete List of Changes - Azim Facilities Website
 
