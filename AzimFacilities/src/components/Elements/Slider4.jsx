@@ -41,22 +41,22 @@ class Slider4 extends React.Component {
           <div id="rev_slider_26_1" className="rev_slider fullscreenbanner" style={{ display: 'none' }} data-version="5.4.1">
             <ul>
 
-              <li
+              {/* <li
                 data-index="rs-3"
                 data-transition="fade"
                 data-slotamount="default"
                 data-masterspeed={300}
                 style={{ background: 'linear-gradient(0deg,rgba(255, 255, 255, 1) 28%, rgba(0, 0, 0, 1) 93%)' }}
-              >
-                <picture >
+              > */}
+                {/* <picture > */}
                   {/* Mobile image → fill screen */}
-                  <source
+                  {/* <source
                     media="(max-width: 768px)"
                     srcSet={require("./../../images/azim/adha.png")}
-                  />
+                  /> */}
 
                   {/* Desktop image → full visible */}
-                  <img fetchpriority="high" height={800} width={1200}
+                  {/* <img fetchpriority="high" height={800} width={1200}
                     src={require("./../../images/azim/eid.webp")}
                     alt="Azim Facilities Management Qatar hero banner"
                     className="rev-slidebg banner-img"
@@ -64,17 +64,17 @@ class Slider4 extends React.Component {
                     data-bgrepeat="no-repeat"
                     data-no-retina
 
-                  />
-                </picture>
+                  /> */}
+                {/* </picture> */}
 
                 <style>{`
     /* Desktop: NO CROP */
-    .banner-img {
-      width: 100vw;
-      height: 100vh;
-      object-fit: cover !important;
-      background-size: cover !important;
-    }
+    // .banner-img {
+    //   width: 100vw;
+    //   height: 100vh;
+    //   object-fit: cover !important;
+    //   background-size: cover !important;
+    // }
 
     /* Mobile: FILL SCREEN */
     @media (max-width: 768px) {
@@ -84,7 +84,7 @@ class Slider4 extends React.Component {
       }
     }
   `}</style>
-              </li>
+              {/* </li> */}
 
 
 
