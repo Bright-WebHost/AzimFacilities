@@ -15,6 +15,9 @@ import Header2 from '../Common/Header2';
 import Slider4 from '../Elements/Slider4';
 import { NavLink } from 'react-router-dom';
 import { Helmet } from 'react-helmet-async';
+import OwlCarousel from 'react-owl-carousel';
+import 'owl.carousel/dist/assets/owl.carousel.css';
+import 'owl.carousel/dist/assets/owl.theme.default.css';
 
 var bgimg1 = require('./../../images/background/cross-line2.png');
 
@@ -138,47 +141,102 @@ class Home7 extends React.Component {
                                             </h4>
                                         </blockquote>
 
-                                        <div className="row">
-                                            <div className="col-md-3">
-                                                <div className="sx-box m-b30">
-                                                    <div className="sx-media">
-                                                        <img fetchpriority="high" height={800} width={1200}
-                                                            src={require('./../../images/azim/ct-1.webp')}
-                                                            alt="ISO 9001:2015 Quality Management Certification — Azim Facilities Management Qatar"
-                                                        />
+                                        <div className="cert-slider-wrap" style={{ position: 'relative' }}>
+                                            <OwlCarousel
+                                                className="owl-carousel cert-slider owl-theme"
+                                                loop
+                                                autoplay
+                                                autoplayTimeout={2800}
+                                                autoplayHoverPause
+                                                smartSpeed={700}
+                                                dots={false}
+                                                nav={false}
+                                                margin={24}
+                                                responsive={{
+                                                    0:   { items: 1 },
+                                                    480: { items: 2 },
+                                                    768: { items: 3 },
+                                                    1024:{ items: 4 }
+                                                }}
+                                            >
+                                                <div className="item">
+                                                    <div className="sx-box">
+                                                        <div className="sx-media">
+                                                            <img fetchpriority="high" height={800} width={1200}
+                                                                src={require('./../../images/azim/ct-1.webp')}
+                                                                alt="ISO 9001:2015 Quality Management Certification — Azim Facilities Management Qatar"
+                                                                style={{ width: '100%', height: 'auto', objectFit: 'contain' }}
+                                                            />
+                                                        </div>
                                                     </div>
                                                 </div>
-                                            </div>
-                                            <div className="col-md-3">
-                                                <div className="sx-box m-b30">
-                                                    <div className="sx-media">
-                                                        <img loading="lazy" height={800} width={1200}
-                                                            src={require('./../../images/azim/ct-2.webp')}
-                                                            alt="ISO 14001:2015 Environmental Management Certification — Azim Group Qatar Doha"
-                                                        />
+                                                <div className="item">
+                                                    <div className="sx-box">
+                                                        <div className="sx-media">
+                                                            <img loading="lazy" height={800} width={1200}
+                                                                src={require('./../../images/azim/ct-2.webp')}
+                                                                alt="ISO 14001:2015 Environmental Management Certification — Azim Group Qatar Doha"
+                                                                style={{ width: '100%', height: 'auto', objectFit: 'contain' }}
+                                                            />
+                                                        </div>
                                                     </div>
                                                 </div>
-                                            </div>
-                                            <div className="col-md-3">
-                                                <div className="sx-box m-b30">
-                                                    <div className="sx-media">
-                                                        <img loading="lazy" height={800} width={1200}
-                                                            src={require('./../../images/azim/Cert-3.webp')}
-                                                            alt="ISO 45001:2018 Occupational Health Safety Certification — Azim FM Qatar"
-                                                        />
+                                                <div className="item">
+                                                    <div className="sx-box">
+                                                        <div className="sx-media">
+                                                            <img loading="lazy" height={800} width={1200}
+                                                                src={require('./../../images/azim/Cert-3.webp')}
+                                                                alt="ISO 45001:2018 Occupational Health Safety Certification — Azim FM Qatar"
+                                                                style={{ width: '100%', height: 'auto', objectFit: 'contain' }}
+                                                            />
+                                                        </div>
                                                     </div>
                                                 </div>
-                                            </div>
-                                            <div className="col-md-3">
-                                                <div className="sx-box m-b30">
-                                                    <div className="sx-media">
-                                                        <img loading="lazy" height={800} width={1200}
-                                                            src={require('./../../images/azim/Cert-4.webp')}
-                                                            alt="Sedex SMETA 4-Pillar Ethical Compliance — Azim Facilities Management Doha Qatar"
-                                                        />
+                                                <div className="item">
+                                                    <div className="sx-box">
+                                                        <div className="sx-media">
+                                                            <img loading="lazy" height={800} width={1200}
+                                                                src={require('./../../images/azim/Cert-4.webp')}
+                                                                alt="Sedex SMETA 4-Pillar Ethical Compliance — Azim Facilities Management Doha Qatar"
+                                                                style={{ width: '100%', height: 'auto', objectFit: 'contain' }}
+                                                            />
+                                                        </div>
                                                     </div>
                                                 </div>
-                                            </div>
+                                                <div className="item">
+                                                    <div className="sx-box">
+                                                        <div className="sx-media">
+                                                            <img loading="lazy" height={800} width={1200}
+                                                                src={require('./../../images/cart/1.webp')}
+                                                                alt="Sedex SMETA 4-Pillar Ethical Compliance — Azim Facilities Management Doha Qatar"
+                                                                style={{ width: '100%', height: 'auto', objectFit: 'contain' }}
+                                                            />
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div className="item">
+                                                    <div className="sx-box">
+                                                        <div className="sx-media">
+                                                            <img loading="lazy" height={800} width={1200}
+                                                                src={require('./../../images/cart/2.webp')}
+                                                                alt="Sedex SMETA 4-Pillar Ethical Compliance — Azim Facilities Management Doha Qatar"
+                                                                style={{ width: '100%', height: 'auto', objectFit: 'contain' }}
+                                                            />
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div className="item">
+                                                    <div className="sx-box">
+                                                        <div className="sx-media">
+                                                            <img loading="lazy" height={800} width={1200}
+                                                                src={require('./../../images/cart/3.webp')}
+                                                                alt="Sedex SMETA 4-Pillar Ethical Compliance — Azim Facilities Management Doha Qatar"
+                                                                style={{ width: '100%', height: 'auto', objectFit: 'contain' }}
+                                                            />
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </OwlCarousel>
                                         </div>
                                     </div>
                                 </div>
